@@ -1,0 +1,24 @@
+@import '../../styles/mixin';
+@import '../../styles/variables';
+
+.primary {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: $soilColor;
+    border: none;
+    text-transform: uppercase;
+    @include font('Roboto', 14px, 600, $white);
+
+    &:hover {
+        background-color: $lightSoilColor;
+    }
+}
+
+.secondary {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: $lightBlue;
+    border: 1px soild $lightSoilColor;
+    text-transform: uppercase;
+    @include font('Roboto', 14px, 600, $lightSoilColor);
+}

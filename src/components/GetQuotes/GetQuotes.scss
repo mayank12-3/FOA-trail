@@ -1,0 +1,73 @@
+@import '../../common/styles/mixin';
+@import '../../common//styles/variables';
+
+.get-quotes_container {
+    .banner_section {
+        .quotes-banner {
+            width: 100%;
+            height: calc(100vh - 200px);
+            background: url('../../assets/images/quotes_banner.jpg') no-repeat;
+            background-color: rgba(66,66,41,0.6);
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            @include font('Roboto', 50px, 600, $white);
+        } 
+    }
+}
+
+.tabs {
+    margin: 30px 0;
+
+    .MuiCardHeader-root {
+        text-align: center;
+    }
+
+    h2 {
+        margin: 30px 0;
+        text-align: center;
+        @include font('Roboto', 30px, 400);
+    }
+
+    .parks {
+        .MuiPaper-root {
+            margin-bottom: 25px;
+    
+            .MuiAvatar-colorDefault {
+                // color: $soilColor;
+            }
+    
+            .MuiTypography-root {
+                text-align: left;
+            }
+        }
+    
+        .MuiCardContent-root {
+            max-height: 80px;
+        }
+    }
+
+    .info-card_container {
+        cursor: pointer;
+        transition: all .6s;
+
+        &:hover {
+            background: $lightSoilColor;
+            color: $white;
+        }
+
+        &.active {
+            background: $soilColor;
+            color: $white;
+
+            p,span {
+                color: $white;
+            }
+        }
+    }
+}

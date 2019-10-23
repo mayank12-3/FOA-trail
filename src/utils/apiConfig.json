@@ -1,0 +1,10 @@
+{
+    "local": {
+        "baseUrl": "http://139.59.7.219:9000",
+        "restApiRoot": "/api"
+    },
+    "prod": {
+        "baseUrl": "http://172.59.7.219:9000",
+        "restApiRoot": "/api"
+    }
+}

@@ -1,3 +1,24 @@
 @import '../../styles/mixin';
 @import '../../styles/variables';
 
+header {
+    width: 100%;
+    display: block;
+    position: absolute;
+
+    .wrapper {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .website_logo {
+            a {
+                display: inline-block;
+                img {
+                    width: 208px;
+                }
+            }
+        }
+    }
+}

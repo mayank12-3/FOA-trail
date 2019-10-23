@@ -1,0 +1,53 @@
+@import '../../styles/mixin';
+@import '../../styles/variables';
+
+.contact-us-modal {
+    max-width: 800px !important;
+
+    .modal-body {
+        padding: 0;
+        overflow: hidden;
+    }
+    .contact-modal-body {
+        background: $lightBlue;
+        .modal-image {
+            height: 600px;
+            background: url("../../../assets//images/modal_image.jpg") no-repeat;
+            background-size: cover;
+        }
+        .footer-button {
+            margin-top: 30px;
+            text-align: right;
+
+            button {
+                margin-left: 15px;
+            }
+        }
+
+        .conatct-us-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .form-title {
+                width: 100%;
+                position: relative;
+                span {
+                    background: $lightBlue;
+                    position: absolute;
+                    top: 8px;
+                    left: 40%;
+                }
+            }
+
+            form {
+                width: 100%;
+            }
+        }
+
+        .MuiFormControl-root {
+            width: 100%;
+        }
+    }
+}

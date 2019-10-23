@@ -1,0 +1,17 @@
+@import '../../styles/mixin';
+@import '../../styles/variables';
+
+.banner {
+    button {
+        margin-top: 30px;
+        display: inline-block;
+    }
+}
+
+@media(max-width: 700px) {
+    .banner {
+        p {
+            text-align: center;
+        }
+    }
+}
