@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
-import { Banner, InfoCard, Tabs, ContactDetailsForm } from '../../common/components/';
+import { Banner, InfoCard, Tabs, ContactDetailsForm, Itinerary } from '../../common/components/';
 import _ from 'lodash';
 import WhyUs from '../Home/Sections/WhyUs';
 import HelpMe from '../Home/Sections/HelpMe';
@@ -119,9 +119,14 @@ class GetQuotes extends Component {
 
     componentDidMount() {
         this.setTabs();
+        this.scrollToTop();
         getQuestions()
             .then(resp => console.log(resp))
             .catch(error => console.log(error));
+    }
+
+    scrollToTop = () => {
+        window.scrollTo(0,0);
     }
 
     toggleModal = () => {
@@ -268,6 +273,7 @@ class GetQuotes extends Component {
                         />
                     </div>
                 </div>
+                <Itinerary />
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <WhyUs />
             </div>

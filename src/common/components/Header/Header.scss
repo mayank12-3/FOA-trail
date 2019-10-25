@@ -5,6 +5,7 @@ header {
     width: 100%;
     display: block;
     position: absolute;
+    z-index: 999;
 
     .wrapper {
         padding: 30px 0;

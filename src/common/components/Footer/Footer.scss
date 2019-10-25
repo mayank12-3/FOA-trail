@@ -6,7 +6,69 @@ footer {
     p {
         padding: 20px 0;
         text-align: center;
+        border-top: 1px solid $lightGrey;
 
         @include font('Roboto', 14px, 400, $white);
+    }
+
+    .footer-links {
+        padding: 40px 0 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .website-logo {
+            img {
+                width: 300px;
+            }
+        }
+
+        .social-media {
+            padding: 30px 0;
+            text-align: center;
+
+            h3 {
+                padding-bottom: 20px;
+                text-transform: capitalize;
+                @include font('Roboto',18px, 600, $white);
+            }
+
+            svg {
+                margin-right: 15px;
+                display: inline-block;
+                cursor: pointer;
+
+                @include font('Roboto',28px, 600, $white);
+
+                &:hover {
+                    color: $description;
+                }
+            }
+        }
+
+        .country-list {
+            ul {
+                li {
+                    h3 {
+                        @include font('Roboto',18px, 600, $white);
+                    }
+
+                    a {
+                        padding: 20px 0 0;
+                        display: inline-block;
+                        cursor: pointer;
+                        @include font('Roboto',14px, 400, $white);
+
+                        &:hover {
+                            color: $description;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-menu {
+            @extend .country-list;
+        }
     }
 }

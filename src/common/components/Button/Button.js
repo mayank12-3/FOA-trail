@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button as MButton } from '@material-ui/core';
 
 import './Button.scss';
 
 const Button = (props) => {
-    return <button type={props.type || 'button'} {...props}>{props.children}</button>
+    return <MButton variant="contained" type={props.type || 'button'} {...props}>{props.children}</MButton>
 }
 
 export default Button;

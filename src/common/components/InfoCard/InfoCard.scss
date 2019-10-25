@@ -3,4 +3,8 @@
 
 .info-card_container {
     text-align: center;
+
+    .MuiCardMedia-root {
+        height: 200px;
+    }
 }

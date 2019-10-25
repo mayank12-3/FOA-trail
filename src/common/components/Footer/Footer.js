@@ -1,16 +1,86 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../../../assets/images/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 
 import './Footer.scss';
 
 const Footer = () => {
     const date = new Date();
-    return(
+    return (
         <footer>
             <div className="wrapper">
-                <p>
-                    &copy; Copyright {date.getFullYear()}  Full of Africa. All Rights Reserved.
-                </p>
+                <div className="footer-links">
+                    <div className="website-logo">
+                        <Link to="/">
+                            <img src={Logo} alt="full of africa" />
+                        </Link>
+                    </div>
+                    <div className="country-list">
+                        <ul>
+                            <li>
+                                <h3>Get Quotes</h3>
+                            </li>
+                            <li>
+                                <Link to="/get-quotes?C=Kenya">
+                                    Kenya
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/get-quotes?C=Uganda">
+                                    Uganda
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/get-quotes?C=Lorem">
+                                    Lorem
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/get-quotes?C=Lorem">
+                                    Lorem
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="footer-menu">
+                        <ul>
+                            <li>
+                                <h3>Discover</h3>
+                            </li>
+                            <li>
+                                <Link to="/">
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/contact">
+                                    Contact us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/">
+                                    Lorem
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/">
+                                    Lorem
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="social-media">
+                        <h3>join us on</h3>
+                        <FontAwesomeIcon icon={faFacebookSquare} />
+                        <FontAwesomeIcon icon={faTwitterSquare} />
+                    </div>
+                </div>
             </div>
+            <p>
+                &copy; Copyright {date.getFullYear()}  Full of Africa. All Rights Reserved.
+            </p>
         </footer>
     );
 }

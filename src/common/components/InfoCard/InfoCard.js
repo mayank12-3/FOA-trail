@@ -3,6 +3,7 @@ import {
     Card,
     CardHeader,
     CardContent,
+    CardMedia,
     Typography,
     Avatar
  } from '@material-ui/core';
@@ -17,6 +18,12 @@ const InfoCard = (props) => {
                 title={props.title}
                 subheader={props.subHeader || ''}
             />
+            {
+                props.src ?
+                <CardMedia 
+                    image={props.src}
+                    title={props.imageTitle}/> : ''
+            }
             <CardContent>
                 <Typography 
                  variant="body2"

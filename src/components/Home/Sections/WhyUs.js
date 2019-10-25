@@ -39,7 +39,7 @@ const WhyUs = () => {
 
     const renderInfoCard = () => {
         return details.map((data, i) => {
-            const cardIcon = <FontAwesomeIcon icon={data.icon} />
+            const cardIcon = <FontAwesomeIcon size="2x" icon={data.icon} />
             return (
                 <Col sm="4" key={i}>
                     <InfoCard
@@ -54,7 +54,7 @@ const WhyUs = () => {
     return (
         <div className="why-us_container">
             <div className="wrapper">
-                <h2>Why choose us for your Kenya Safari?</h2>
+                <h2>Why choose us for your Safari?</h2>
                 <div className="work-flow_blocks">
                     <Row>
                         {

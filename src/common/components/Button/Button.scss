@@ -4,14 +4,11 @@
 .primary {
     padding: 10px 30px;
     border-radius: 30px;
-    background: $soilColor;
+    background-color: $soilColor !important;
     border: none;
     text-transform: uppercase;
-    @include font('Roboto', 14px, 600, $white);
-
-    &:hover {
-        background-color: $lightSoilColor;
-    }
+    color: $white !important;
+    @include font('Roboto', 14px, 600);
 }
 
 .secondary {
@@ -20,5 +17,6 @@
     background: $lightBlue;
     border: 1px soild $lightSoilColor;
     text-transform: uppercase;
-    @include font('Roboto', 14px, 600, $lightSoilColor);
+    color: $lightSoilColor !important;
+    @include font('Roboto', 14px, 600);
 }
