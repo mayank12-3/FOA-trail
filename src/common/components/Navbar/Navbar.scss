@@ -14,9 +14,10 @@ nav {
                 margin: 0;
             }
     
-            a {
+            a,span {
                 @include font('Roboto', 16px, 400, $white);
                 text-decoration: none;
+                cursor: pointer;
 
                 &:hover {
                     color: $soilColor;
