@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import logo from '../../../assets/images/logo.png';
 import './Header.scss';
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header>
             <div className="wrapper">
