@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../../assets/images/logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 
 import './Footer.scss';
 
@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className="country-list">
                         <ul>
                             <li>
-                                <h3>Get Quotes</h3>
+                                <h3>Destinations</h3>
                             </li>
                             <li>
                                 <Link to="/get-quotes?C=Kenya">
@@ -60,21 +60,23 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
-                                    Lorem
+                                <Link to="/privacy-policy">
+                                    Privcay Policy
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
-                                    Lorem
+                                <Link to="/about-us">
+                                    About Us
                                 </Link>
                             </li>
                         </ul>
                     </div>
                     <div className="social-media">
                         <h3>join us on</h3>
-                        <FontAwesomeIcon icon={faFacebookSquare} />
-                        <FontAwesomeIcon icon={faTwitterSquare} />
+                        {/*
+                          <FontAwesomeIcon icon={faFacebookSquare} />
+                          <FontAwesomeIcon icon={faTwitterSquare} />
+                          */}
                     </div>
                 </div>
             </div>

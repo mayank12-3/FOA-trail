@@ -4,8 +4,8 @@ const WhoAreWe = () => {
     return(
         <div className="who-are-we_container">
             <div className="wrapper">
-            <h2>Heading</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <h2>Why Africa?</h2>
+            <p>Africa, the second-largest continent of the world is a remarkable destination and no place on earth can ever be of any match to it. It has everything one could ask for, from Sahara in the north to Serengeti in the east. The diversity includes the pristine beaches of Seychelles and Mauritius, the world-class city of cape town, the Pyramids of Egypt, the majestic Mt. Kilimanjaro and most importantly the enchanting wilderness of Kenya, Tanzania, and Uganda.</p>
             </div>
         </div>
     );

@@ -1,10 +1,14 @@
 {
     "local": {
         "baseUrl": "http://139.59.7.219:9000",
-        "restApiRoot": "/api"
+        "restApiRoot": "/api",
+        "gtmRequired": true,
+        "gtmId": ""
     },
     "prod": {
         "baseUrl": "http://172.59.7.219:9000",
-        "restApiRoot": "/api"
+        "restApiRoot": "/api",
+        "gtmRequired": true,
+        "gtmId": ""
     }
 }

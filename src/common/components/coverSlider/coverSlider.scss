@@ -1,0 +1,23 @@
+@import '../../styles/mixin';
+@import '../../styles/variables';
+
+.cover-slider_container {
+  background: url("../../../assets/images/CoverSilder.jpg") no-repeat;
+  background-size: cover;
+
+  > div {
+    background-image: linear-gradient(-180deg, transparent 0%, $lightSoilColor 90%);
+  }
+}
+
+div[role="menuitem"] {
+  position: relative;
+  button {
+    width: 86%;
+    margin: 0 20px;
+    position: absolute;
+    bottom: 30px;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+  }
+}

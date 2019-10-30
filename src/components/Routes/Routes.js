@@ -3,6 +3,10 @@ import { Switch, Route } from "react-router-dom";
 import Home from '../Home/Home';
 import ContactUs from '../ContactUs/ContactUs';
 import GetQuotes from '../GetQuotes/GetQuotes';
+import AboutUs from '../AboutUs/AboutUs';
+import Privacy from '../Privacy/Privacy';
+
+import PackageDetails from '../PackageDetails/PackageDetails';
 
 const Routes = () => {
     return(
@@ -22,6 +26,21 @@ const Routes = () => {
                     path="/get-quotes"
                     exact
                     component={GetQuotes}
+                />
+                <Route
+                    path="/details"
+                    exact
+                    component={PackageDetails}
+                />
+                <Route
+                    path="/about-us"
+                    exact
+                    component={AboutUs}
+                />
+                <Route
+                    path="/privacy"
+                    exact
+                    component={Privacy}
                 />
             </Switch>
         </main>

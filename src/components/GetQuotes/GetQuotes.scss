@@ -22,8 +22,9 @@
 }
 
 .tabs {
+    padding: 30px 0;
     margin: 30px 0;
-
+    background: $lightBlue;
     .MuiCardHeader-root {
         text-align: center;
     }
@@ -35,6 +36,9 @@
     }
 
     .parks {
+        .MuiCardHeader-root {
+            padding: 10px;
+        }
         .MuiPaper-root {
             margin-bottom: 25px;
     
@@ -48,17 +52,21 @@
         }
     
         .MuiCardContent-root {
-            max-height: 80px;
+            height: 150px;
         }
     }
 
     .info-card_container {
+        position: relative;
+        z-index: 3;
         cursor: pointer;
-        transition: all .6s;
+        transition: all .3s;
 
         &:hover {
-            background: $lightSoilColor;
-            color: $white;
+            // background: $lightSoilColor;
+            box-shadow: 0 0 10px 0 $lightSoilColor;
+            transform: scale(1.04);
+            // color: $white;
         }
 
         &.active {

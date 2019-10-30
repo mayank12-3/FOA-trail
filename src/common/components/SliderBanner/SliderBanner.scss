@@ -1,3 +1,6 @@
 @import '../../styles/mixin';
 @import '../../styles/variables';
 
+.banner-text {
+  @include font('Roboto', 95px, 600, $white);
+}

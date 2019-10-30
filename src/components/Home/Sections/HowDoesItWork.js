@@ -21,7 +21,7 @@ const HowDoesItWork = () => {
 
     const renderInfoCard = () => {
         return details.map((data, i) => {
-            const cardIcon = <FontAwesomeIcon size="2x" icon={data.icon} />
+            const cardIcon = <FontAwesomeIcon icon={data.icon} />
             return (
                 <Col sm="4" key={i}>
                     <InfoCard

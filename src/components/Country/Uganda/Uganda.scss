@@ -1,0 +1,81 @@
+@import '../../../common/styles/mixin';
+@import '../../../common/styles/variables';
+
+.uganda_container {
+    .banner_section {
+        .uganda-banner {
+            width: 100%;
+            height: calc(100vh - 200px);
+            background: url('../../../assets/images/Home_1.jpg') no-repeat;
+            background-color: rgba(66,66,41,0.6);
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            @include font('Roboto', 50px, 600, $white);
+        } 
+    }
+}
+
+.tabs {
+    padding: 30px 0;
+    margin: 30px 0;
+    background: $lightBlue;
+    .MuiCardHeader-root {
+        text-align: center;
+    }
+
+    h2 {
+        margin: 30px 0;
+        text-align: center;
+        @include font('Roboto', 30px, 400);
+    }
+
+    .parks {
+        .MuiCardHeader-root {
+            padding: 10px;
+        }
+        .MuiPaper-root {
+            margin-bottom: 25px;
+    
+            // .MuiAvatar-colorDefault {
+                // color: $soilColor;
+            // }
+    
+            .MuiTypography-root {
+                text-align: left;
+            }
+        }
+    
+        .MuiCardContent-root {
+            height: 150px;
+        }
+    }
+
+    .info-card_container {
+        position: relative;
+        z-index: 3;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            // background: $lightSoilColor;
+            box-shadow: 0 0 10px 0 $lightSoilColor;
+            transform: scale(1.04);
+            // color: $white;
+        }
+
+        &.active {
+            background: $soilColor;
+            color: $white;
+
+            p,span {
+                color: $white;
+            }
+        }
+    }
+}

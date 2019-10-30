@@ -20,3 +20,9 @@
     color: $lightSoilColor !important;
     @include font('Roboto', 14px, 600);
 }
+
+button.Mui-disabled {
+    background-color: rgba(0, 0, 0, 0.12) !important;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+}

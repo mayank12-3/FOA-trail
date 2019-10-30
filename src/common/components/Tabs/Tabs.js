@@ -102,6 +102,7 @@ class Tabs extends Component {
                                 this.showNextButton() && !this.props.hideNextButton ?
                                     <Button
                                         className="primary"
+                                        disabled={this.props.disabledNextButton}
                                         onClick={this.props.onNext}
                                     >
                                         Next
@@ -111,6 +112,7 @@ class Tabs extends Component {
                                 this.showFinishedBurtton() ?
                                     <Button
                                         className="primary"
+                                        disabled={this.props.disabledNextButton}
                                         onClick={this.props.onFinish}
                                     >
                                         {this.props.finishText || 'Finish'}

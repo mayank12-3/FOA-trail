@@ -7,6 +7,8 @@ import Tabs_ from './Tabs/Tabs';
 import ContactDetailsForm_ from './ContactDetailsForm/ContactDetailsForm';
 import Itinerary_ from './Itinerary/Itinerary'
 import SliderBanner_ from './SliderBanner/SliderBanner';
+import CoverSlider_ from './coverSlider/coverSlider';
+import EnquiryForm_ from './EnquiryForm/EnquiryForm';
 
 export const Header = Header_;
 export const Footer = Footer_;
@@ -17,3 +19,5 @@ export const Tabs = Tabs_;
 export const ContactDetailsForm = ContactDetailsForm_;
 export const Itinerary = Itinerary_;
 export const SliderBanner = SliderBanner_;
+export const CoverSlider = CoverSlider_;
+export const EnquiryForm = EnquiryForm_;

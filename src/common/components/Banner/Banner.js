@@ -5,17 +5,19 @@ import './Banner.scss';
 
 const Banner = (props) => {
     return (
-        <div className={props.className ? `banner ${props.className}` : 'banner'}>
-            <p>{props.bannerText}</p>
-            {
-                props.buttonText ?
-                <Button
-                    onClick={props.buttonHandler}
-                    className={props.buttonClassName || 'primary'}
-                >
-                    {props.buttonText}
-                </Button> : ''
-            }
+        <div className="banner_section">
+            <div className={props.className ? `banner ${props.className}` : 'banner'}>
+                <p>{props.bannerText}</p>
+                {
+                    props.buttonText ?
+                    <Button
+                        onClick={props.buttonHandler}
+                        className={props.buttonClassName || 'primary'}
+                    >
+                        {props.buttonText}
+                    </Button> : ''
+                }
+            </div>
         </div>
     );
 }

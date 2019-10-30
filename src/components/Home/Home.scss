@@ -54,6 +54,14 @@
     }
 }
 
+.testimonial_container {
+    @extend .how-does-it-work_container;   
+    .MuiCardContent-root {
+        min-height: 100px;
+        max-height: 100px;
+    }
+}
+
 .how-does-it-work_container {
     padding: 60px 0;
     background: $lightBlue;
@@ -78,13 +86,13 @@
     }
 
     .MuiCardContent-root {
-        max-height: 120px;
+        min-height: 280px;
     }
 }
 
 .help-me_container {
     background-color: rgba(66,66,41,0.6);
-    background: url('../../assets//images/help_me_background.jpg') no-repeat;
+    background: url('../../assets/images/Help_me_background.jpg') no-repeat;
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
@@ -114,21 +122,55 @@
                 font-weight: 600;
             }
         }
+        button {
+            width: 200px;
+        }
     }
 }
 
 .why-us_container {
     @extend .how-does-it-work_container;   
+    .MuiCardContent-root {
+        min-height: 190px;
+        max-height: 190px;
+    }
 }
 
 .packages_container {
-    background: $white;
+    background: $lightBlue;
     @extend .how-does-it-work_container;
+
+    .work-flow_blocks {
+        .info-card_container {
+            cursor: pointer;
+            transition: all .3s;
+
+            &:hover {
+                box-shadow: 0 0 10px 0 $lightSoilColor;
+                transform: scale(1.05);
+            }
+
+            .MuiCardHeader-root {
+                padding: 16px 0;
+            }
+
+            .duration {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                @include font('Roboto', 14px, 600, $soilColor);
+
+                span {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
 }
 
 .who-are-we_container {
     text-align: center;
-    padding: 50px 0;
+    padding: 150px 0;
 
     h2 {
         padding-bottom: 20px;

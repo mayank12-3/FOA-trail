@@ -1,0 +1,10 @@
+@import '../../styles/mixin';
+@import '../../styles/variables';
+
+.enquiry-form_container {
+    padding: 20px 25px;
+    button {
+        width: 100%;
+        margin: 20px 0;
+    }
+}

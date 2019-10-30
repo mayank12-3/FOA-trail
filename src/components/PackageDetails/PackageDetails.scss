@@ -1,0 +1,141 @@
+@import '../../common/styles/mixin';
+@import '../../common//styles/variables';
+
+.package-details_container {
+    .banner_section {
+        .quotes-banner {
+            width: 100%;
+            height: calc(100vh - 100px);
+            background: url('../../assets/images/package_details.jpg') no-repeat;
+            background-color: rgba(66,66,41,0.6);
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            @include font('Roboto', 50px, 600, $white);
+        } 
+    }
+
+    .details {
+        padding: 40px 0;
+        p {
+            line-height: 28px;
+            @include font('Roboto', 16px, 300, $description);
+        }
+
+        .details_title {
+            padding-bottom: 20px;
+        }
+
+        .details_description {
+            padding-bottom: 20px;
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .details_steps {
+            .step {
+                h3 {
+                    padding: 30px 0 10px;
+                    @include font('Roboto', 20px, 600);
+                }
+
+                p {
+
+                }
+            }
+        }
+
+        .details_extras {
+            padding: 20px 0;
+            margin: 20px 0;
+            border-top: 1px solid $lightSoilColor;
+            border-bottom: 1px solid $lightSoilColor;
+            justify-content: space-evenly;
+            align-items: center;
+            display: flex;
+
+            div {
+                margin-right: 30px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            @include font('Roboto', 20px, 10, $lightSoilColor);
+
+            span {
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+        }
+
+        .other-details {
+            padding: 20px 0;
+            margin: 40px 0;
+            border-top: 1px solid $lightSoilColor;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .title {
+                width: 20%;
+                @include font('Roboto', 16px, 600);
+            }
+
+            .description {
+                width: 80%;
+                ul {
+                    
+                    // display: flex;
+                    // justify-content: space-between;
+                    // align-items: center;
+                    // flex-wrap: wrap;
+                }
+                .add-ons {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    svg {
+                        margin: 10px;
+                        color: $lightSoilColor;
+
+                        @include font('Roboto', 20px, 10, $lightSoilColor);
+                    }
+                }
+            }
+        }
+    }
+
+    .featured-tours {
+        margin: 20px 0;
+        p {
+            border-bottom: 1px solid $lightSoilColor;
+            @include font('Roboto', 16px, 600);
+        }
+        .card {
+            margin: 20px 0;
+            cursor: pointer;
+            position: relative;
+            img {
+                height: 250px;
+            }
+
+            p {
+                width: 100%;
+                padding: 10px 20px;
+                background: rgba(0,0,0,0.7);
+                @include font('Roboto', 16px, 600, $white);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}

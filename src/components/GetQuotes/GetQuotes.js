@@ -110,7 +110,8 @@ class GetQuotes extends Component {
             }]
         },
         tabs: [],
-        isContactUsModalOpen: false
+        isContactUsModalOpen: false,
+        isButtonDisabled: true
     };
 
     getQuotes = () => {
@@ -138,26 +139,32 @@ class GetQuotes extends Component {
     setTabs = (moveTab = false) => {
         const tabs = [{
             title: "Step 1",
+            name: 'parks',
             isActive: false,
             component: this._getTabComponent(1)
         }, {
             title: "Step 2",
+            name: 'partyOptions',
             isActive: false,
             component: this._getTabComponent(2)
         }, {
             title: "Step 3",
+            name: 'accommodation',
             isActive: false,
             component: this._getTabComponent(3)
         }, {
             title: "Step 4",
+            name: 'days',
             isActive: false,
             component: this._getTabComponent(4)
         }, {
             title: "Step 5",
+            name: 'type',
             isActive: false,
             component: this._getTabComponent(5)
         }, {
             title: "Step 6",
+            name: 'season',
             isActive: false,
             component: this._getTabComponent(6)
         }];
@@ -200,10 +207,24 @@ class GetQuotes extends Component {
 
     onTabChange = (index = 0) => {
         const oldIndex = this._getActiveTabIndex();
-        //deactive old tab
-        this._activeDeactiveTab(oldIndex, false);
-        //active new tab
-        this._activeDeactiveTab(index, true);
+        const _changeTab = () => {
+            //deactive old tab
+            this._activeDeactiveTab(oldIndex, false);
+            //active new tab
+            this._activeDeactiveTab(index, true);
+        }
+
+        if(!this.state.isButtonDisabled) {
+            // If Button is enable, user can move previous and only one step next
+            if((index < oldIndex) || ((oldIndex + 1) === index)) {
+                _changeTab();
+            }
+        } else {
+            // If Button is disabled, user can move previous only
+            if(index < oldIndex) {
+               _changeTab(); 
+            }
+        }
     }
 
     renderOptions = (options = [], name) => {
@@ -236,8 +257,20 @@ class GetQuotes extends Component {
                 [name]: [...selectedOptionType]
             }
         }, () => {
-            const movetab = _.chain(selectedOptionType).filter(option => option.isSelected).isEmpty().value();
-            this.setTabs(!movetab);
+            // const isButtonDisabled = _.chain(selectedOptionType).filter(option => option.isSelected).isEmpty().value();
+            this.setTabs(false);
+            this.enabledDisabledNextButton();
+        });
+    }
+
+    enabledDisabledNextButton = () => {
+        const options = { ...this.state.options };
+        const activeTabIndex = this._getActiveTabIndex();
+        const name = this.state.tabs[activeTabIndex].name;
+        const currentOptionType = options[name];
+        const isButtonDisabled = _.chain(currentOptionType).filter(option => option.isSelected).isEmpty().value();
+        this.setState({
+            isButtonDisabled
         });
     }
 
@@ -252,12 +285,10 @@ class GetQuotes extends Component {
                         toggle={this.toggleModal}
                         title="Contact Us"/> : ''
                 }
-                <div className="banner_section">
-                    <Banner
-                        className="quotes-banner"
-                        bannerText="Let’s work together for the buzzworthy experiernce"
-                    />
-                </div>
+                <Banner
+                    className="quotes-banner"
+                    bannerText="Let’s work together for the buzzworthy experiernce"
+                />
                 <div className="tabs">
                     <div className="wrapper">
                         <Tabs
@@ -270,6 +301,7 @@ class GetQuotes extends Component {
                             onTabChange={this.onTabChange}
                             finishText="Contact Us"
                             hideNextButton={false}
+                            disabledNextButton={this.state.isButtonDisabled}
                         />
                     </div>
                 </div>
@@ -290,6 +322,8 @@ class GetQuotes extends Component {
         tab.isActive = isActive;
         this.setState({
             tabs
+        },() => {
+            this.enabledDisabledNextButton();
         });
     }
 

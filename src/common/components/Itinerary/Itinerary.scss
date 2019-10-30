@@ -12,9 +12,12 @@
     .bold-Fonts {
       font-weight: bold;
     }
-    .wrapper > .row {
+    .wrapper > .planned_itinerary {
+      margin: 40px 0;
+    }
+    .wrapper > .planned_itinerary > .row {
       border: 1px solid $seperator;
-      margin: 0;
+      margin: 10px;
     }
     .itenary-content-wrapper {
       background-color: $cardBackground;
@@ -54,6 +57,29 @@
         min-height: 200px;
         height: calc(100% - 62px);
       }
+      .pricing-details_extras {
+        padding: 20px 0;
+        margin: 20px 0;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+
+        svg {
+          @include font('Roboto', 40px, 10, $soilColor);
+        }
+
+        span {
+            margin-right: 30px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        // @include font('Roboto', 20px, 10, $lightSoilColor);
+      }
+
       .pricing-btn-wrapper {
         height: 62px;
         button {

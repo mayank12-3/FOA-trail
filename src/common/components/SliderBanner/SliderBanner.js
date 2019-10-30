@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import './SliderBanner.scss';
+
 import {
     Carousel,
     CarouselItem,
     CarouselControl,
     CarouselIndicators
   } from 'reactstrap';
-import Button from '../Button/Button';
+// import Button from '../Button/Button';
 import './SliderBanner.scss';
 
 class SliderBanner extends Component {
@@ -47,16 +49,17 @@ class SliderBanner extends Component {
     slides = () => {
         return this.props.items.map((item, i) => {
             return (
-                <CarouselItem
-                onExiting={() => this.onAnimating(true)}
-                onExited={() => this.onAnimating(false)}
-                key={i}>
-                    <img src={item.src} alt={item.altText || 'banner image'} />
-                    <div className="banner-text">
-                    <h2>{item.caption}</h2>
-                    <Button className="primary" onClick={() => this.props.history.push({pathname:'/get-quotes', search:`C=${item.path}`})}>Get Quotes</Button>
-                    </div>
-                </CarouselItem>
+                    <CarouselItem
+                        onExiting={() => this.onAnimating(true)}
+                        onExited={() => this.onAnimating(false)}
+                        key={i}>
+                        <img src={item.src} alt={item.altText || 'banner image'} />
+                        <div className="banner-text">
+                        <h2 className="slider-banner_container">{item.caption}</h2>
+                        {/* <Button className="primary" onClick={() => this.props.history.push({pathname:'/get-quotes', search:`C=${item.path}`})}>Get Quotes</Button> */}
+                        </div>
+                    </CarouselItem>
+               
             );
         });
     }
