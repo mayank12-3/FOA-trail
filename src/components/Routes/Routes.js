@@ -1,11 +1,11 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Home from '../Home/Home';
 import ContactUs from '../ContactUs/ContactUs';
 import GetQuotes from '../GetQuotes/GetQuotes';
 import AboutUs from '../AboutUs/AboutUs';
 import Privacy from '../Privacy/Privacy';
-
+import PageNotFound from '../PageNotFound/PageNotFound.js'
 import PackageDetails from '../PackageDetails/PackageDetails';
 
 const Routes = () => {
@@ -23,7 +23,7 @@ const Routes = () => {
                     component={ContactUs}
                 />
                 <Route
-                    path="/get-quotes"
+                    path="/tour"
                     exact
                     component={GetQuotes}
                 />
@@ -42,6 +42,12 @@ const Routes = () => {
                     exact
                     component={Privacy}
                 />
+                <Route
+                    path="/pagenotfound"
+                    exact
+                    component={PageNotFound}
+                />
+                <Redirect path="*" to="/pagenotfound" />
             </Switch>
         </main>
     );

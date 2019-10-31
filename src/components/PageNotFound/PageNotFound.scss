@@ -1,0 +1,20 @@
+@import '../../common/styles/mixin';
+@import '../../common/styles/variables';
+
+.page_not_found_container {
+    .banner_section {
+      width: 100%;
+      height: 100vh;
+      background: url('../../assets/images/home_banner.jpg') no-repeat;
+      background-color: rgba(66,66,41,0.6);
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      @include font('Roboto', 50px, 600, $white);
+  }
+}
