@@ -7,31 +7,20 @@ import Package3 from '../../assets/images/Package_3.jpg';
 import './PackageDetails.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faClock, faCalendar, faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
+import packagesJson from '../../utils/packages.json'
 
 class PackageDetails extends Component {
-    state= {
-        packageTitle: "Cape Town & Kruger Safari",
-        duration: "7 Days",
-        calender: "All Month",
-        packageDescription: "From the cosmopolitan sophistication of Cape Town to the wilds of the Kruger National Park, this tailor-made tour takes in the best of both worlds. Spend a few days soaking up some Mother City charm before embarking on a classic safari in the gem of South Africa’s wildlife crown. From majestic mountains to Big Five game viewing, you will be spoiled and spellbound.",
-        steps: [{
-            title: "Days 1 – 3: Cape Town Highlights",
-            description: "South Africa’s Mother City is a destination for everyone, with inner-city adventures, outdoor escapades and cultural experiences to discover around every corner. Visit the V&A Waterfront, summit Table Mountain, tour historical landmarks or treat your taste buds to a culinary feast – and all this before you have even left the city centre!.Further afield, go wine tasting in the Cape Winelands, whale watching in Hermanus (between July and November), people-watching at one of Cape Town’s famed beaches, or spend a day exploring the ruggedly beautiful Cape Peninsula."
-        }, {
-            title: "Days 4 – 7: Kruger National Park & Surrounds",
-            description: "With some of the best wildlife sightings in the world on offer, a Kruger Park safari is genuinely one of South Africa’s top experiences. Explore this legendary game reserve over three days, taking in thrilling wildlife encounters on guided open vehicle game drives seeking out the ‘Big Five’, general game and prolific bird life.Explore the nearby Panorama Route to take in its forested mountains and fertile plains. Be awed with views of the Blyde River Canyon (home to the Three Rondavels), Bourke’s Luck Potholes and God’s Window."
-        }]
-    }
+    state= packagesJson.find(info => (info.title === this.props.location.search.replace(/%20/g, ' ').split('=')[1]))
 
     componentDidMount() {
         window.scrollTo(0,0);
     }
     renderSteps = () => {
-        return this.state.steps.map((step, index) => {
+        return this.state.itinerary.map((step, index) => {
             return(
                 <div className="step" key={index}>
-                    <h3>{step.title}</h3>
-                    <p>{step.description}</p>
+                    <h3>{step.day}</h3>
+                    <p>{step.details}</p>
                 </div>
             );
         });

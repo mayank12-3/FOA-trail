@@ -25,12 +25,6 @@ const InfoCard = (props) => {
                     image={props.src}
                     title={props.imageTitle}/> : ''
             }
-            {
-                props.tag ?
-                <div className="tag">
-                    {props.tag}
-                </div> : ''
-            }
             <CardContent>
                 <CardHeader
                     avatar={props.cardIcon ? <Avatar>{props.cardIcon}</Avatar> : ''}
@@ -46,7 +40,11 @@ const InfoCard = (props) => {
                 {
                     props.footer ?
                     <div className="card-footer_container">
-                        {props.footer}
+                      {props.tag
+                        ? <div className="tag">{props.tag}</div>
+                        : ''
+                      }
+                      {props.footer}
                     </div> : ''
                 }
             </CardContent>

@@ -39,5 +39,10 @@
 		}]
 	}],
 	"includes": ["Car hires services and Fuel", "Diver’s allowances", "Park fees", "Vehicle entry", "Chimp permit", "Gorilla permit", "Boat Cruises", "Game drives", "Lunch en-routes", "Accommodation and meals", "Please carry suitable closed walking boots and long trousers!"],
-	"excludes": ["Alcoholic drinks / spirits", "Laundry", "Personal Expenses", "Tips"]
+	"excludes": ["Alcoholic drinks / spirits", "Laundry", "Personal Expenses", "Tips"],
+	"duration": "7 days",
+	"startingFromPrice": 1234,
+	"imageTitle": "Masai Mara, Amboseli, Nakuru, and Naivasha",
+	"title": "Masai Mara, Amboseli, Nakuru, and Naivasha",
+	"description": "From the golden grasslands of Masai Mara to the tallest peak of Africa, Kilimanjaro this guided private tour will cover them all."
 }]

@@ -9,6 +9,7 @@ import Package5 from '../../../assets/images/Package_5.jpg';
 import Package6 from '../../../assets/images/Package_6.jpg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
+import packagesJson from '../../../utils/packages.json'
 
 const Packages = () => {
     const details = [{
@@ -55,11 +56,11 @@ const Packages = () => {
         description: "See the best of Uganda on this tailor-made package along with both Chimpanzee and gorilla tracking"
     }];
     const renderInfoCard = () => {
-        return details.map((data, i) => {
+        return packagesJson.map((data, i) => {
             const duration = getDurationComponent(data.duration);
             const tag = getTagComponent(data.startingFromPrice);
             return (
-                <Col sm="4" key={i}>
+                <Col md="4" sm="6" key={i}>
                     <InfoCard
                         footer={duration}
                         tag={tag}
