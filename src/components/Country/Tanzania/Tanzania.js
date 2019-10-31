@@ -113,23 +113,7 @@ class Tanzania extends Component {
         isContactUsModalOpen: false,
         isButtonDisabled: true,
         itinerary: [{
-            title: "The African Big 5 Safari",
-            locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
-            instructions: [
-                'End to End Private Tour',
-                'Unlimited Safari Mileage',
-                'Masai and Samburu Tribe Visit',
-                'Complimentary aiport transfer both ways',
-              ],
-            inclusions: "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
-            exclusions: "Flights, Visa",
-            expectedSightings : "lion, tiger",
-            price: "$40000",
-            description: "Starting price per person (Min group size: 4)",
-            duration: "6D / 5N",
-            season: "Low Season (April – May)"
-        },{
-            title: "Discover Kenya’s Wilderness",
+            title: "Tanzania",
             locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
             instructions: [
                 'End to End Private Tour',

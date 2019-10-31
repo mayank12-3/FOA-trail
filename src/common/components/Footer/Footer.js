@@ -33,8 +33,8 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/get-quotes?C=Lorem">
-                                    Lorem
+                                <Link to="/get-quotes?C=Tanzania">
+                                    Tanzania
                                 </Link>
                             </li>
                             <li>

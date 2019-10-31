@@ -14,7 +14,7 @@ const Itinerary = (props) => {
     const renderOptions = (itinerary = []) => {
       return props.itinerary.map((data, i) => {
           return (
-            <div className="planned_itinerary">
+            <div key={i} className="planned_itinerary">
               <Row>
               <Col sm='12' lg='9'>
                 <Row>

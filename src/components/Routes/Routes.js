@@ -6,7 +6,6 @@ import GetQuotes from '../GetQuotes/GetQuotes';
 import AboutUs from '../AboutUs/AboutUs';
 import Privacy from '../Privacy/Privacy';
 import PageNotFound from '../PageNotFound/PageNotFound.js'
-
 import PackageDetails from '../PackageDetails/PackageDetails';
 
 const Routes = () => {
@@ -39,7 +38,7 @@ const Routes = () => {
                     component={AboutUs}
                 />
                 <Route
-                    path="/privacy"
+                    path="/privacy-policy"
                     exact
                     component={Privacy}
                 />

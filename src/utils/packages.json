@@ -1,0 +1,43 @@
+[{
+	"title": "Gorilla Tracking in Bwindi NP, Lake Bunyonyi, Queen Elizabeth NP",
+	"overview": "This 3 stop tour takes you through the best of Uganda starting with gorilla trek safari at Bwindi Impenetrable Forest, which is home to more than half the population of the remaining 720 Mountain Gorillas. The Bwindi Impenetrable forest offers a unique birding opportunity, cultural experiences, a scenic allure of stunning hills and lush vegetation inhabited by the elusive primates. The gorilla trek activity is the most enchanting experience in this forest. After this you will head to Lake Bunyonyi for relaxation before heading to Queen Elizabeth for chimpanzee tracking.",
+	"itinerary": [{
+		"day": "Day 1",
+		"title": "Transfer from Entebbe / Kampala to Bwindi Impenetrable National Park",
+		"details": "On your arrival at Entebbe Airport / Kampala, you will be met by driver guide who will brief you about your tour.You will later be driven in comfortable and secure touring vehicle to Bwindi Impenetrable National Park in the South - West which will take around 9 hours of drive. Lunch will be provided en - route at Mbarara.",
+		"accommodation": [{
+			"budget": "Broadbill Forest Camp /  Ruhija Gorilla Friends Lodge  /  Nshongi Camp",
+			"mid-range": "Bakiga Lodge   / Rushaga Gorilla Havens Lodge / Trekkers Tavern",
+			"luxury": "Ruhija Gorilla Lodge  / Silverback Lodge / Gorilla Safari Lodge"
+		}]
+	}, {
+		"day": "Day 2",
+		"title": "Gorilla trekking in Bwindi and transfer to Lake Bunyonyi for a canoe ride",
+		"details": "You will have an early morning breakfast and move to the Park headquarters to join other trackers in a briefing about the gorilla trekking rules at 7:45 am.You will trek through thick creepers and undergrowth with your guides to find the Gorillas, which can take you 1 - 8 hours. The steeply forested landscape is incredibly dense but crisscrossed by numerous animal trails allowing access by tourists.You will have one hour to stay with the Gorillas once it is sighted then transfer to Lake Bunyonyi after the trek.The drive will be a beautiful part of the country often referred to as‘ the Switzerland of Africa’ because of its unique cool weather despite being near the Equator. This lake is said to be one of the most beautiful places in western Uganda.It is the second deepest lake in Africa[900 meters deep] and also one of the few places in the country where it is considered safe to swim as it is bilharzia free.You will take a canoe ride on this lake and hike to different viewpoints before returning for Dinner and overnight stay.",
+		"accommodation": [{
+			"budget": "Bunyonyi Overland Camp",
+			"mid-range": " Bunyonyi Safari Resort",
+			"luxury": "Bunyonyi Birdnest"
+		}]
+	}, {
+		"day": "Day 3",
+		"title": "Transfer to Queen Elizabeth",
+		"details": "Wake up early in the morning have your breakfast, set off for Queen Elizabeth through volcanic formation of the western Rift Valley towards Queen Elizabeth N.P.The descent reveals a stunning panorama of lakes, George and Edward amidst game - filled plains where you will reach in the afternoon check in to the Lodge have lunch, In the afternoon head to the unique boat cruises that takes 2 hrs on the Kazinga channel and onto L.Edward.The trip passes through possibly the highest hippo concentration in Africa and many mammals may be seen drinking water.The cruise offers the excellent platform for photography and game viewing. The birdlife is colorful and abundant, In the evening go for a game drive with a chance to see Elephants Lion Buffaloes etc later return for dinner and overnight stay ",
+		"accommodation": [{
+			"budget": "Kazinga Channel View Resort  /  Tembo Safari Lodge ",
+			"mid-range": "Bush Lodge / Baboon Safari Resort",
+			"luxury": "Mweya Safari Lodge  / Kingfisher Lodge /  Katara Lodge"
+		}]
+	}, {
+		"day": "Day 4",
+		"title": "Chimp track and travel to Entebbe",
+		"details": "Wake-up early morning have breakfast and head to Kalinzu Forest Reserve for an up to 4 hours chimpanzee trekking with a tracker and guide.The Forest Reserve is home to 6 groups of chimps, comprising over 300 individuals and tracking currently enjoys more than 80 % success rate.Afterwards transfer back to Entebbe Airport with lunch en - route to catch your evening departure flight back home.",
+		"accommodation": [{
+			"budget": "",
+			"mid-range": "",
+			"luxury": ""
+		}]
+	}],
+	"includes": ["Car hires services and Fuel", "Diver’s allowances", "Park fees", "Vehicle entry", "Chimp permit", "Gorilla permit", "Boat Cruises", "Game drives", "Lunch en-routes", "Accommodation and meals", "Please carry suitable closed walking boots and long trousers!"],
+	"excludes": ["Alcoholic drinks / spirits", "Laundry", "Personal Expenses", "Tips"]
+}]

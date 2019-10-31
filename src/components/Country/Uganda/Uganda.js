@@ -113,7 +113,7 @@ class Uganda extends Component {
         isContactUsModalOpen: false,
         isButtonDisabled: true,
         itinerary: [{
-            title: "The African Big 5 Safari",
+            title: "The Uganda Safari",
             locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
             instructions: [
                 'End to End Private Tour',
@@ -129,7 +129,7 @@ class Uganda extends Component {
             duration: "6D / 5N",
             season: "Low Season (April – May)"
         },{
-            title: "Discover Kenya’s Wilderness",
+            title: "Discover Uganda's Wilderness",
             locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
             instructions: [
                 'End to End Private Tour',

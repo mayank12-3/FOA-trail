@@ -57,19 +57,18 @@ class Navbar extends Component {
                     <li>
                         <Link to="/">Home</Link>
                     </li>
+                    <li>
+                        <Link to="/contact">Contact Us</Link>
+                    </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown link
-                        </a>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        </span>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><Link className="dropdown-item" to="/">Kenya</Link></li>
                             <li><Link className="dropdown-item" to="/">Uganda</Link></li>
                             <li><Link className="dropdown-item" to="/">Tanzania</Link></li>
-                        </div>
-                    </li>
-
-                    <li>
-                        <Link to="/contact">Contact Us</Link>
+                        </ul>
                     </li>
                 </ul>
                 <div className="mobile-navigation">

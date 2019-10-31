@@ -41,6 +41,7 @@ class CoverSlider extends React.Component {
         <Coverflow {...styles}>
           {imgList.map((data, index) => (
             <div
+              key={index}
               role="menuitem"
               tabIndex="0"
               className="cover-slider_img">

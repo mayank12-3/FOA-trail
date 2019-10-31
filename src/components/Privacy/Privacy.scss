@@ -1,9 +1,9 @@
 @import '../../common/styles/mixin';
 @import '../../common//styles/variables';
 
-.contact-us-container {
+.privacy-container {
     .banner_section {
-        .contact-banner {
+        .privacy-banner {
             width: 100%;
             height: 100vh;
             background: url('../../assets/images/home_banner.jpg') no-repeat;
@@ -20,47 +20,25 @@
         }
     }
 
-    .contact-us-body{
-        .contact-us-image {
-            height: 600px;
-            background: url("../../assets//images/modal_image.jpg") no-repeat;
-            background-size: cover;
-        }
-        .conatct-us-form {
+    .privacy-body{
+        .privacy-form {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
 
-            .form-title {
-                width: 100%;
-                position: relative;
-                span {
-                    background: $lightBlue;
-                    position: absolute;
-                    top: 8px;
-                    left: 40%;
-                }
+            h2 {
+                padding: 40px 0;
+                @include font('Roboto', 40px, 600);
             }
 
-            form {
-                width: 100%;
-
-                .contact-us-text {
-                    margin: 20px 20px;
-                }
+            p {
+                padding: 0px 0 20px;
+                line-height: 25px;
+                @include font('Roboto', 18px, 400, $description);
             }
 
-            .footer-button {
-                margin-top: 30px;
-                text-align: right;
-
-                button {
-                    margin-left: 15px;
-                }
-            }
         }
-
     }
 
     .MuiTextField-root {

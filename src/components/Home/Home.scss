@@ -55,7 +55,7 @@
 }
 
 .testimonial_container {
-    @extend .how-does-it-work_container;
+    @extend .how-does-it-work_container;   
     .MuiCardContent-root {
         min-height: 100px;
         max-height: 100px;
@@ -129,7 +129,7 @@
 }
 
 .why-us_container {
-    @extend .how-does-it-work_container;
+    @extend .how-does-it-work_container;   
     .MuiCardContent-root {
         min-height: 190px;
         max-height: 190px;
