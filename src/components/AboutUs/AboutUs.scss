@@ -21,11 +21,22 @@
     }
 
     .about-us-body{
-        .conatct-us-form {
+        .about-us-form {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+
+            h2 {
+                padding: 40px 0;
+                @include font('Roboto', 40px, 600);
+            }
+
+            p {
+                padding: 0px 0 20px;
+                line-height: 25px;
+                @include font('Roboto', 18px, 400, $description);
+            }
 
         }
     }

@@ -39,7 +39,7 @@ const Routes = () => {
                     component={AboutUs}
                 />
                 <Route
-                    path="/privacy"
+                    path="/privacy-policy"
                     exact
                     component={Privacy}
                 />
