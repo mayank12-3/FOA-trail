@@ -63,7 +63,7 @@ const Packages = () => {
                     <InfoCard
                         footer={duration}
                         tag={tag}
-                        path={`/details?C=${data.title}`}
+                        path={`/details?package=${data.title}`}
                         src={data.src}
                         imageTitle={data.imageTitle}
                         title={data.title}

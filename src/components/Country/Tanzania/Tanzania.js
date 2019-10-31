@@ -113,7 +113,7 @@ class Tanzania extends Component {
         isContactUsModalOpen: false,
         isButtonDisabled: true,
         itinerary: [{
-            title: "The African Big 5 Safari",
+            title: "The tanzania Big 5 Safari",
             locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
             instructions: [
                 'End to End Private Tour',

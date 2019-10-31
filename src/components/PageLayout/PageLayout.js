@@ -3,10 +3,10 @@ import { Header, Footer } from '../../common/components/';
 import Routes from '../Routes/Routes';
 import './PageLayout.scss';
 
-const PageLayout = (props) => {
+const PageLayout = () => {
     return (
         <div className="page-layout">
-            <Header {...props} />
+            <Header />
             <Routes />
             <Footer />
         </div>
