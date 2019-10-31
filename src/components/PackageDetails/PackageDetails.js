@@ -21,7 +21,7 @@ class PackageDetails extends Component {
             title: "Days 4 – 7: Kruger National Park & Surrounds",
             description: "With some of the best wildlife sightings in the world on offer, a Kruger Park safari is genuinely one of South Africa’s top experiences. Explore this legendary game reserve over three days, taking in thrilling wildlife encounters on guided open vehicle game drives seeking out the ‘Big Five’, general game and prolific bird life.Explore the nearby Panorama Route to take in its forested mountains and fertile plains. Be awed with views of the Blyde River Canyon (home to the Three Rondavels), Bourke’s Luck Potholes and God’s Window."
         }]
-    };
+    }
 
     componentDidMount() {
         window.scrollTo(0,0);
@@ -38,6 +38,7 @@ class PackageDetails extends Component {
     }
 
     render() {
+        console.log(this.props)
         return(
             <div className="package-details_container">
                 <Banner
@@ -121,20 +122,26 @@ class PackageDetails extends Component {
                             </Card>
                             <div className="featured-tours">
                                 <p>Featured Tours</p>
-                                <div className="packages">
+                                <Row className="packages">
+                                  <Col sm="6" xs="12" md="12">
                                     <Card>
                                         <img src={Package1} alt="Package1"/>
                                         <p>Package1</p>
                                     </Card>
+                                  </Col>
+                                  <Col sm="6" xs="12" md="12">
                                     <Card>
                                         <img src={Package2} alt="Package2"/>
                                         <p>Package2</p>
                                     </Card>
+                                  </Col>
+                                  <Col sm="6" xs="12" md="12">
                                     <Card>
                                         <img src={Package3} alt="Package3"/>
                                         <p>Package3</p>
                                     </Card>
-                                </div>
+                                  </Col>
+                                </Row>
                             </div>
                         </Col>
                     </Row>

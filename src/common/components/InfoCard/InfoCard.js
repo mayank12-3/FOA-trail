@@ -1,5 +1,5 @@
 import React from 'react';
-import { 
+import {
     Card,
     CardHeader,
     CardContent,
@@ -14,14 +14,14 @@ import './InfoCard.scss';
 const InfoCard = (props) => {
     const handleOnClick = () => {
         if(props.path) {
-            props.history.push(props.path);
+            props.history.push(props.path)
         }
     }
     return (
         <Card className={props.className ? ` ${props.className} info-card_container` : 'info-card_container'} onClick={handleOnClick}>
             {
                 props.src ?
-                <CardMedia 
+                <CardMedia
                     image={props.src}
                     title={props.imageTitle}/> : ''
             }
@@ -32,19 +32,19 @@ const InfoCard = (props) => {
                 </div> : ''
             }
             <CardContent>
-                <CardHeader 
+                <CardHeader
                     avatar={props.cardIcon ? <Avatar>{props.cardIcon}</Avatar> : ''}
                     title={props.title}
                     subheader={props.subHeader || ''}
                 />
-                <Typography 
+                <Typography
                  variant="body2"
-                 color="textSecondary" 
+                 color="textSecondary"
                  component="p">
                     {props.description || ''}
                 </Typography>
                 {
-                    props.footer ? 
+                    props.footer ?
                     <div className="card-footer_container">
                         {props.footer}
                     </div> : ''
