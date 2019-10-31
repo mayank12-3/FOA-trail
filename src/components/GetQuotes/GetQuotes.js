@@ -1,5 +1,5 @@
 import React from 'react';
-import size from 'lodash/size';
+// import size from 'lodash/size';
 import Kenya from '../Country/Kenya/Kenya';
 import Uganda from '../Country/Uganda/Uganda';
 import Tanzania from '../Country/Tanzania/Tanzania';
@@ -7,14 +7,16 @@ import './GetQuotes.scss';
 
 const GetQuotes = () => {
     const renderQuotes = () => {
-        const country = window.location.search.split('?C=');
-        if(size(country) > 1) {
-            switch(country[1]) {
-                case 'Kenya':
+        debugger
+        const urlParams = new URLSearchParams(window.location.search);
+        const country = urlParams.get('country');
+        if(country) {
+            switch(country) {
+                case 'kenya':
                     return <Kenya />;
-                case 'Uganda':
+                case 'uganda':
                     return <Uganda />;
-                case 'Tanzania':
+                case 'tanzania':
                     return <Tanzania />;
                 default:
                     return '';

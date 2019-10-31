@@ -23,23 +23,18 @@ const Footer = () => {
                                 <h3>Destinations</h3>
                             </li>
                             <li>
-                                <Link to="/get-quotes?C=Kenya">
+                                <Link to="/tour?country=kenya">
                                     Kenya
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/get-quotes?C=Uganda">
+                                <Link to="/tour?country=uganda">
                                     Uganda
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/get-quotes?C=Tanzania">
+                                <Link to="/tour?country=tanzania">
                                     Tanzania
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/get-quotes?C=Lorem">
-                                    Lorem
                                 </Link>
                             </li>
                         </ul>

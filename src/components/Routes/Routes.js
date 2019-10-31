@@ -23,7 +23,7 @@ const Routes = () => {
                     component={ContactUs}
                 />
                 <Route
-                    path="/get-quotes"
+                    path="/tour"
                     exact
                     component={GetQuotes}
                 />
