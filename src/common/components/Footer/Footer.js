@@ -33,18 +33,8 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-<<<<<<< HEAD
-                                <Link to="/get-quotes?C=Tanzania">
-                                    Tanzania
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/get-quotes?C=Lorem">
-                                    Lorem
-=======
                                 <Link to="/tour?country=tanzania">
                                     Tanzania
->>>>>>> 9d5a7f8f3e9e7b31ed05e177343c68d0447fd69a
                                 </Link>
                             </li>
                         </ul>

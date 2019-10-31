@@ -255,7 +255,7 @@ class Kenya extends Component {
         } else {
             // If Button is disabled, user can move previous only
             if(index < oldIndex) {
-               _changeTab(); 
+               _changeTab();
             }
         }
     }
@@ -312,9 +312,9 @@ class Kenya extends Component {
             <div className="kenya_container">
                 {
                     this.state.isContactUsModalOpen ?
-                    <ContactDetailsForm 
+                    <ContactDetailsForm
                         className="contact-us-modal"
-                        isOpen={this.state.isContactUsModalOpen} 
+                        isOpen={this.state.isContactUsModalOpen}
                         toggle={this.toggleModal}
                         title="Contact Us"/> : ''
                 }
@@ -428,7 +428,7 @@ class Kenya extends Component {
                         </Row>
                     </Col>
                 );
-            default: 
+            default:
                 return '';
         };
     }
