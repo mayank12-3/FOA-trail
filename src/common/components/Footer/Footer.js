@@ -50,29 +50,29 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contact">
+                                <Link to="/contact-us">
                                     Contact us
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/privacy-policy">
-                                    Privcay Policy
+                                    Privacy Policy
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about-us">
-                                    About Us
+                                <Link to="/terms-and-conditions">
+                                    Terms and Conditions
                                 </Link>
                             </li>
                         </ul>
                     </div>
-                    <div className="social-media">
+                    {/* <div className="social-media">
                         <h3>join us on</h3>
-                        {/*
+                        
                           <FontAwesomeIcon icon={faFacebookSquare} />
                           <FontAwesomeIcon icon={faTwitterSquare} />
-                          */}
-                    </div>
+                         
+                    </div> */}
                 </div>
             </div>
             <p>

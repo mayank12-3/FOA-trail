@@ -7,16 +7,16 @@ import { InfoCard } from '../../../common/components/';
 const HowDoesItWork = () => {
     const details = [{
         icon: faLightbulb,
-        title: 'Tell us your plan',
-        description: 'Give us details like the group size, Safari duration, parks and reserves you wish to visit.'
+        title: 'Drop us an Inquiry',
+        description: 'Every Safari experience is unique and so are the requirements, Share your details like name, email, and number. We would love to talk to you and understand your needs.'
     },{
         icon: faPeopleCarry,
-        title: 'Get a customized package',
-        description: 'Talk to our Safari experts and get the customized package within 1 business day.'
+        title: 'Speak to a Safari Expert',
+        description: 'You will hear from us within 15 mins and that’s a promise! You can let us know the desired method of communication - Call/ Email/ Whatsapp in the message section while dropping an inquiry.'
     },{
         icon: faThumbsUp,
-        title: 'Book your Safari',
-        description: 'Book your Safari with our easy and secure booking process. Experience wilderness!'
+        title: 'Get your Package.',
+        description: 'All Packages will be sent on Email. Prices received by any other means - Call/Whatsapp are not final unless confirmed via Email.'
     }];
 
     const renderInfoCard = () => {

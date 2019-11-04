@@ -9,7 +9,7 @@ import './coverSlider.scss';
 
 class CoverSlider extends React.Component {
   redirectTo = (country) => {
-    this.props.history.push(`/packages/${country}`);
+    this.props.history.push(`/tour?country=${country}`);
   }
 
   render () {
@@ -27,13 +27,13 @@ class CoverSlider extends React.Component {
     }
     let imgList = [{
       src: Kenya,
-      title: "Kenya"
+      title: "kenya"
      },{
       src: Uganda,
-      title: "Uganda"
+      title: "uganda"
      },{
       src: Tanzania,
-      title: "Tanzania"
+      title: "tanzania"
      }]
 
     return (

@@ -11,19 +11,13 @@
 
     .card-footer_container {
         display: flex;
-        // justify-content: center;
-        // align-items: flex-end;
-        // flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
         position: absolute;
         width: 100%;
-        bottom: 0;
-        right: 0;
-        .duration {
-          padding: 10px;
-          text-align: center;
-          display: block !important;
-          width: 50%;
-        }
+        bottom: 16px;
+        right: 20px;
     }
 
     .MuiAvatar-colorDefault {
@@ -31,12 +25,12 @@
     }
 
     .tag {
-        // position: absolute;
-        // bottom: 0;
-        // left: 0;
-        width: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
         padding: 10px;
         background-color: $lightSoilColor;
+
         @include font('Roboto', 14px, 600, $white);
     }
 }

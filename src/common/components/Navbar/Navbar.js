@@ -17,7 +17,7 @@ class Navbar extends Component {
     },{
         title: "Contact Us",
         icon: faPhone,
-        path: '/contact'
+        path: '/contact-us'
     }];
 
     toggleDrawer = () => {
@@ -58,17 +58,7 @@ class Navbar extends Component {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact Us</Link>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <span className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
-                        </span>
-                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><Link className="dropdown-item" to="/">Kenya</Link></li>
-                            <li><Link className="dropdown-item" to="/">Uganda</Link></li>
-                            <li><Link className="dropdown-item" to="/">Tanzania</Link></li>
-                        </ul>
+                        <Link to="/contact-us">Contact Us</Link>
                     </li>
                 </ul>
                 <div className="mobile-navigation">

@@ -5,8 +5,9 @@
     .banner_section {
         .uganda-banner {
             width: 100%;
-            height: calc(100vh - 200px);
-            background: url('../../../assets/images/Home_1.jpg') no-repeat;
+            height: 100vh;
+            // height: calc(100vh - 200px);
+            background: url('../../../assets/images/uganda-landing/uganda_cover.jpg') no-repeat;
             background-color: rgba(66,66,41,0.6);
             background-size: cover;
             background-position: center center;
@@ -15,6 +16,11 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
+
+            button {
+                width: 300px;
+                height: 50px;
+            }
 
             @include font('Roboto', 50px, 600, $white);
         } 
@@ -52,7 +58,7 @@
         }
     
         .MuiCardContent-root {
-            height: 150px;
+            max-height: 150px;
         }
     }
 

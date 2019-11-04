@@ -1,151 +1,30 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
-import { Banner, InfoCard, Tabs, ContactDetailsForm, Itinerary } from '../../../common/components/';
+import { Banner, InfoCard, Tabs, ContactDetailsForm, Itinerary} from '../../../common/components/';
 import _ from 'lodash';
-import WhyUs from './Sections/WhyUs';
+import WhyThePackage from './Sections/WhyThePackage';
 import HelpMe from '../../Home/Sections/HelpMe';
 // import { getQuestions } from './api/getQuotesApi';
+import  WhyUs  from '../../Home/Sections/WhyUs'
+import HowDoesItWork from '../sections/HowDoesItWork';
+import quotes from '../../../utils/quotes.json';
+import itinerary from '../../../utils/itinerary.json';
 import './Kenya.scss';
 
 class Kenya extends Component {
     state = {
-        options: {
-            parks: [{
-                id: 1,
-                title: "YET TO DECIDE",
-                description: "We will suggest you based on your plan dates & duration"
-            }, {
-                id: 2,
-                title: "MASAI MARA NP",
-                description: "Kenya’s most famous park where the million Wildebeest march"
-            }, {
-                id: 3,
-                title: "LAKE NAKURU NP",
-                description: "Family friendly park with great lake views, flamingos and big 4."
-            }, {
-                id: 4,
-                title: "AMBOSELI NP",
-                description: "Huge Elephant herds in the shadow of Kilimanjaro"
-            }, {
-                id: 5,
-                title: "SAMBURU NR",
-                description: "Spot Lions, Giraffes, Zebras, Oryxs in this Serene riverside reserve."
-            }, {
-                id: 6,
-                title: "TSAVO NP",
-                description: "Red elephants, large lion prides and vast plains"
-            }, {
-                id: 7,
-                title: "LAKE NAIVASHA",
-                description: "Best place for Bird watching. Boating along with Game drives is possible"
-            }],
-            partyOptions: [{
-                id: 1,
-                title: "SOLO",
-                description: "single"
-            }, {
-                id: 2,
-                title: "COUPLE",
-                description: "Only two people"
-            }, {
-                id: 3,
-                title: "SMALL GROUP",
-                description: "3 to 4 people"
-            }, {
-                id: 4,
-                title: "BIG GROUP",
-                description: "5 or more"
-            }],
-            accommodation: [{
-                id: 1,
-                title: "BUDGET",
-                description: "Budget safari tours cost 100-150 USD per day, all inclusive"
-            }, {
-                id: 2,
-                title: "MID-RANGE",
-                description: "Mid range Safari tours cost 180-250 USD per day, all inclusive"
-            }, {
-                id: 3,
-                title: "LUXURY LODGES",
-                description: "Luxury Safari trips start from 300 USD per day, all inclusive"
-            }],
-            days: [{
-                id: 1,
-                title: "2",
-                description: "2 Days"
-            }, {
-                id: 2,
-                title: "3 to 4",
-                description: "3 to 4 Days"
-            }, {
-                id: 3,
-                title: "5 to 6",
-                description: "5 to 6 Days"
-            }, {
-                id: 4,
-                title: "7 to 9",
-                description: "7 to 9 Days"
-            }],
-            type: [{
-                id: 1,
-                title: "PRIVATE SAFARI",
-                description: "Your party will have the sole use of vehicle & full attention of guide."
-            }, {
-                id: 2,
-                title: "GROUP SAFARI",
-                description: "Join existing groups to save costs. Up-to 6 clients can share the vehicle"
-            }],
-            season: [{
-                id: 1,
-                title: "JUL to OCT",
-                description: "PEAK SEASON"
-            }, {
-                id: 2,
-                title: "NOV to MAR",
-                description: "HIGH SEASON"
-            }, {
-                id: 3,
-                title: "APR to JUN",
-                description: "LOW SEASON"
-            }]
-        },
+        options: {...quotes.Kenya},
         tabs: [],
         isContactUsModalOpen: false,
         isButtonDisabled: true,
-        itinerary: [{
-            title: "The African Big 5 Safari",
-            locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
-            instructions: [
-                'End to End Private Tour',
-                'Unlimited Safari Mileage',
-                'Masai and Samburu Tribe Visit',
-                'Complimentary aiport transfer both ways',
-              ],
-            inclusions: "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
-            exclusions: "Flights, Visa",
-            expectedSightings : "lion, tiger",
-            price: "$40000",
-            description: "Starting price per person (Min group size: 4)",
-            duration: "6D / 5N",
-            season: "Low Season (April – May)"
-        },{
-            title: "Discover Kenya’s Wilderness",
-            locations: ['Nairobi', 'Samburu (2N)', 'Lake Nakuru (1N)'],
-            instructions: [
-                'End to End Private Tour',
-                'Unlimited Safari Mileage',
-                'Masai and Samburu Tribe Visit',
-                'Complimentary aiport transfer both ways',
-              ],
-            inclusions: "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
-            exclusions: "Flights, Visa",
-            expectedSightings : "lion, tiger",
-            price: "$40000",
-            description: "Starting price per person (Min group size: 4)",
-            duration: "6D / 5N",
-            season: "Low Season (April – May)"
-        }]
+        itinerary: []
     };
+
+    quoteRef = React.createRef();
+
+    scrollToQuote = () => {
+        window.scrollTo({ top: this.quoteRef.current.offsetTop,left: 100, behavior: "smooth"});
+    }
 
     Kenya = () => {
 
@@ -153,10 +32,20 @@ class Kenya extends Component {
 
     componentDidMount() {
         this.setTabs();
+        this.setItinerary();
         this.scrollToTop();
         // getQuestions()
         //     .then(resp => console.log(resp))
         //     .catch(error => console.log(error));
+    }
+
+    setItinerary = () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const country = urlParams.get('country');
+        const _itinerary = itinerary.filter(data => data.country === country);
+        this.setState({
+            itinerary: [..._itinerary]
+        });
     }
 
     scrollToTop = () => {
@@ -192,14 +81,9 @@ class Kenya extends Component {
             component: this._getTabComponent(4)
         }, {
             title: "Step 5",
-            name: 'type',
-            isActive: false,
-            component: this._getTabComponent(5)
-        }, {
-            title: "Step 6",
             name: 'season',
             isActive: false,
-            component: this._getTabComponent(6)
+            component: this._getTabComponent(5)
         }];
 
         let activeTabIndex = this._getActiveTabIndex();
@@ -255,16 +139,18 @@ class Kenya extends Component {
         } else {
             // If Button is disabled, user can move previous only
             if(index < oldIndex) {
-               _changeTab();
+               _changeTab(); 
             }
         }
     }
 
     renderOptions = (options = [], name) => {
         return options.map((data, i) => {
+            const thumbnailImageSrc = data.image ? require(`../../../assets/images/kenya-custom-quote/${data.image}`) : '';
             return (
                 <Col sm="3" key={i} onClick={() => this.optionsChangeHandler(name, data.id)}>
                     <InfoCard
+                        src={thumbnailImageSrc}
                         className={data.isSelected ? 'active' : ''}
                         title={data.title}
                         description={data.description}
@@ -312,17 +198,20 @@ class Kenya extends Component {
             <div className="kenya_container">
                 {
                     this.state.isContactUsModalOpen ?
-                    <ContactDetailsForm
+                    <ContactDetailsForm 
                         className="contact-us-modal"
-                        isOpen={this.state.isContactUsModalOpen}
+                        isOpen={this.state.isContactUsModalOpen} 
                         toggle={this.toggleModal}
                         title="Contact Us"/> : ''
                 }
-                <Banner
+                <Banner 
                     className="kenya-banner"
-                    bannerText="Let’s work together for the buzzworthy experiernce"
+                    bannerText="Begin Your Perfect Kenya Safari"
+                    buttonText="Plan My Safari"
+                    buttonHandler={this.scrollToQuote}
                 />
-                <div className="tabs">
+                <HowDoesItWork/>
+                <div className="tabs" ref={this.quoteRef}>
                     <div className="wrapper">
                         <Tabs
                             title="Get Started"
@@ -332,13 +221,17 @@ class Kenya extends Component {
                             onPrev={this.onPreviousTab}
                             onFinish={this.onFinish}
                             onTabChange={this.onTabChange}
-                            finishText="Contact Us"
+                            finishText="Get Quote"
                             hideNextButton={false}
                             disabledNextButton={this.state.isButtonDisabled}
                         />
                     </div>
                 </div>
-                <Itinerary itinerary={this.state.itinerary}/>
+                <WhyThePackage />
+                {
+                    this.state.itinerary.length > 0 ?
+                    <Itinerary itinerary={this.state.itinerary}/> : ''
+                }
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <WhyUs />
             </div>
@@ -365,7 +258,7 @@ class Kenya extends Component {
             case 1:
                 return (
                     <Col sm="12" className="odd-question">
-                        <h2>Which parks do you want to visit?</h2>
+                        <h2>Which park do you want to visit?</h2>
                         <Row className="parks">
                             {
                                 this.renderOptions(this.state.options.parks, "parks")
@@ -376,7 +269,7 @@ class Kenya extends Component {
             case 2:
                 return (
                     <Col sm="12">
-                        <h2>How big is your party?</h2>
+                        <h2>How Big is your Group?</h2>
                         <Row className="parks">
                             {
                                 this.renderOptions(this.state.options.partyOptions, "partyOptions")
@@ -387,7 +280,7 @@ class Kenya extends Component {
             case 3:
                 return (
                     <Col sm="12" className="odd-question">
-                        <h2> What type of Accommodation are you looking for?</h2>
+                        <h2>What category of accommodation are you looking for?</h2>
                         <Row className="parks">
                             {
                                 this.renderOptions(this.state.options.accommodation, "accommodation")
@@ -398,7 +291,7 @@ class Kenya extends Component {
             case 4:
                 return (
                     <Col sm="12">
-                        <h2>How many days of Safari are you planning?</h2>
+                        <h2>How many days on safari are you planning for?</h2>
                         <Row className="parks">
                             {
                                 this.renderOptions(this.state.options.days, "days")
@@ -407,17 +300,6 @@ class Kenya extends Component {
                     </Col>
                 );
             case 5:
-                return (
-                    <Col sm="12" className="odd-question">
-                        <h2>Do you want a private safari or want to join group safari tour?</h2>
-                        <Row className="parks">
-                            {
-                                this.renderOptions(this.state.options.type, "type")
-                            }
-                        </Row>
-                    </Col>
-                );
-            case 6:
                 return (
                     <Col sm="12">
                         <h2>When are you planning for the Safari?</h2>
@@ -428,7 +310,7 @@ class Kenya extends Component {
                         </Row>
                     </Col>
                 );
-            default:
+            default: 
                 return '';
         };
     }

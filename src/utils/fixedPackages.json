@@ -1,0 +1,31 @@
+[{
+    "country": "tanzania",
+    "title": "Serengeti, Ngorongoro and Lake Manyara",
+    "instructions": [
+        "All-Inclusive Private Tour",
+        "Ngorongoro Crater tour",
+        "Unlimited Safari Mileage in all parks",
+        "Masai Tribe Visit",
+    ],
+    "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
+    "exclusions": "Flights, Visa, Tips",
+    "expectedSightings ": "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
+    "duration": "4D / 3N",
+    "season": "All Months"
+},{
+    "country": "Tanzania",
+    "title": "Serengeti, Ngorongoro and Lake Manyara",
+    "locations": ["Arusha", "Lake Manyara", "Lake Manyara (1N)", "Serengeti (1N)",
+    "Ngorongoro (1N)", "Arusha"],
+    "instructions": [
+        "All-Inclusive Private Tour",
+        "Ngorongoro Crater tour",
+        "Unlimited Safari Mileage in all parks",
+        "Masai Tribe Visit",
+    ],
+    "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
+    "exclusions": "Flights, Visa, Tips",
+    "expectedSightings ": "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
+    "duration": "4D / 3N",
+    "season": "All Months"
+}]

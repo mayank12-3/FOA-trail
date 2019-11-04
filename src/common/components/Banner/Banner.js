@@ -6,7 +6,7 @@ import './Banner.scss';
 const Banner = (props) => {
     return (
         <div className="banner_section">
-            <div className={props.className ? `banner ${props.className}` : 'banner'}>
+            <div className={props.className ? `banner ${props.className}` : 'banner'} style={props.style}>
                 <p>{props.bannerText}</p>
                 {
                     props.buttonText ?

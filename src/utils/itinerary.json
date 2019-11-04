@@ -1,0 +1,149 @@
+[{
+    "country": "tanzania",
+    "thumbnail": "",
+    "title": "Serengeti, Ngorongoro and Lake Manyara",
+    "locations": ["Arusha", "Lake Manyara", "Lake Manyara (1N)", "Serengeti (1N)",
+    "Ngorongoro (1N)", "Arusha"],
+    "instructions": [
+        "All-Inclusive Private Tour",
+        "Ngorongoro Crater tour",
+        "Unlimited Safari Mileage in all parks",
+        "Masai Tribe Visit"
+    ],
+    "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
+    "exclusions": "Flights, Visa, Tips",
+    "expectedSightings" : "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
+    "price": "$40000",
+    "description": "Min group size: 4",
+    "duration": "4D / 3N",
+    "season": "All Months"
+},{
+    "country": "tanzania",
+    "thumbnail": "",
+    "title": "Calving Safari in Serengeti - Wildebeest Migration",
+    "locations": ["Arusha", "Southern Serengeti (2N) ", "Central Serengeti (2N) ", "Ngorongoro (1N)",
+    "Arusha"],
+    "instructions": [
+        "All-Inclusive Private Tour",
+        "Ngorongoro Crater tour",
+        "Unlimited Safari Mileage in all parks",
+        "Masai Tribe Visit"
+    ],
+    "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
+    "exclusions": "Flights, Visa, Tips",
+    "expectedSightings" : "Wildebeest and its calves, Giraffe, Zebra, Hyenas, Elephant, Lion,  Impala, Gazelle, Cheetah, Buffalo, etc.",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Jan - March"
+},{
+    "country": "tanzania",
+    "thumbnail": "",
+    "title": "",
+    "locations": ["Arusha", "Southern Serengeti (2N) ", "Central Serengeti (2N) ", "Ngorongoro (1N)",
+    "Arusha"],
+    "instructions": [
+        "All-Inclusive Private Tour",
+        "Ngorongoro Crater tour",
+        "Unlimited Safari Mileage in all parks",
+        "Masai Tribe Visit"
+    ],
+    "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
+    "exclusions": "Flights, Visa, Tips",
+    "expectedSightings" : "Wildebeest and its calves, Giraffe, Zebra, Hyenas, Elephant, Lion,  Impala, Gazelle, Cheetah, Buffalo, etc.",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Jan - March"
+},{
+    "country": "tanzania",
+    "thumbnail": "",
+    "title": " Tanzania's Northern Circuit Camping Safari",
+    "locations": ["Arusha", "Tarangire (1N) ", "Central Serengeti (2N) ", "Ngorongoro (1N)", "Lake Manyara (1N)",
+    "Arusha"],
+    "instructions": [
+        "All-Inclusive Group Tour",
+        "Ngorongoro Crater tour",
+        "Masai Tribe Visit",
+        "Unlimited Safari Mileage in all parks"
+    ],
+    "inclusions": "Camping Accommodation, Private Vehicle, Top Class Guide, All Park Fees, Crater fees, Meals",
+    "exclusions": "Flights, Visa, Tips",
+    "expectedSightings" : "Masai Giraffe, Wild dogs, Impala, Gazelle, Cheetah, Buffalo, Lion, Wildebeest, Zebra, Hyenas, Elephant, etc.",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Jun - Oct"
+},{
+    "country": "uganda",
+    "thumbnail": "",
+    "title": "The African Big 5 Safari",
+    "locations": ["Nairobi", "Samburu (2N)", "Lake Nakuru (1N)"],
+    "instructions": [
+        "End to End Private Tour",
+        "Unlimited Safari Mileage",
+        "Masai and Samburu Tribe Visit",
+        "Complimentary aiport transfer both ways"
+      ],
+    "inclusions": "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
+    "exclusions": "Flights, Visa",
+    "expectedSightings" : "lion, tiger",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Low 'Season' (April – May)"
+},{
+    "country": "uganda",
+    "thumbnail": "",
+    "title": "Discover Kenya’s Wilderness",
+    "locations": ["Nairobi", "Samburu (2N)", "Lake Nakuru (1N)"],
+    "instructions": [
+        "End to End Private Tour",
+        "Unlimited Safari Mileage",
+        "Masai and Samburu Tribe Visit",
+        "Complimentary aiport transfer both ways"
+      ],
+    "inclusions": "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
+    "exclusions": "Flights, Visa",
+    "expectedSightings" : "lion, tiger",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Low Season (April – May)"
+},{
+    "country": "kenya",
+    "thumbnail": "",
+    "title": "The African Big 5 Safari",
+    "locations": ["Nairobi", "Samburu (2N)", "Lake Nakuru (1N)"],
+    "instructions": [
+        "End to End Private Tour",
+        "Unlimited Safari Mileage",
+        "Masai and Samburu Tribe Visit",
+        "Complimentary aiport transfer both ways"
+      ],
+    "inclusions": "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
+    "exclusions": "Flights, Visa",
+    "expectedSightings" : "lion, tiger",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Low Season (April – May)"
+},{
+    "country": "kenya",
+    "thumbnail": "",
+    "title": "Discover Kenya’s Wilderness",
+    "locations": ["Nairobi", "Samburu (2N)", "Lake Nakuru (1N)"],
+    "instructions": [
+        "End to End Private Tour",
+        "Unlimited Safari Mileage",
+        "Masai and Samburu Tribe Visit",
+        "Complimentary aiport transfer both ways"
+      ],
+    "inclusions": "3, 4 Star Accomodation, Private Vehicle, Top Class Guide, All Park Fees, Indian Meals",
+    "exclusions": "Flights, Visa",
+    "expectedSightings" : "lion, tiger",
+    "price": "$40000",
+    "description": "Starting price per person (Min group size: 4)",
+    "duration": "6D / 5N",
+    "season": "Low Season (April – May)"
+}]

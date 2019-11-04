@@ -5,6 +5,7 @@ import ContactUs from '../ContactUs/ContactUs';
 import GetQuotes from '../GetQuotes/GetQuotes';
 import AboutUs from '../AboutUs/AboutUs';
 import Privacy from '../Privacy/Privacy';
+import Terms from '../Terms/Terms';
 import PageNotFound from '../PageNotFound/PageNotFound.js'
 import PackageDetails from '../PackageDetails/PackageDetails';
 
@@ -18,7 +19,7 @@ const Routes = () => {
                     component={Home}
                 />
                 <Route
-                    path="/contact"
+                    path="/contact-us"
                     exact
                     component={ContactUs}
                 />
@@ -41,6 +42,11 @@ const Routes = () => {
                     path="/privacy-policy"
                     exact
                     component={Privacy}
+                />
+                <Route
+                    path="/terms-and-conditions"
+                    exact
+                    component={Terms}
                 />
                 <Route
                     path="/pagenotfound"

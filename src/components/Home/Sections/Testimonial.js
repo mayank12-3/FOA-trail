@@ -1,34 +1,41 @@
 import React from 'react';
 import { Col, Row } from 'reactstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faLightbulb, faPeopleCarry, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import { InfoCard } from '../../../common/components/';
 
 const HowDoesItWork = () => {
     const details = [{
-        icon: faLightbulb,
-        title: ' - Prateek Mehrotra',
-        description: 'Best trip ever, we loved it all. The arrangements were perfect as was the food and accomodation.'
+        icon: faUserGraduate,
+        title: 'Best Trip Ever',
+        description: 'Best trip ever, we loved it all. The arrangements were perfect as was the food and accommodation.',
+        name: "- Prateek Mehrotra"
     },{
-        icon: faPeopleCarry,
-        title: ' - Nikhil Vasisht',
-        description: 'Excellent Customer Service! We just finished a 7 day Safari in Kenya covering Masai Mara, Lake Nakuru, Naivasha and Amboseli.'
+        icon: faUserGraduate,
+        title: 'Excellent Customer Service',
+        description: 'Excellent Customer Service! We just finished a 7 day Safari in Kenya covering Masai Mara, Lake Nakuru, Naivasha and Amboseli.',
+        name: "- Nikhil Vasisht"
+
     },{
-        icon: faThumbsUp,
-        title: ' - Jyoti Roy',
-        description: 'My first safari in Masai Mara, I had an amazing experience and totally enjoyed it.'
+        icon: faUserGraduate,
+        title: 'Highly Recommended',
+        description: 'My first safari in Masai Mara, I had an amazing experience and totally enjoyed it. Highly Recommend these guys for all African tours.',
+        name: "- Jyoti Roy"
     },{
-        icon: faLightbulb,
-        title: ' - Rochelle Xaavier',
-        description: 'Fantastic safari and a great experience! one tip to the travelers, if you are looking to purchase some jewellery from community market, please carry some cash.'
+        icon: faUserGraduate,
+        title: 'Outstanding Experience',
+        description: 'Fantastic safari and an outstanding experience! one tip to the travelers, if you are looking to purchase some jewelry from the community market, please carry enough cash.',
+        name: "- Rochelle Xaavier"
     },{
-        icon: faPeopleCarry,
-        title: ' - Vineet Singhal',
-        description: 'Well Curated, perfectly managed, great guides, value for money and highly recommended.'
+        icon: faUserGraduate,
+        title: 'Well Curated and Great Guides',
+        description: 'Well Curated, perfectly managed, great guides, value for money and highly recommended.',
+        name: "- Vineet Singhal"
     },{
-        icon: faThumbsUp,
-        title: ' - Himanshu Mehta',
-        description: 'Kenya and Tanzania cross country Safari – If you are an Indian planning to do a safari in Kenya and Tanzania, then look no further. This company is just fantastic, very professional and highly responsive.'
+        icon: faUserGraduate,
+        title: 'Very Professional and Super Fast',
+        description: ' If you are an Indian and planning to do a safari in Kenya and Tanzania, then look no further. This Indian company is just fantastic, very professional and highly responsive.',
+        name: "- Himanshu Mehta"
     }];
 
     const renderInfoCard = () => {
@@ -37,6 +44,7 @@ const HowDoesItWork = () => {
             return (
                 <Col sm="4" key={i}>
                     <InfoCard
+                        footer={data.name}
                         cardIcon={cardIcon}
                         title={data.title}
                         description={data.description}

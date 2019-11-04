@@ -19,6 +19,14 @@
             @include font('Roboto', 50px, 600, $white);
         } 
     }
+
+    .how-does-it-work_container {
+        background: $white;
+
+        .MuiCardContent-root {
+            min-height: 200px;
+        }
+    }
 }
 
 .tabs {
@@ -41,9 +49,13 @@
         }
         .MuiPaper-root {
             margin-bottom: 25px;
+
+            .MuiCardHeader-root {
+                padding: 0 0 10px 0;
+            }
     
-            .MuiAvatar-colorDefault {
-                // color: $soilColor;
+            .MuiCardHeader-title {
+                font-size: 20px;
             }
     
             .MuiTypography-root {
@@ -52,7 +64,7 @@
         }
     
         .MuiCardContent-root {
-            height: 150px;
+            height: 165px;
         }
     }
 

@@ -1,48 +1,438 @@
-[{
-	"title": "Gorilla Tracking in Bwindi NP, Lake Bunyonyi, Queen Elizabeth NP",
-	"overview": "This 3 stop tour takes you through the best of Uganda starting with gorilla trek safari at Bwindi Impenetrable Forest, which is home to more than half the population of the remaining 720 Mountain Gorillas. The Bwindi Impenetrable forest offers a unique birding opportunity, cultural experiences, a scenic allure of stunning hills and lush vegetation inhabited by the elusive primates. The gorilla trek activity is the most enchanting experience in this forest. After this you will head to Lake Bunyonyi for relaxation before heading to Queen Elizabeth for chimpanzee tracking.",
-	"itinerary": [{
-		"day": "Day 1",
-		"title": "Transfer from Entebbe / Kampala to Bwindi Impenetrable National Park",
-		"details": "On your arrival at Entebbe Airport / Kampala, you will be met by driver guide who will brief you about your tour.You will later be driven in comfortable and secure touring vehicle to Bwindi Impenetrable National Park in the South - West which will take around 9 hours of drive. Lunch will be provided en - route at Mbarara.",
-		"accommodation": [{
-			"budget": "Broadbill Forest Camp /  Ruhija Gorilla Friends Lodge  /  Nshongi Camp",
-			"mid-range": "Bakiga Lodge   / Rushaga Gorilla Havens Lodge / Trekkers Tavern",
-			"luxury": "Ruhija Gorilla Lodge  / Silverback Lodge / Gorilla Safari Lodge"
-		}]
-	}, {
-		"day": "Day 2",
-		"title": "Gorilla trekking in Bwindi and transfer to Lake Bunyonyi for a canoe ride",
-		"details": "You will have an early morning breakfast and move to the Park headquarters to join other trackers in a briefing about the gorilla trekking rules at 7:45 am.You will trek through thick creepers and undergrowth with your guides to find the Gorillas, which can take you 1 - 8 hours. The steeply forested landscape is incredibly dense but crisscrossed by numerous animal trails allowing access by tourists.You will have one hour to stay with the Gorillas once it is sighted then transfer to Lake Bunyonyi after the trek.The drive will be a beautiful part of the country often referred to as‘ the Switzerland of Africa’ because of its unique cool weather despite being near the Equator. This lake is said to be one of the most beautiful places in western Uganda.It is the second deepest lake in Africa[900 meters deep] and also one of the few places in the country where it is considered safe to swim as it is bilharzia free.You will take a canoe ride on this lake and hike to different viewpoints before returning for Dinner and overnight stay.",
-		"accommodation": [{
-			"budget": "Bunyonyi Overland Camp",
-			"mid-range": " Bunyonyi Safari Resort",
-			"luxury": "Bunyonyi Birdnest"
-		}]
-	}, {
-		"day": "Day 3",
-		"title": "Transfer to Queen Elizabeth",
-		"details": "Wake up early in the morning have your breakfast, set off for Queen Elizabeth through volcanic formation of the western Rift Valley towards Queen Elizabeth N.P.The descent reveals a stunning panorama of lakes, George and Edward amidst game - filled plains where you will reach in the afternoon check in to the Lodge have lunch, In the afternoon head to the unique boat cruises that takes 2 hrs on the Kazinga channel and onto L.Edward.The trip passes through possibly the highest hippo concentration in Africa and many mammals may be seen drinking water.The cruise offers the excellent platform for photography and game viewing. The birdlife is colorful and abundant, In the evening go for a game drive with a chance to see Elephants Lion Buffaloes etc later return for dinner and overnight stay ",
-		"accommodation": [{
-			"budget": "Kazinga Channel View Resort  /  Tembo Safari Lodge ",
-			"mid-range": "Bush Lodge / Baboon Safari Resort",
-			"luxury": "Mweya Safari Lodge  / Kingfisher Lodge /  Katara Lodge"
-		}]
-	}, {
-		"day": "Day 4",
-		"title": "Chimp track and travel to Entebbe",
-		"details": "Wake-up early morning have breakfast and head to Kalinzu Forest Reserve for an up to 4 hours chimpanzee trekking with a tracker and guide.The Forest Reserve is home to 6 groups of chimps, comprising over 300 individuals and tracking currently enjoys more than 80 % success rate.Afterwards transfer back to Entebbe Airport with lunch en - route to catch your evening departure flight back home.",
-		"accommodation": [{
-			"budget": "",
-			"mid-range": "",
-			"luxury": ""
-		}]
-	}],
-	"includes": ["Car hires services and Fuel", "Diver’s allowances", "Park fees", "Vehicle entry", "Chimp permit", "Gorilla permit", "Boat Cruises", "Game drives", "Lunch en-routes", "Accommodation and meals", "Please carry suitable closed walking boots and long trousers!"],
-	"excludes": ["Alcoholic drinks / spirits", "Laundry", "Personal Expenses", "Tips"],
-	"duration": "7 days",
-	"startingFromPrice": 1234,
-	"imageTitle": "Masai Mara, Amboseli, Nakuru, and Naivasha",
-	"title": "Masai Mara, Amboseli, Nakuru, and Naivasha",
-	"description": "From the golden grasslands of Masai Mara to the tallest peak of Africa, Kilimanjaro this guided private tour will cover them all."
-}]
+[
+	{
+		"package_id": 1,
+		"country": "Kenya",
+		"title": "Masai Mara, Samburu and Lake Nakuru",
+		"calender": "All Months",
+		"banner": "tanzania.jpg",
+		"thumbnail": "package_1.jpg",
+		"overview": "No African safari is truly complete without spotting the Big 5 - Lion, Leopard, Elephant Rhino, and Buffalo. This 6 day safari covering Masai Mara, Nakuru and Samburu promises Big 5 sightings along with the Samburu’s Special 5 - Reticulated giraffe, Somalian Ostrich, Oryx, Gerenuk and Grevy’s Zebra",
+		"itinerary": [
+			{
+				"day": "Day 1",
+				"title": "Nairobi - Samburu National Reserve",
+				"details": "Pick up from the airport/ hotel in Nairobi and drive north along the Central Kenya Highlands and arrive in Samburu Sopa Lodge in time for lunch. You can spend the afternoon swimming and relaxing before we set off for an evening game drive, your first taste of wildlife encounter. The Samburu National Reserve is also the home of Kamunyak, a lioness famous for adopting oryx calves. Samburu is the best bet to spot the elusive leopards",
+				"accommodation": "Overnight at Samburu Sopa Lodge",
+				"meals": "L, D",
+				"drivingtime": "6 hrs"
+			},
+			{
+				"day": "Day 2",
+				"title": "Full day game drive in Samburu National Reserve and Buffalo Springs",
+				"details": "After breakfast, we will depart for full day game drive with packed lunch and return to the lodge as the sun sets. Samburu National Reserve exudes a peaceful aura that attracts animals and greatly because of the Ewaso Ng'iro river (meaning brown water) that runs through it and surrounded by acacia, riverine forest, thorn trees and grassland vegetation. The Ewaso Ng'iro flows from the Kenyan highlands and empties into the famous Lorian Swamp.",
+				"LodgeMeals": "B, L, D",
+				"accommodation": "Overnight at Samburu Sopa",
+				"meals": "B, L, D"
+			},
+			{
+				"day": "Day 3",
+				"title": "Samburu National Reserve - Lake Nakuru National Park",
+				"details": "Have early breakfast at the lodge and proceed for your onward journey) to Nakuru town. Enjoy the scenery along the way. You will have lunch at the lodge in Nakuru after check in and head for an evening game drive. Nakuru is home to the endangered black and white rhinoceros ",
+				"accommodation": "Overnight at Flamingo hill tented Camp",
+				"meals": "B, L, D",
+				"drivingtime": "4.5 hrs"
+			},
+			{
+				"day": "Day 4",
+				"title": "Lake Nakuru - Masai Mara ",
+				"details": " Enjoy breakfast and then check-out of the lodge and drive to the climax of the safari - Maasai Mara National Reserve. You would have covered about 2 of the Big 5, with a balance of 3.  Arrive and check in to the camp for lunch, relax, freshen up and then head out for an evening game drive. ",
+				"accommodation": "Overnight at Mara Eden Camp",
+				"meals": "B, L, D",
+				"drivingtime": "5 hrs"
+			},
+			{
+				"day": "Day 5",
+				"title": "Full day safari in Masai Mara ",
+				"details": "After breakfast, depart for a full day safari in the mara plains, viewing the great predators and the pending 3 - Lion, Elephant and Buffalo. Explore the mara’s amazingly high concentration of wild animals. During the stay we also have an optional opportunity to visit a village of the Masai people to witness the singing and dancing that are part of their daily lives and sacred rituals. ",
+				"accommodation": "Overnight at Mara Eden Camp",
+				"meals": "B, L, D"
+			},
+			{
+				"day": "Day 6",
+				"title": "Masai Mara - Nairobi ",
+				"details": "After breakfast have a morning game drive exiting the park. Lunch will be served en route. You will also visit a souvenir market (if time allows). Later in the afternoon arrive in Nairobi after complete the authentic African safari. ",
+				"meals": "B, L",
+				"drivingtime": "7 hrs"
+			}
+		],
+		"includes": [
+			"All park entrance fees",
+			"Park fees",
+			"Daily game drives while on Safari.",
+			"All accommodations while on Safari.",
+			"A Professional driver/guide.",
+			"4x4 Land Cruiser or Minivan.",
+			"Game drives",
+			"All Taxes and VAT.",
+			"Accommodation and meals",
+			"Meals as per itinerary.",
+			"Drinking water while on safari (2 litres per person per day)."
+		],
+		"excludes": [
+			"International flights.",
+			"Airport Transfers (Unless mentioned otherwise).",
+			"Personal Expenses",
+			"Tips",
+			"Additional accommodation before and at the end of the tour (Unless mentioned otherwise).",
+			"Government imposed increase of Taxes and or Park Fees.",
+			"Any activities not mentioned in the itinerary."
+		],
+		"duration": "4 days",
+		"startingFromPrice": "USD 1794",
+		"description": "A classic Kenya package which promises all of the Big 5 including the elusive leopard and rhino."
+	},
+	{
+		"package_id": 2,
+		"country": "Tanzania",
+		"title": "Serengeti, Ngorongoro and Lake Manyara",
+		"calender": "All Months",
+		"banner": "uganda.jpg",
+		"thumbnail": "package_2.jpg",
+		"overview": "This safari takes you to Lake Manyara for a whole day, almost two days in the Serengeti, and one whole day crater tour in Ngorongoro. The safari takes you around the best places in Tanzania, visiting places such as Lake Manyara which is famous for its tree climbing lions, the Ngorongoro Crater which is known also as the Garden of Eden, and Serengeti National Park which will give you the chance to experience the Big Five and the great migration.",
+		"itinerary": [
+			{
+				"day": "Day 1",
+				"title": "Arusha to Lake Manyara",
+				"details": "The first day of your safari will kick off by 8 am with a pick up from your hotel in Arusha. As you enter the park, lush forests of Acacia and Mahogany trees begin to set the mood for what is waiting ahead. You will enter the park at around 11:00AM, with the game drive commencing soon after and goes on till 5PM in the evening, with a small break for a scrumptious picnic lunch. During the game drive watch out for buffaloes, giraffes, impalas, baboons and the blue monkeys. Another spectacle of the Lake Manyara National park is the tree climbing lions, however spotting them is a game of luck. In the right season, you can see the shoreline turning pink with millions of flamingos flocking there. Keep your cameras at hand, for this is a simply beautiful scene. ",
+				"accommodation": "Overnight at Eileen’s Tree Inn",
+				"meals": "L, D",
+				"drivingtime": "2.5 hrs"
+			},
+			{
+				"day": "Day 2",
+				"title": "Lake Manyara to Serengeti",
+				"details": "Your day will begin with a healthy breakfast and then head out towards the most famous national park in the world – the Serengeti. Apart from the set schedule, you can also do the optional Masai village tour or visit the Olduvai gorge at an additional cost here. On reaching Serengeti at late noon, you will have your picnic lunch and then experience an en-route game drive just as we cross Naabi hill at the entrance gate of Serengeti National Park. ",
+				"accommodation": "Overnight at Tukaone Camps",
+				"meals": "B, L, D",
+				"drivingtime": "4 hrs"
+			},
+			{
+				"day": "Day 3",
+				"title": "Serengeti to Ngorongoro Conservation Area",
+				"details": " Today, after a quick breakfast you will go on an early morning game drive in the Serengeti.The Serengeti, which means endless plains in the local African language and watching the grassland stretch out as far as the eye can see and eventually merging with the sky at the horizon is an absolutely breathtaking view. It is the home of the great migration of about 2 million wildebeest every year. The Serengeti also houses the glorious “Big 5” (elephant, rhino, buffalo, lion and leopard). Along with the “Big 5”, a very pleasant sighting would be one of Africa’s most beautiful animal – The Impala.The Serengeti ecosystem supports the greatest remaining concentration of plains game in Africa. After completing a half day game drive along with a picnic lunch, we will branch out and head towards the Ngorongoro crater rim. The eventful day comes to an end with a heavy dinner and a good rest in your choice of accommodation. Get a good rest, for the following day you will descend into the massive crater. ",
+				"accommodation": "Overnight at Eileen’s Tree Inn",
+				"meals": "B, L, D",
+				"drivingtime": "3 hrs"
+			},
+			{
+				"day": "Day 4",
+				"title": "Ngorongoro Crater Tour (5 hours) to Arusha",
+				"details": " On this day of your safari, you will have an early start. Finishing up with a quick breakfast you will make an early descend at around 6:30am into the crater floor. The Ngorongoro crater is the world’s largest inactive, intact and unfilled volcanic caldera. It has a massive floor of about 260 sq kms with a depth of over 2000 feet. The 5 hour game drive in the crater floor, will show you a lot of animal actions. Keeping the camera ready is definitely recommended. After lunch we will start our journey back to Arusha where the safaris ends. ",
+				"meals": "B, L",
+				"drivingtime": "4 hrs"
+			}
+		],
+		"includes": [
+			"Park Fees (for Non-Residents).",
+			"Concession/Camping Fees.",
+			"Park fees",
+			"Daily game drives while on Safari.",
+			"All accommodations while on Safari.",
+			"A Professional driver/guide.",
+			"4x4 Land Cruiser.",
+			"Game drives",
+			"All Taxes and VAT.",
+			"Accommodation and meals",
+			"Meals as per itinerary.",
+			"Drinking water while on safari (2 litres per person per day)."
+		],
+		"excludes": [
+			"International flights.",
+			"Airport Transfers (Unless mentioned otherwise).",
+			"Personal Expenses",
+			"Tips",
+			"Additional accommodation before and at the end of the tour (Unless mentioned otherwise).",
+			"Government imposed increase of Taxes and or Park Fees.",
+			"Any activities not mentioned in the itinerary."
+		],
+		"duration": "4 days",
+		"startingFromPrice": "USD 1407",
+		"description": "Explore the northern circuit of Tanzania by covering the never-ending savannah plains of Serengeti, a million-year-old crater and the soda lake of rift valley."
+	},
+	{
+		"package_id": 3,
+		"country": "Uganda",
+		"title": "Gorilla Tracking in Bwindi NP, Lake Bunyonyi, Queen Elizabeth NP",
+		"calender": "All Months",
+		"banner": "package_details.jpg",
+		"thumbnail": "package_3.jpg",
+		"overview": "This 3 stop tour takes you through the best of Uganda starting with gorilla trek safari at Bwindi Impenetrable Forest, which is home to more than half the population of the remaining 880 Mountain Gorillas. The Bwindi Impenetrable forest offers a unique birding opportunity, cultural experiences, a scenic allure of stunning hills and lush vegetation inhabited by the elusive primates. The gorilla trek activity is the most enchanting experience in this forest. After this you will head to Lake Bunyonyi for relaxation before heading to Queen Elizabeth for chimpanzee tracking.",
+		"itinerary": [
+			{
+				"day": "Day 1",
+				"title": "Entebbe / Kampala - Bwindi Impenetrable National Park",
+				"details": "On your arrival at Entebbe Airport / Kampala, you will be met by driver guide who will brief you about your tour. You will later be driven in comfortable and secure touring vehicle to Bwindi Impenetrable National Park in the South-West which will take around 9 hours of drive. Lunch will be provided en-route at Mbarara.",
+				"accommodation": "Overnight at Bakiga Lodge / Rushaga Gorilla Havens Lodge / Trekkers Tavern"
+			},
+			{
+				"day": "Day 2",
+				"title": "Bwindi - Lake Bunyonyi ",
+				"details": "You will have an early morning breakfast and move to the Park headquarters to join other trackers in a briefing about the gorilla trekking rules at 7:45 am. You will trek through thick creepers and undergrowth with your guides to find the Gorillas, which can take you 1-8 hours. The steeply forested landscape is incredibly dense but crisscrossed by numerous animal trails allowing access by tourists. You will have one hour to stay with the Gorillas once they are sighted and then transfer to Lake Bunyonyi after the trek. The drive will be a beautiful and this part of the country is often referred to as ‘the Switzerland of Africa’ because of its unique cool weather despite being near the Equator. Lake Bunyonyi is the second deepest lake in Africa [900 meters deep] and also one of the few places in the country where it is considered safe to swim as it is bilharzia free. You will take a canoe ride on this lake and hike to different viewpoints before returning for Dinner and overnight stay.",
+				"accommodation": "Overnight at Bunyonyi Safari Resort"
+			},
+			{
+				"day": "Day 3",
+				"title": "Lake Bunyonyi - Queen Elizabeth",
+				"details": "Wake up early in the morning have your breakfast, set off for Queen Elizabeth through volcanic formation of the western Rift Valley towards Queen Elizabeth N.P. The descent reveals a stunning panorama of lakes, George and Edward amidst game-filled plains where you will reach in the afternoon check in to the Lodge have lunch, In the afternoon head to the unique boat cruises that takes 2 hrs on the Kazinga channel and onto L.Edward. The trip passes through possibly the highest hippo concentration in Africa and many mammals may be seen drinking water. The cruise offers the excellent platform for photography and game viewing. The birdlife is colorful and abundant, In the evening go for a game drive with a chance to see Elephants Lions Buffaloes etc later return for dinner and overnight stay",
+				"accommodation": "Overnight at Mid-range - Bush Lodge / Baboon Safari Resort"
+			},
+			{
+				"day": "Day 4",
+				"title": "Queen Elizabeth - Entebbe",
+				"details": "Wake-up early morning have breakfast and head to Kalinzu Forest Reserve for an up to 4 hours chimpanzee trekking with a tracker and guide. The Forest Reserve is home to 6 groups of chimps, comprising over 300 individuals and tracking currently enjoys more than 80% success rate. Afterwards transfer back to Entebbe Airport with lunch en-route to catch your evening departure flight back home.",
+				"accommodation": ""
+			}
+		],
+		"includes": [
+			"Car hires services and Fuel",
+			"Diver’s allowances",
+			"Park fees",
+			"Vehicle entry",
+			"Chimp permit",
+			"Gorilla permit",
+			"Boat Cruises",
+			"Game drives",
+			"Lunch en-routes",
+			"Accommodation and meals",
+			"Please carry suitable closed walking boots and long trousers!"
+		],
+		"excludes": [
+			"Alcoholic drinks / spirits",
+			"Laundry",
+			"Personal Expenses",
+			"Tips"
+		],
+		"duration": "4 days",
+		"startingFromPrice": "USD 1234",
+		"description": "Wander in the misty Bwindi national park for the wildest experience of your life - Gorilla Tracking where you watch the last of these apes play, feed and relax."
+	},
+	{
+		"package_id": 4,
+		"country": "Kenya",
+		"title": "Kenya Safari covering Masai Mara, Nakuru, Naivasha and Amboseli",
+		"calender": "All Months",
+		"banner": "uganda.jpg",
+		"thumbnail": "package_4.jpg",
+		"overview": "Big game, secluded tribes, and stunning landscapes combine to produce what is often described as the best african holiday. This will be the perfect safari tour for you and your family who want to immerse in the nature of Kenya with top class guides  Experience the wonders of this magical kenya in this seven days and six nights package covering Maasai Mara, Lake Nakuru, Naivasha, and Amboseli National Park.",
+		"itinerary": [
+			{
+				"day": "Day 1",
+				"title": "Nairobi to Maasai Mara National Reserve",
+				"details": "At eight o’clock, you will be picked up from your hotel in Nairobi and commence the drive to Maasai Mara via the Great Rift Valley viewpoint where you will have a breathtaking view of the floor of the Rift Valley. In the afternoon, after you check in, you will depart for a game viewing in the Maasai Mara National Reserve. And as the sun goes down, you will return to your den for a sumptuous buffet dinner.",
+				"accommodation": "Overnight at Mara Eden Camp (Inside the park)"
+			},
+			{
+				"day": "Day 2",
+				"title": "Full day game drive in Masai Mara National Reserve",
+				"details": "After an early breakfast you will make your way into this unique park with a picnic lunch in hand. You will have the chance to visit the Mara river, which borders the Mara and the Serengeti. There will be a large concentration of animals here during the time you will be traveling! All meals and your overnight stay will be at the Mara Eden camp.",
+				"accommodation": "Overnight at Mara Eden Camp (Inside the park)"
+			},
+			{
+				"day": "Day 3",
+				"title": "Maasai Mara National Reserve to Naivasha",
+				"details": "You will enjoy the last early morning game drive in Maasai Mara National Reserve followed by breakfast. Thereafter, commence the 4 hr drive to Lake Naivasha. Check in to the accommodation and head for lunch, After relaxing for a while you will start a boat ride across the lake and to the crescent island, where you will walk among animals like - giraffe, antelopes, monkeys, zebras etc accompanied by a ranger",
+				"accommodation": "Overnight at Naivasha Country Club"
+			},
+			{
+				"day": "Day 4",
+				"title": "Naivasha - Nakuru - Naivasha",
+				"details": "You will have an early breakfast and drive to Lake Nakuru National park where you will have the chance to see some of the 350 bird species that have been recorded here. This is also home to the black and white rhinoceros. Indeed, this park was established for the protection of species such as the rhino, Columbus monkeys, leopards, giraffes and a variety of plain antelope after lunch you will return to your Den at Naivasha.",
+				"accommodation": "Overnight at Naivasha Country Club"
+			},
+			{
+				"day": "Day 5",
+				"title": "Naivasha - Amboseli",
+				"details": "After breakfast drive to Amboseli National Park which is famous for its scenery with a backdrop of snow-capped Mount Kilimanjaro, which dominates the landscape and open plains. Arrive with more game drive proceeding to your lodge for check in at Kibo Safari Lodge, have lunch, and after a short nap proceed for an afternoon game drive.",
+				"accommodation": "Overnight at Kibo Safari Camp"
+			},
+			{
+				"day": "Day 6",
+				"title": "Full day Safari in Amboseli National Park",
+				"details": "You will have an early morning game drive and later, return back to lodge for breakfast. After breakfast, full day will be spent in the park with packed lunch in search of its popular residents like the well-known predators and their opponents like the zebras, wildebeests, giraffes, hippos with a view of Mount Kilimanjaro.",
+				"accommodation": "Overnight at Kibo Safari Camp"
+			},
+			{
+				"day": "Day 7",
+				"title": "Amboseli National Park - Nairobik",
+				"details": "There will be an early morning game drive and later you will return to your lodge for breakfast. After breakfast, check out with a short game drive en-route off Amboseli National Park and drive to Nairobi. When you arrive, you will be dropped to your hotel or Jomo Kenyatta International Airport (NBO).",
+				"accommodation": ""
+			}
+		],
+		"includes": [
+			"All park entrance fees",
+			"Park fees",
+			"Daily game drives while on Safari.",
+			"All accommodations while on Safari.",
+			"A Professional driver/guide.",
+			"4x4 Land Cruiser or Minivan.",
+			"Game drives",
+			"All Taxes and VAT.",
+			"Accommodation and meals",
+			"Meals as per itinerary.",
+			"Drinking water while on safari (2 litres per person per day)."
+		],
+		"excludes": [
+			"International flights.",
+			"Airport Transfers (Unless mentioned otherwise).",
+			"Personal Expenses",
+			"Tips",
+			"Additional accommodation before and at the end of the tour (Unless mentioned otherwise).",
+			"Government imposed increase of Taxes and or Park Fees.",
+			"Any activities not mentioned in the itinerary."
+		],
+		"duration": "7 days",
+		"startingFromPrice": "USD 2150",
+		"description": "From the golden grasslands of Masai Mara to the tallest peak of Africa, Kilimanjaro this guided private tour will cover them all."
+	},
+	{
+		"package_id": 5,
+		"country": "Tanzania",
+		"title": "Ndutu Wildebeest Calving Safari",
+		"calender": "Dec - March",
+		"banner": "tanzania.jpg",
+		"thumbnail": "package_5.jpg",
+		"overview": "This safari covers a significant event in the wildebeest migration cycle, - Calving season. About half a million wildebeest are born every year in 3 week period between mid jan - mid feb. This is where the cycle of migration begins and it all takes place in the Ndutu region of Serengeti as the soil is most fertile, and the grass is nutritious. Watching how the wildebeest begins its journey is an experience of a lifetime. This is also a most vulnerable time for the herds as there are predators lurking in the shadows. There is a very high chance you may witness predators in action during the safari. ",
+		"itinerary": [
+			{
+				"day": "Day 1",
+				"title": "Arusha to Ndutu",
+				"details": "The migration safari kicks off in the morning, at 8 am on the first day. You will be picked up from your hotel in Arusha and head towards the Ndutu region. Once you reach Ndutu you will begin a half day game drive with a convenient stop for your picnic lunch. Sweeping grasslands cover the region which gradually fade into the Serengeti. Ndutu forms a part of the route for the annual migration of more than 2 million wildebeests and thousands of zebra, antelope and gazelle. During game drives at the right season between December and April, you will be able to see the fertile plains turn into calving grounds and nursery for the great migration.The Ndutu is also the home ground for 6 species of big cats – leopard, lion, cheetah, caracal, serval and wildcat. The action-packed game drive will end late in the evening around 5 PM.",
+				"accommodation": "Mbugani Camps or Ndutu Tingitana",
+				"meals": "L, D",
+				"drivingtime": "5 hrs"
+			},
+			{
+				"day": "Day 2",
+				"title": "Full day safari in Ndutu",
+				"details": "Heading out for a full day game drive after breakfast, today you will be following the migration depending on its location in either NCA or Serengeti. This season attracts hordes of predators preying on vulnerable young wildebeest. Watching the circle of life take its course will be an unforgettable experience etched for life.The action-packed game drive will end late in the evening around 5PM. You will now head towards your choice of accommodation, where a freshly prepared dinner awaits you.Ensure you get some good rest and recharge yourself for another eventful day.",
+				"accommodation": "Mbugani Camps or Ndutu Tingitana",
+				"meals": "B, L, D"
+			},
+			{
+				"day": "Day 3",
+				"title": "Ndutu to Central Serengeti",
+				"details": "After finishing up a good breakfast, you will head out towards the Serengeti National Park and travel in the midst of the never ending plain grasslands. Serengeti, means endless plains in the local African language and watching the grassland stretch out as far as the eye can see and eventually merging with the sky at the horizon is an absolutely breathtaking view. The Serengeti ecosystem supports the greatest remaining concentration of plains game in Africa. You must also look out for the Serengeti “Kopjes” which are massive boulders of granite standing in a sea of grass. They provide ample shelter to a large variety of flora and fauna. A picnic lunch will be done during the day long game drive itself. The eventful day will come to an end with a heavy dinner and a good night’s rest in your accommodation. ",
+				"accommodation": "Nyati Migration Camp",
+				"meals": "B, L, D",
+				"drivingtime": "3 hrs"
+			},
+			{
+				"day": "Day 4",
+				"title": "Central Serengeti",
+				"details": "Today you will have a full day game drive in Serengeti with chances to see predators chasing their pray and enjoy their kill. Serengeti is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value. You will have game drive in the endless plains of the Serengeti with a chance to see the great herds of wildebeest, zebras and gazelles or a pride of lions lounging in the shade. ",
+				"accommodation": "Nyati Migration Camp",
+				"meals": "B, L, D"
+			},
+			{
+				"day": "Day 5",
+				"title": "Central Serengeti to NCA",
+				"details": " In the morning, at 7am, you will head out for a short game drive in the Serengeti and after completing a half day game drive along with a picnic lunch, we will branch out and head towards the Ngorongoro crater rim. The 75km drive to Ngorongoro Crater rim will take about 2.5 hrs, with mild game action to see on the way. The crater is one of Africa’s impressive geological attractions and supreme mecca of wilderness.",
+				"accommodation": "Eileen’s Tree Inn",
+				"meals": "B, L, D",
+				"drivingtime": "3 hrs"
+			},
+			{
+				"day": "Day 6",
+				"title": "Ngorongoro Crater Tour (5 hours) to Arusha",
+				"details": "On this day of your safari, you will have an early start. Finishing up with a quick breakfast you will make an early descend at around 6:30 am into the crater floor. The 5 hour game drive in the crater floor, will show you a lot of animal action. The African elephant, buffalo, Black rhino, Hippos, Hyenas, Cheetahs and Lions are found in plenty. Post the picnic lunch at the beautiful Hippo pool, you will begin a steep ascend to the top exit of the crater and drive back to Arusha. With an incredible experience and loads of memories to cherish, this is the time you bid goodbye to your team. ",
+				"meals": "B, L",
+				"drivingtime": "4 hrs"
+			}
+		],
+		"includes": [
+			"Park Fees (for Non-Residents).",
+			"Concession/Camping Fees.",
+			"Park fees",
+			"Daily game drives while on Safari.",
+			"All accommodations while on Safari.",
+			"A Professional driver/guide.",
+			"4x4 Land Cruiser.",
+			"Game drives",
+			"All Taxes and VAT.",
+			"Accommodation and meals",
+			"Meals as per itinerary.",
+			"Drinking water while on safari (2 litres per person per day)."
+		],
+		"excludes": [
+			"International flights.",
+			"Airport Transfers (Unless mentioned otherwise).",
+			"Personal Expenses",
+			"Tips",
+			"Additional accommodation before and at the end of the tour (Unless mentioned otherwise).",
+			"Government imposed increase of Taxes and or Park Fees.",
+			"Any activities not mentioned in the itinerary."
+		],
+		"duration": "6 days",
+		"startingFromPrice": "USD 2528",
+		"description": "Uncover the secret of nature’s miracle and find out how the great wildebeest migration begins."
+	},
+	{
+		"package_id": 5,
+		"country": "Uganda",
+		"title": "Kibale NP, Queen Elizabeth NP, Bwindi NP, and Lake Bunyonyi",
+		"calender": "All Months",
+		"banner": "package_details.jpg",
+		"thumbnail": "package_6.jpg",
+		"overview": "On this perfect 6 day tour of Uganda covering Kibale, Queen Elizabeth, Bwindi and Lake Bunyonyi, You will experience the raw beauty of Uganda’s landscapes and the wilderness. Kibale National Park has one of the highest diversity and concentration of primates in Africa and the best place for chimpanzee tracking. The next stop will be at Queen Elizabeth. it is covered by the African savanna, crater lakes, Kazinga Channel, Lake George and Lake Edward, the Ishasha Plains with its Tree climbing lions. Finally you will head to Bwindi National Park for the iconic gorilla tracking and later to Lake Bunyonyi to relax for the rest of the time and soak in the beauty of Uganda.",
+		"itinerary": [
+			{
+				"day": "Day 1",
+				"title": "Kampala - Kibale Forest National Park",
+				"details": "You will be picked up around 7: 00 am from your Hotel in Kampala by our Guide who will brief you about your tour and then depart for Kibale Forest National Park which will take around five and a half hours of drive. Post Lunch you will be taken for Bigodi Wetland Sanctuary walk.This is a guided swamp walk that takes you closer seeing primates mostly monkeys, birds and butterflies. The wetland is a bird paradise with about 138 species and is best known for being home to the Great Blue Turaco. This is a 2½ - 3 hour walk and is a must for bird lovers. The walk is almost as popular as the Kibale Forest Walk. You will meet some of the primates here, even a chimpanzee at times. Other primate species include the black-and-white colobus, grey-cheeked mangabey, red-tailed, l’Hoest’s and blue monkeys, and olive baboons. Also, Bushbucks and mongooses and many more can also be found here. There is also an abundance of butterflies. Bigodi Sanctuary is located outside the park in Magombe Swamp.",
+				"accommodation": "Overnight at Rweteera Safari Park / Kibale Homestay"
+			},
+			{
+				"day": "Day 2",
+				"title": "Kibale Forest National Park to Queen Elizabeth National Park",
+				"details": "Kibale Forest National Park boasts the highest number of primate species in the world, including the chimpanzees. Approximately 5,000 chimpanzees live in the wild in Uganda, which makes it a perfect place to spot them!  The park is popular for its primate’s population like the chimpanzees, colobus monkeys, red cheeked monkeys and red tailed monkeys. On your chimpanzee trails, these are regularly seen swinging in the forest trees and others feeding on the wild fruits. An experienced ranger will take you chimp tracking in the morning around 6:30 am. Once you locate the chimpanzees, you will have a full hour with them. You will return to the lodge for lunch after which you will head out for Queen Elizabeth National Park which will take around two and a half hours of drive. You will arrive in the evening.",
+				"accommodation": "Overnight at Kazinga Channel View Resort  / Tembo Safari Lodge / Pumba Safari Lodge"
+			},
+			{
+				"day": "Day 3",
+				"title": "Queen Elizabeth NP - Ishasha Sector",
+				"details": "Your day will begin early by 6:30AM, the sunrise time is usually the best time to spot animals in their natural habitats. Heading off for a game drive at the break of dawn you will be able to see Africa’s highly famed “Big 4”, Bush Bucks, Giant Hogs, Antelopes, Waterbucks and plenty of Birds. You will finish your game drive and return back to the accommodation just in time for lunch. After your lunch you will go for a two-hour boat cruise on the Kazinga Channel which connects Lakes George and Lake Edward and you will surely be fascinated by the concentrations of giant hippos, elephants and crocodiles among others. You will also see many varieties of birds at the water shores. After Boat Cruise transfer to Ishasha Sector",
+				"accommodation": "Overnight at River Lodge"
+			},
+			{
+				"day": "Day 4",
+				"title": "Ishasha Sector - Bwindi Impenetrable National Park",
+				"details": "Early morning Game drive at Ishasha sector to see the tree climbing lions if you are lucky and then post Lunch transfer to Bwindi National park. Bwindi Impenetrable National Park is a big habitat for mountain gorillas in Uganda; harbouring an estimated 400 mountain gorillas – roughly half of the world’s population, including several habituated groups, which can be tracked. Its mist-covered hillsides are blanketed by one of Uganda’;s oldest and most biologically diverse rain-forests, which dates back over 25,000 years and contains almost 400 species of plants. With a strenuous day ahead, you will check into your accommodation, relax as you prepare for the Bwindi gorilla trekking experience the following day.",
+				"accommodation": "Overnight at  Broadbill Forest Camp/  Ruhija Gorilla Friends Resort"
+			},
+			{
+				"day": "Day 5",
+				"title": "Bwindi Impenetrable National Park and Batwa Cultural visit",
+				"details": "After an early morning breakfast around 6:30 am you will be driven to the park headquarters for briefing on the do’s and don’ts during gorilla tracking and thereafter you will proceed to the gorilla trail. Gorilla tracking normally lasts between 2 to 8 hours or even a day to encounter the gorillas. However, you will be allowed to stay in the presence of these awesome apes for at least an hour. It is advisable that you carry packed lunch, which will be provided, as one cannot determine how long it may take to encounter the mountain gorillas. If time and energy allow, you may take the Batwa Cultural visit after the gorilla tracking or just have a relaxed afternoon.",
+				"accommodation": "Overnight at Broadbill Forest Camp /  Ruhija Gorilla Friends Resort"
+			},
+			{
+				"day": "Day 6",
+				"title": "Bwindi NP to Lake Bunyonyi to Entebbe",
+				"details": "After breakfast, you will be transferred to Lake Bunyonyi for a Boat ride. This lake is said to be one of the most beautiful places in western Uganda. It is the second deepest lake in Africa (900 meters deep) and also one of the few places in the country where it is considered safe to swim as it is bilharziasis free this takes 2 hours, The landscape around the lake is made up of terraced hills protruding from the water’s edge. Bunyonyi means “place of little birds” and as the name suggests, there is plenty of birdlife around the lake. After the Boat ride you will be transferred back to Entebbe with Lunch en-route.",
+				"accommodation": ""
+			}
+		],
+		"includes": [
+			"Car hires services and Fuel",
+			"Diver’s allowances",
+			"Park fees",
+			"Vehicle entry",
+			"Chimp permit",
+			"Gorilla permit",
+			"Boat Cruises",
+			"Game drives",
+			"Lunch en-routes",
+			"Accommodation and meals",
+			"Please carry suitable closed walking boots and long trousers!"
+		],
+		"excludes": [
+			"Alcoholic drinks / spirits",
+			"Laundry",
+			"Personal Expenses",
+			"Tips"
+		],
+		"duration": "6 days",
+		"startingFromPrice": "USD 1234",
+		"description": "From the golden grasslands of Masai Mara to the tallest peak of Africa, Kilimanjaro this guided private tour will cover them all."
+	}
+]
