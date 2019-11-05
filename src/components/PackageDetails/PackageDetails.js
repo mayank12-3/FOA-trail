@@ -222,7 +222,7 @@ class PackageDetails extends Component {
                                     </Row>
                                 </div>
                             </div>
-                            <div className="other-details">
+                            {/* <div className="other-details">
                                 <div className="title">
                                     <span>Map</span>
                                 </div>
@@ -233,7 +233,7 @@ class PackageDetails extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </Col>
                         <Col sm="4">
                             <Card>
