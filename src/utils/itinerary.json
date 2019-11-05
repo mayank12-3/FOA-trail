@@ -1,6 +1,6 @@
 [{
     "country": "uganda",
-    "thumbnail": "",
+    "thumbnail": "uganda_p1.jpg",
     "title": "Gorilla Tracking in Bwindi NP, Lake Bunyonyi, and Queen Elizabeth NP",
     "locations": ["Entebbe", "Bwindi (1N)", "Lake Bunyonyi (1N)", "Queen Elizabeth (1N)",
     "Entebbe"],
@@ -12,12 +12,12 @@
     ],
     "inclusions": "Prado/Land Cruiser Vehicle, Fuel, Driver's allowances, Park fees, Vehicle entry, Chimp permit, Gorilla permit, Boat Cruises, Game drives, Lunch en-routes, Accommodation, Meals as per Itinerary",
     "exclusions": "Alcoholic drinks / spirits, Laundry, Personal Insurance, Tips",
-    "expectedSightings ": "Giraffe, Zebra, Mountain Gorillas, Chimpanzee, Lions, Elephant, Hippopotamus, Buffalo, etc.",
+    "expectedSightings": "Giraffe, Zebra, Mountain Gorillas, Chimpanzee, Lions, Elephant, Hippopotamus, Buffalo, etc.",
     "duration": "4D / 3N",
     "season": "All Months"
 },{
     "country": "uganda",
-    "thumbnail": "",
+    "thumbnail": "uganda_p2.jpg",
     "title": "Kibale NP, Queen Elizabeth NP, Bwindi NP, and Lake Bunyonyi",
     "locations": ["Entebbe", "Kibale (1N)", "Queen Elizabeth (1N)", "Ishasha Sector (1N)",
     "Bwindi (2N)", "Entebbe"],
@@ -29,12 +29,12 @@
     ],
     "inclusions": "Prado/Land Cruiser Vehicle, Fuel, Driver's allowances, Park fees, Vehicle entry, Chimp permit, Gorilla permit, Boat Cruises, Game drives, Lunch en-routes, Accommodation, Meals as per Itinerary",
     "exclusions": "Alcoholic drinks / spirits, Laundry, Personal Insurance, Tips",
-    "expectedSightings ": "Mountain Gorillas, Chimpanzee, Lions, Leopard, Hippopotamus, Giraffe, Zebra, Elephant, Buffalo, etc.",
+    "expectedSightings": "Mountain Gorillas, Chimpanzee, Lions, Leopard, Hippopotamus, Giraffe, Zebra, Elephant, Buffalo, etc.",
     "duration": "6D / 3N",
     "season": "All Months"
 }, {
     "country": "uganda",
-    "thumbnail": "",
+    "thumbnail": "uganda_p3.jpg",
     "title": "Wildlife Safari in Queen Elizabeth NP",
     "locations": ["Entebbe", "Queen Elizabeth (2N)", "Entebbe"],
     "instructions": [
@@ -44,12 +44,12 @@
     ],
     "inclusions": "Prado/Land Cruiser Vehicle, Fuel, Driver's allowances, Park fees, Vehicle entry, Chimp permit, Gorilla permit, Boat Cruises, Game drives, Lunch en-routes, Accommodation, Meals as per Itinerary",
     "exclusions": "Alcoholic drinks / spirits, Laundry, Personal Insurance, Tips",
-    "expectedSightings ": "Giraffe, Zebra, Lions, Elephant, Hippopotamus, Buffalo, Leopard, Rhino etc.",
+    "expectedSightings": "Giraffe, Zebra, Lions, Elephant, Hippopotamus, Buffalo, Leopard, Rhino etc.",
     "duration": "3D / 2N",
     "season": "All Months"
 },{
     "country": "kenya",
-    "thumbnail": "",
+    "thumbnail": "kenya_p1.jpg",
     "title": "The African Big 5 Safari",
     "locations": ["Nairobi", "Samburu (2N)", "Lake Nakuru (1N)", "Masai Mara (2N)", "Nairobi"],
     "instructions": [
@@ -65,7 +65,7 @@
     "season": "Low Season (April – May)"
 },{
     "country": "kenya",
-    "thumbnail": "",
+    "thumbnail": "kenya_p2.jpg",
     "title": "Wildebeest Migration Safari",
     "locations": ["Nairobi", "Masai Mara (3N)", "Lake Nakuru (1N)", "Lake Naivasha (1N)", "Amboseli (2N)", "Nairobi"],
     "instructions": [
@@ -82,7 +82,7 @@
     "season": "Peak Season (July – Oct)"
 },{
     "country": "Kenya",
-    "thumbnail": "",
+    "thumbnail": "kenya_p3.jpg",
     "title": "A week in Kenya's Wilderness",
     "locations": ["Nairobi", "Amboseli(2N)", "Lake Naivasha (2N)", "Masai Mara (2N)", "Nairobi"],
     "instructions": [
@@ -99,7 +99,7 @@
     "season": "High Season (Nov – Mar)"
 }, {
     "country": "tanzania",
-    "thumbnail": "",
+    "thumbnail": "tanzania_p1.jpg",
     "title": "Serengeti, Ngorongoro and Lake Manyara",
     "locations": ["Arusha", "Lake Manyara", "Lake Manyara (1N)", "Serengeti (1N)",
     "Ngorongoro (1N)", "Arusha"],
@@ -111,13 +111,13 @@
     ],
     "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
     "exclusions": "Flights, Visa, Tips",
-    "expectedSightings ": "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
+    "expectedSightings": "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
     "duration": "4D / 3N",
     "season": "All Months"
 }, {
     
     "country": "tanzania",
-    "thumbnail": "",
+    "thumbnail": "tanzania_p2.jpg",
     "title": "Tanzania's Northern Circuit Camping Safari",
     "locations": ["Arusha", "Tarangire (1N) ", "Central Serengeti (2N) ", "Ngorongoro (1N)", "Lake Manyara (1N)",
     "Arusha"],
@@ -129,12 +129,12 @@
     ],
     "inclusions": "Camping Accommodation, Private Vehicle, Top Class Guide, All Park Fees, Crater fees, Meals",
     "exclusions": "Flights, Visa, Tips",
-    "expectedSightings ": "Masai Giraffe, Wild dogs, Impala, Gazelle, Cheetah, Buffalo, Lion, Wildebeest, Zebra, Hyenas, Elephant, etc.",
+    "expectedSightings": "Masai Giraffe, Wild dogs, Impala, Gazelle, Cheetah, Buffalo, Lion, Wildebeest, Zebra, Hyenas, Elephant, etc.",
     "duration": "6D / 5N",
     "season": "Jun - Oct"
 },{
     "country": "tanzania",
-    "thumbnail": "",
+    "thumbnail": "tanzania_p3.jpg",
     "title": "Ndutu Wildebeest Calving safari",
     "locations": ["Arusha", "Ndutu (2N)", "Central Serengeti (2N)", "Ngorongoro (1N)",
     "Arusha"],
@@ -146,7 +146,7 @@
     ],
     "inclusions": "Accommodation and Meals, Private Vehicle, Top Class Guide, All Park Fees, Crater fees",
     "exclusions": "Flights, Visa, Tips",
-    "expectedSightings ": "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
+    "expectedSightings": "Lion, Cheetah, Giraffe, Zebra, Hyenas, Elephant, Buffalo, Impala, Wildebeest, etc.",
     "duration": "6D / 5N",
     "season": "Jan - Mar"
 }]

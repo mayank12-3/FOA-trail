@@ -8,6 +8,7 @@ import {
 import Validate from '../../../utils/validate';
 import { TextField } from '@material-ui/core';
 import Button from '../Button/Button';
+import { contactUs } from '../../../common/Api/commonApi';
 import './ContactDetailsForm.scss';
 
 class ContactDetailsForm extends Component {
@@ -52,6 +53,14 @@ class ContactDetailsForm extends Component {
     }
     onSubmit = () => {
         if(Validate.Email(this.state.email) && this.state.contactNumber.length === 10) {
+            const payload = {
+                "text": "\n Name - " + this.state.name + "\n Email - " + this.state.email +
+                "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message
+            };
+
+            contactUs(payload)
+                .then(resp => console.log(resp))
+                .catch(error => console.log(error));
             //Submit the form
             this.setState({
                 isError: false
