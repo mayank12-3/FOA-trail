@@ -42,7 +42,7 @@ class PackageDetails extends Component {
     }
 
     setBannerStyle = (data) => {
-        const bannerImageSrc = data.banner ? require(`../../assets/images/${data.banner}`) : '';
+        const bannerImageSrc = data.banner ? require(`../../assets/images/packages/${data.banner}`) : '';
         this.bannerStyle = {
             background: `url(${bannerImageSrc}) no-repeat`,
         }

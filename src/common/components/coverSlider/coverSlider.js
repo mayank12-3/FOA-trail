@@ -2,9 +2,9 @@ import React from 'react';
 import Coverflow from 'react-coverflow';
 import Button from '../Button/Button';
 import { withRouter } from 'react-router-dom';
-import Kenya from '../../../assets/images/CS_Kenya.jpg';
-import Uganda from '../../../assets/images/CS_Uganda.png';
-import Tanzania from '../../../assets/images/CS_Tanzania.jpg';
+import Kenya from '../../../assets/images/home/cs_kenya.jpg';
+import Uganda from '../../../assets/images/home/cs_uganda.png';
+import Tanzania from '../../../assets/images/home/cs_tanzania.jpg';
 import './coverSlider.scss';
 
 class CoverSlider extends React.Component {

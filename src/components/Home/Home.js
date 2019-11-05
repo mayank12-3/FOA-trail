@@ -5,11 +5,11 @@ import HelpMe from './Sections/HelpMe';
 import Testimonial from './Sections/Testimonial';
 import WhoAreWe from './Sections/WhoAreWe';
 import Packages from './Sections/Packages';
-import Home_1 from '../../assets/images/Home_1.jpg';
-import Home_2 from '../../assets/images/Home_2.jpg';
-import Home_3 from '../../assets/images/Home_3.jpg';
-import Home_4 from '../../assets/images/Home_4.jpg';
-import Home_5 from '../../assets/images/Home_5.jpg';
+import Home_1 from '../../assets/images/home/Home_1.jpg';
+import Home_2 from '../../assets/images/home/Home_2.jpg';
+import Home_3 from '../../assets/images/home/Home_3.jpg';
+import Home_4 from '../../assets/images/home/Home_4.jpg';
+import Home_5 from '../../assets/images/home/Home_5.jpg';
 import './Home.scss';
 
 class Home extends Component {
