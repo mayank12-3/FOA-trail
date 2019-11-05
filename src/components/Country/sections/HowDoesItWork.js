@@ -23,7 +23,7 @@ const HowDoesItWork = () => {
         return details.map((data, i) => {
             const cardIcon = <FontAwesomeIcon icon={data.icon} />
             return (
-                <Col sm="4" key={i}>
+                <Col sm="4" key={i} style={{ display: 'flex' }}>
                     <InfoCard
                         cardIcon={cardIcon}
                         title={data.title}

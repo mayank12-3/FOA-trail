@@ -148,7 +148,7 @@ class Kenya extends Component {
         return options.map((data, i) => {
             const thumbnailImageSrc = data.image ? require(`../../../assets/images/kenya-custom-quote/${data.image}`) : '';
             return (
-                <Col sm="3" key={i} onClick={() => this.optionsChangeHandler(name, data.id)}>
+                <Col sm="4" md="3" xs="12" key={i} onClick={() => this.optionsChangeHandler(name, data.id)}>
                     <InfoCard
                         src={thumbnailImageSrc}
                         className={data.isSelected ? 'active' : ''}
@@ -168,21 +168,22 @@ class Kenya extends Component {
             option.isSelected = (option.id === id) ? !option.isSelected : false;
             return option;
         });
+        let ifAnySelected = !!selectedOptionType.find(opt => (opt.isSelected))
         // const selectedOption = selectedOptionType.find(option => option.id === id);
         // selectedOption.isSelected = !selectedOption.isSelected;
         this.setState({
             options: {
                 ...this.state.options,
-                [name]: [...selectedOptionType]
             }
         }, () => {
             // const isButtonDisabled = _.chain(selectedOptionType).filter(option => option.isSelected).isEmpty().value();
             this.setTabs(false);
-            this.enabledDisabledNextButton();
+            this.enabledDisabledNextButton(ifAnySelected);
+            // this.onNextTab()
         });
     }
 
-    enabledDisabledNextButton = () => {
+    enabledDisabledNextButton = (flg) => {
         const options = { ...this.state.options };
         const activeTabIndex = this._getActiveTabIndex();
         const name = this.state.tabs[activeTabIndex].name;
@@ -190,6 +191,8 @@ class Kenya extends Component {
         const isButtonDisabled = _.chain(currentOptionType).filter(option => option.isSelected).isEmpty().value();
         this.setState({
             isButtonDisabled
+        }, () => {
+          flg && this.onNextTab()
         });
     }
 
