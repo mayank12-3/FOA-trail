@@ -8,7 +8,7 @@ import {
 import Validate from '../../../utils/validate';
 import { TextField } from '@material-ui/core';
 import Button from '../Button/Button';
-import { submitForm } from '../../../common/Api/commonApi';
+import { contactUs } from '../../../common/Api/commonApi';
 import './ContactDetailsForm.scss';
 
 class ContactDetailsForm extends Component {
@@ -58,7 +58,7 @@ class ContactDetailsForm extends Component {
                 "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message
             };
 
-            submitForm(payload)
+            contactUs(payload)
                 .then(resp => console.log(resp))
                 .catch(error => console.log(error));
             //Submit the form
