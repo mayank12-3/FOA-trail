@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { 
+import {
     Row,
     Col,
     Modal,
@@ -22,7 +22,7 @@ class ContactDetailsForm extends Component {
     onChangeHandler = (e) => {
         let { name, value } = e.target;
         value = value.trim() !== '' ? value : '';
-        
+
         if(this.isValueValid(name, value) ) {
             this.setState({
                 [name]: value,
@@ -39,7 +39,7 @@ class ContactDetailsForm extends Component {
                 return Validate.Text(value);
             case 'contactNumber':
                 return Validate.Number(value);
-            default: 
+            default:
                 return true;
         }
     }
@@ -73,7 +73,7 @@ class ContactDetailsForm extends Component {
                 <Row className="contact-modal-body">
                     <Col sm="6" className="modal-image">
                     </Col>
-                    <Col sm="6" className="conatct-us-form">
+                    <Col sm="6" className="contact-us-form">
                         <div className="form-title">
                             <hr/>
                             <span>Contact Us</span>

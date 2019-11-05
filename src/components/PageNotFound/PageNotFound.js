@@ -1,5 +1,6 @@
 import React from 'react';
 import { Banner } from '../../common/components/'
+import WhoAreWe from '../Home/Sections/WhoAreWe'
 import './PageNotFound.scss';
 
 const PageNotFound = (props) => <div className='page_not_found_container'>
@@ -12,6 +13,7 @@ const PageNotFound = (props) => <div className='page_not_found_container'>
         props.history.replace('/');
       }}
   />
+  <WhoAreWe />
 </div>
 
 export default PageNotFound

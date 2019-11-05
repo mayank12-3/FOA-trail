@@ -9,6 +9,10 @@ import './coverSlider.scss';
 
 class CoverSlider extends React.Component {
   redirectTo = (country) => {
+    if (this.props.packageOnClick) {
+      this.props.packageOnClick()
+      return
+    }
     this.props.history.push(`/tour?country=${country}`);
   }
 
@@ -45,11 +49,11 @@ class CoverSlider extends React.Component {
               role="menuitem"
               tabIndex="0"
               className="cover-slider_img">
+              <h3>{data.title} Packages</h3>
               <img key={index} style={{ display: "block", width: "100%" }} src={data.src} alt={data.title}/>
               <Button
                 onClick={() => this.redirectTo(data.title)}
-                className="primary"
-              >{`${data.title} Packages`}</Button>
+                className="primary">Get Quote</Button>
             </div>
           ))}
         </Coverflow>

@@ -59,11 +59,16 @@
             .form-title {
                 width: 100%;
                 position: relative;
+                hr {
+                  margin: 20px;
+                }
                 span {
-                    background: $lightBlue;
+                    // color: $soilColor !important;
+                    background: $white;
                     position: absolute;
                     top: 8px;
                     left: 40%;
+                    @include font('Roboto', 25px, 600, $soilColor);
                 }
             }
 
@@ -92,4 +97,3 @@
     }
 
 }
-
