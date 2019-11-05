@@ -9,10 +9,6 @@ import './coverSlider.scss';
 
 class CoverSlider extends React.Component {
   redirectTo = (country) => {
-    if (this.props.packageOnClick) {
-      this.props.packageOnClick()
-      return
-    }
     this.props.history.push(`/tour?country=${country}`);
   }
 
