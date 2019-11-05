@@ -37,9 +37,9 @@
             .form-title {
                 width: 100%;
                 position: absolute;
-                top: 30px;
+                top: 50px;
                 text-align: center;
-                @include font('Roboto', 25px, 600, $soilColor);
+                @include font('Roboto', 40px, 600, $soilColor);
             }
 
             form {

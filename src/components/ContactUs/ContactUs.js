@@ -67,8 +67,11 @@ class ContactUs extends Component {
     onSubmit = () => {
         if (Validate.Email(this.state.email) && this.state.contactNumber.length === 10) {
             const payload = {
-                "text": "Test web hooks"
+                "text": "\n Name - " + this.state.name + "\n Email - " + this.state.email +
+                "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message
             };
+
+            
             contactUs(payload)
                 .then(resp => console.log(resp))
                 .catch(error => console.log(error));
@@ -111,7 +114,6 @@ class ContactUs extends Component {
                         </Col>
                         <Col sm="6" className="conatct-us-form">
                             <div className="form-title">
-                                <hr />
                                 <span>Contact Us</span>
                             </div>
                             <form>
