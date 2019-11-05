@@ -75,7 +75,6 @@ class ContactDetailsForm extends Component {
                     </Col>
                     <Col sm="6" className="contact-us-form">
                         <div className="form-title">
-                            <hr/>
                             <span>Contact Us</span>
                         </div>
                         <form>

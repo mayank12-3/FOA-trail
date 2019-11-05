@@ -3,22 +3,26 @@
 
 .contact-us-modal {
     max-width: 800px !important;
-
+    top: 50%;
+    transform: translateY(-50%) !important;
     .modal-body {
         padding: 0;
         overflow: hidden;
     }
     .contact-modal-body {
         background: $lightBlue;
+        position: relative;
         .modal-image {
-            height: 600px;
+            height: 550px;
             background: url("../../../assets//images/others/modal_image.jpg") no-repeat;
             background-size: cover;
         }
         .footer-button {
-            margin-top: 30px;
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            // margin-top: 30px;
             text-align: right;
-
             button {
                 margin-left: 15px;
             }
@@ -32,17 +36,10 @@
             padding-right: 25px;
             .form-title {
                 width: 100%;
-                position: relative;
-                hr {
-                  margin: 20px;
-                }
-                span {
-                    background: $white;
-                    position: absolute;
-                    top: 8px;
-                    left: 40%;
-                    @include font('Roboto', 25px, 600, $soilColor);
-                }
+                position: absolute;
+                top: 30px;
+                text-align: center;
+                @include font('Roboto', 25px, 600, $soilColor);
             }
 
             form {

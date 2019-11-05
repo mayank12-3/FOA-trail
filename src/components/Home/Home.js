@@ -78,7 +78,7 @@ class Home extends Component {
                 </div>
                 <WhoAreWe />
                 <Packages />
-                <CoverSlider packageOnClick={this.toggleModal} />
+                <CoverSlider />
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <Testimonial />
             </div>

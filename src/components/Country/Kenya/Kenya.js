@@ -139,7 +139,7 @@ class Kenya extends Component {
         } else {
             // If Button is disabled, user can move previous only
             if(index < oldIndex) {
-               _changeTab(); 
+               _changeTab();
             }
         }
     }
@@ -198,13 +198,13 @@ class Kenya extends Component {
             <div className="kenya_container">
                 {
                     this.state.isContactUsModalOpen ?
-                    <ContactDetailsForm 
+                    <ContactDetailsForm
                         className="contact-us-modal"
-                        isOpen={this.state.isContactUsModalOpen} 
+                        isOpen={this.state.isContactUsModalOpen}
                         toggle={this.toggleModal}
                         title="Contact Us"/> : ''
                 }
-                <Banner 
+                <Banner
                     className="kenya-banner"
                     bannerText="Begin Your Perfect Kenya Safari"
                     buttonText="Plan My Safari"
@@ -230,7 +230,7 @@ class Kenya extends Component {
                 <WhyThePackage />
                 {
                     this.state.itinerary.length > 0 ?
-                    <Itinerary itinerary={this.state.itinerary}/> : ''
+                    <Itinerary itinerary={this.state.itinerary} getQuoteHandler={this.toggleModal} /> : ''
                 }
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <WhyUs />
@@ -310,7 +310,7 @@ class Kenya extends Component {
                         </Row>
                     </Col>
                 );
-            default: 
+            default:
                 return '';
         };
     }

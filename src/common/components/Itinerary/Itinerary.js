@@ -85,7 +85,7 @@ debugger
                   </div>
                 </Grid>
                 <div className='pricing-btn-wrapper'>
-                  <Button className="primary">
+                  <Button className="primary" onClick={props.getQuoteHandler}>
                     Plan my Trip
                   </Button>
                 </div>

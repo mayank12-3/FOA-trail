@@ -138,7 +138,7 @@ class Uganda extends Component {
         } else {
             // If Button is disabled, user can move previous only
             if(index < oldIndex) {
-               _changeTab(); 
+               _changeTab();
             }
         }
     }
@@ -198,9 +198,9 @@ class Uganda extends Component {
             <div className="uganda_container">
                 {
                     this.state.isContactUsModalOpen ?
-                    <ContactDetailsForm 
+                    <ContactDetailsForm
                         className="contact-us-modal"
-                        isOpen={this.state.isContactUsModalOpen} 
+                        isOpen={this.state.isContactUsModalOpen}
                         toggle={this.toggleModal}
                         title="Contact Us"/> : ''
                 }
@@ -228,8 +228,8 @@ class Uganda extends Component {
                     </div>
                 </div>
                 {
-                    this.state.itinerary.length > 0 ? 
-                    <Itinerary itinerary={this.state.itinerary}/> : ''
+                    this.state.itinerary.length > 0 ?
+                    <Itinerary itinerary={this.state.itinerary} getQuoteHandler={this.toggleModal} /> : ''
                 }
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <WhyUs />
@@ -309,7 +309,7 @@ class Uganda extends Component {
                         </Row>
                     </Col>
                 );
-            default: 
+            default:
                 return '';
         };
     }
