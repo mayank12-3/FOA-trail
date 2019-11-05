@@ -5,7 +5,7 @@ import {
 } from '@material-ui/core';
 import { Col, Row } from 'reactstrap';
 import { Button } from '../';
-// import tempImg from '../../../assets/images/others/modal_image.jpg'
+import tempImg from '../../../assets/images/others/modal_image.jpg'
 import './Itinerary.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faClock, faCalendar} from '@fortawesome/free-solid-svg-icons';
@@ -13,8 +13,8 @@ import { faClock, faCalendar} from '@fortawesome/free-solid-svg-icons';
 const Itinerary = (props) => {
     const renderOptions = (itinerary = []) => {
       return props.itinerary.map((data, i) => {
-        const thumbnailImageSrc = data.thumbnail ? require(`../../../assets/images/${data.country}-landing/${data.thumbnail}`) : '';
-debugger
+        const thumbnailImageSrc = tempImg
+        // const thumbnailImageSrc = data.thumbnail ? require(`../../../assets/images/${data.country}-landing/${data.thumbnail}`) : '';
           return (
             <div key={i} className="planned_itinerary">
               <Row>
