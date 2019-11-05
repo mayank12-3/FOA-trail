@@ -5,7 +5,7 @@ import {
 } from '@material-ui/core';
 import { Col, Row } from 'reactstrap';
 import { Button } from '../';
-import tempImg from '../../../assets/images/others/modal_image.jpg'
+// import tempImg from '../../../assets/images/others/modal_image.jpg'
 import './Itinerary.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faClock, faCalendar} from '@fortawesome/free-solid-svg-icons';
@@ -13,13 +13,15 @@ import { faClock, faCalendar} from '@fortawesome/free-solid-svg-icons';
 const Itinerary = (props) => {
     const renderOptions = (itinerary = []) => {
       return props.itinerary.map((data, i) => {
+        const thumbnailImageSrc = data.thumbnail ? require(`../../../assets/images/${data.country}-landing/${data.thumbnail}`) : '';
+debugger
           return (
             <div key={i} className="planned_itinerary">
               <Row>
               <Col sm='12' lg='9'>
                 <Row>
                   <Col sm='12' md='5' className='itenary-img-wrapper'>
-                    <img src={tempImg} alt="itineraryimage"/>
+                    <img src={thumbnailImageSrc} alt="itineraryimage"/>
                   </Col>
                   <Col sm='12' md='7' className='itenary-content-wrapper'>
                     <div className='content-padding'>
