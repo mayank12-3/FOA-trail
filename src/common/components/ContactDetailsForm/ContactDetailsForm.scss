@@ -24,20 +24,24 @@
             }
         }
 
-        .conatct-us-form {
+        .contact-us-form {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-
+            padding-right: 25px;
             .form-title {
                 width: 100%;
                 position: relative;
+                hr {
+                  margin: 20px;
+                }
                 span {
-                    background: $lightBlue;
+                    background: $white;
                     position: absolute;
                     top: 8px;
                     left: 40%;
+                    @include font('Roboto', 25px, 600, $soilColor);
                 }
             }
 

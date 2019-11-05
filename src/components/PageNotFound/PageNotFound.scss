@@ -16,5 +16,11 @@
       align-items: center;
 
       @include font('Roboto', 50px, 600, $white);
+      .banner_section {
+        button {
+          width: 350px;
+          height: 50px;
+        }
+      }
   }
 }

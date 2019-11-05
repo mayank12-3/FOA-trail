@@ -36,6 +36,7 @@
     }
     .highlighted-content {
       background-color: $lightSoilColor;
+      height: 62px;
     }
     .itenary-img-wrapper {
       padding: 0;
@@ -69,11 +70,11 @@
         }
 
         span {
-            margin-right: 30px;
+            // margin-right: 30px;
             display: flex;
             align-items: center;
             flex-direction: column;
-            padding-top: 10px;
+            // padding-top: 10px;
             padding-left: 10px;
         }
 
