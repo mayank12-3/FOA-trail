@@ -3,8 +3,7 @@ export const getElementProps = (ele) => {
 }
 
 
-export const getQueryparams = (qry) => {
-  let params = qry.replace('?', '')
+export const getQueryparams = (params) => {
   params = params.replace('?', '').split('&') // [step=1, step=2]
   let queryObj = null
   params.map((data, index) => {
@@ -13,6 +12,7 @@ export const getQueryparams = (qry) => {
       ...queryObj,
       [dummy[0]]: dummy[1]
     }
+    return queryObj
   })
   return queryObj
 }
