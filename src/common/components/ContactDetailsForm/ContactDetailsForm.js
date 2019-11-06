@@ -54,9 +54,24 @@ class ContactDetailsForm extends Component {
     onSubmit = () => {
         if(Validate.Email(this.state.email) && this.state.contactNumber.length === 10) {
             const payload = {
-                "text": "\n Name - " + this.state.name + "\n Email - " + this.state.email +
-                "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message
-            };
+                "text": ":star: Yo nigga! you got a submission.",
+                "blocks": [
+                    {
+                        "type": "section",
+                        "block_id": "section567",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "<https://www.fullofafrica.com/|Overlook> \n Name - " + this.state.name + "\n Email - " + this.state.email +
+                                "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message
+                        },
+                        "accessory": {
+                            "type": "image",
+                            "image_url": "https://is5-ssl.mzstatic.com/image/thumb/Purple3/v4/d3/72/5c/d3725c8f-c642-5d69-1904-aa36e4297885/source/256x256bb.jpg",
+                            "alt_text": "Full of Arica"
+                        }
+                    },
+                ]
+            }
 
             contactUs(payload)
                 .then(resp => console.log(resp))

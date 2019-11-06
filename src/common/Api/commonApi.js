@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const contactUs = (payload = {}) => {
     debugger
-    return axios.post("https://hooks.slack.com/services/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", payload, {
+    return axios.post("https://hooks.slack.com/services/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", payload, {
         headers : {
             'Content-Type': 'application/x-www-form-urlencoded'
         } 
