@@ -55,7 +55,8 @@ class ContactDetailsForm extends Component {
         if(Validate.Email(this.state.email) && this.state.contactNumber.length === 10) {
             const payload = {
                 "text": "\n Name - " + this.state.name + "\n Email - " + this.state.email +
-                "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message
+                "\n Phone - " + this.state.contactNumber + "\n Message - " + this.state.message,
+                "packageDetails": this.props.packageDetails
             };
 
             contactUs(payload)
@@ -134,32 +135,32 @@ class ContactDetailsForm extends Component {
                                 />
                             </Col>
                             <Col sm="12">
-                            <TextField
-                                id="standard-multiline-flexible"
-                                label="Message"
-                                multiline
-                                name="message"
-                                rowsMax="4"
-                                margin="normal"
-                                onChange={this.onChangeHandler}
-                                inputProps={{ maxLength: 2000 }}
-                                value={this.state.message}
-                            />
+                              <TextField
+                                  id="standard-multiline-flexible"
+                                  label="Message"
+                                  multiline
+                                  name="message"
+                                  rowsMax="4"
+                                  margin="normal"
+                                  onChange={this.onChangeHandler}
+                                  inputProps={{ maxLength: 2000 }}
+                                  value={this.state.message}
+                              />
                             </Col>
                             <Col sm="12" className="footer-button">
-                            <Button
-                                className="secondary"
-                                onClick={this.props.toggle}
-                            >
-                                Cancel
-                            </Button>
-                            <Button
-                                className="primary"
-                                onClick={this.onSubmit}
-                                disabled={this.state.isButtonDisabled}
-                            >
-                                Submit
-                            </Button>
+                              <Button
+                                  className="secondary"
+                                  onClick={this.props.toggle}
+                              >
+                                  Cancel
+                              </Button>
+                              <Button
+                                  className="primary"
+                                  onClick={this.onSubmit}
+                                  disabled={this.state.isButtonDisabled}
+                              >
+                                  Submit
+                              </Button>
                             </Col>
                         </form>
                     </Col>

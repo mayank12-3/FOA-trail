@@ -19,7 +19,7 @@ class EnquiryForm extends Component {
     onChangeHandler = (e) => {
         let { name, value } = e.target;
         value = value.trim() !== '' ? value : '';
-        
+
         if(this.isValueValid(name, value) ) {
             this.setState({
                 [name]: value,
@@ -38,7 +38,7 @@ class EnquiryForm extends Component {
             case 'contactNumber':
             case 'numberOfTravellers':
                 return Validate.Number(value);
-            default: 
+            default:
                 return true;
         }
     }
@@ -50,6 +50,7 @@ class EnquiryForm extends Component {
         });
     }
     onSubmit = () => {
+        console.log('props', this.props)
         if(Validate.Email(this.state.email) && this.state.contactNumber.length === 10) {
             //Submit the form
             this.setState({

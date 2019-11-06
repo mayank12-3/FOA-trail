@@ -176,7 +176,7 @@ class PackageDetails extends Component {
                 />
                 <div className="wrapper">
                     <Row className="details">
-                        <Col sm="8">
+                        <Col sm="12" md="8">
                             <div className="details_title">
                                 <h2>{packageDetails.title}</h2>
                             </div>
@@ -235,9 +235,9 @@ class PackageDetails extends Component {
                                 </div>
                             </div> */}
                         </Col>
-                        <Col sm="4">
+                        <Col sm="12" md="4">
                             <Card>
-                                <EnquiryForm />
+                                <EnquiryForm packageDetails={packageDetails} />
                             </Card>
                             {
                                 this.renderFeaturedTours()

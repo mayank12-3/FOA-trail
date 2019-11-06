@@ -51,9 +51,10 @@ class Uganda extends Component {
         window.scrollTo(0,0);
     }
 
-    toggleModal = () => {
+    toggleModal = (pckgDetails) => {
         this.setState({
-            isContactUsModalOpen: !this.state.isContactUsModalOpen
+            isContactUsModalOpen: !this.state.isContactUsModalOpen,
+            packageDetails: !this.state.isContactUsModalOpen && pckgDetails
         });
     }
 
@@ -199,6 +200,7 @@ class Uganda extends Component {
                 {
                     this.state.isContactUsModalOpen ?
                     <ContactDetailsForm
+                        packageDetails={this.state.packageDetails}
                         className="contact-us-modal"
                         isOpen={this.state.isContactUsModalOpen}
                         toggle={this.toggleModal}
@@ -228,8 +230,9 @@ class Uganda extends Component {
                     </div>
                 </div>
                 {
-                    this.state.itinerary.length > 0 ?
-                    <Itinerary itinerary={this.state.itinerary} getQuoteHandler={this.toggleModal} /> : ''
+                    this.state.itinerary.length ?
+                    <Itinerary itinerary={this.state.itinerary}
+                      getQuoteHandler={(pckgDetails) => this.toggleModal(pckgDetails)} /> : ''
                 }
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <WhyUs />

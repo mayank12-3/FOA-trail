@@ -85,7 +85,7 @@ const Itinerary = (props) => {
                   </div>
                 </Grid>
                 <div className='pricing-btn-wrapper'>
-                  <Button className="primary" onClick={props.getQuoteHandler}>
+                  <Button className="primary" onClick={() => { props.getQuoteHandler(data) }}>
                     Plan my Trip
                   </Button>
                 </div>
