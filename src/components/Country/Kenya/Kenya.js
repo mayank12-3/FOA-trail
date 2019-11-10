@@ -235,12 +235,12 @@ class Kenya extends Component {
                         />
                     </div>
                 </div>
-                <WhyThePackage />
                 {
                     this.state.itinerary.length > 0 ?
                     <Itinerary itinerary={this.state.itinerary}
                       getQuoteHandler={(pckgDetails) => this.toggleModal(pckgDetails)} /> : ''
                 }
+                {/* <WhyThePackage /> */}
                 <HelpMe onHelpMeClickHandler={this.toggleModal} />
                 <WhyUs />
             </div>

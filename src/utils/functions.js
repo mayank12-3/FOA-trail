@@ -13,6 +13,7 @@ export const getQueryparams = (qry) => {
       ...queryObj,
       [dummy[0]]: dummy[1]
     }
+    return data
   })
   return queryObj
 }
