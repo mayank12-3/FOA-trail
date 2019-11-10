@@ -12,7 +12,7 @@ const HelpMe = (props) => {
                         className="primary"
                         onClick={props.onHelpMeClickHandler}
                     >
-                        Help me
+                        Let's Plan
                     </Button>
                 </div>
             </div>
