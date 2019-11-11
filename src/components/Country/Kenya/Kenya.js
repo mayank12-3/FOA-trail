@@ -108,6 +108,9 @@ class Kenya extends Component {
             //active new tab
             this._activeDeactiveTab(newIndex, true);
         }
+        else {
+            this.onFinish();
+        }
     }
 
     onPreviousTab = () => {

@@ -58,7 +58,7 @@ class Tabs extends Component {
         return activeIndex < (lengthOfTabs - 1);
     }
 
-    showFinishedBurtton = () => {
+    showFinishedButton = () => {
         const activeIndex = this._getActiveTabIndex();
         const lengthOfTabs = this.props.tabs.length;
         return activeIndex === (lengthOfTabs - 1)
@@ -109,7 +109,7 @@ class Tabs extends Component {
                             </Button> : ''
                             }
                             {
-                                this.showFinishedBurtton() ?
+                                this.showFinishedButton() ?
                                     <Button
                                         className="primary"
                                         disabled={this.props.disabledNextButton}
