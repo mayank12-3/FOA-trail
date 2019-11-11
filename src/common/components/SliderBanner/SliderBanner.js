@@ -16,7 +16,7 @@ class SliderBanner extends Component {
         activeIndex: 0,
         animating: false
     }
-    
+
     onNext = () => {
         if (this.state.animating) return;
         const nextIndex = this.state.activeIndex === this.props.items.length - 1 ? 0 : this.state.activeIndex + 1;
@@ -59,7 +59,7 @@ class SliderBanner extends Component {
                         {/* <Button className="primary" onClick={() => this.props.history.push({pathname:'/get-quotes', search:`C=${item.path}`})}>Get Quotes</Button> */}
                         </div>
                     </CarouselItem>
-               
+
             );
         });
     }

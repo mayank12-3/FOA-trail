@@ -23,7 +23,7 @@
             }
 
             @include font('Roboto', 50px, 600, $white);
-        } 
+        }
     }
 
     // .how-does-it-work_container {
@@ -35,6 +35,13 @@
     //         }
     //     }
     // }
+    .itinerary-container {
+      h2 {
+          padding-top: 30px;
+          text-align: center;
+          @include font('Roboto', 35px, 600);
+      }
+    }
 }
 
 .tabs {
@@ -57,16 +64,16 @@
         }
         .MuiPaper-root {
             margin-bottom: 25px;
-    
+
             // .MuiAvatar-colorDefault {
                 // color: $soilColor;
             // }
-    
+
             .MuiTypography-root {
                 text-align: left;
             }
         }
-    
+
         .MuiCardContent-root {
             max-height: 150px;
         }

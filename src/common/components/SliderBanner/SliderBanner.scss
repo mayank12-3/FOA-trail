@@ -2,5 +2,7 @@
 @import '../../styles/variables';
 
 .banner-text {
-  @include font('Roboto', 95px, 600, $white);
+  h2 {
+    @include font('Roboto-LightItalic', 45px, 300, $white);
+  }
 }

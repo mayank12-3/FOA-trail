@@ -6,8 +6,9 @@ import GetQuotes from '../GetQuotes/GetQuotes';
 import AboutUs from '../AboutUs/AboutUs';
 import Privacy from '../Privacy/Privacy';
 import Terms from '../Terms/Terms';
-import PageNotFound from '../PageNotFound/PageNotFound.js'
+import PageNotFound from '../PageNotFound/PageNotFound.js';
 import PackageDetails from '../PackageDetails/PackageDetails';
+import ThankYouComponent from '../ThankYou/ThankYou';
 
 const Routes = () => {
     return(
@@ -52,6 +53,11 @@ const Routes = () => {
                     path="/pagenotfound"
                     exact
                     component={PageNotFound}
+                />
+                <Route
+                    path="/thankyou"
+                    exact
+                    component={ThankYouComponent}
                 />
                 <Redirect path="*" to="/pagenotfound" />
             </Switch>

@@ -38,6 +38,9 @@ class CoverSlider extends React.Component {
 
     return (
       <div className="cover-slider_container">
+        {this.props.coverHeading &&
+          <h2>{this.props.coverHeading}</h2>
+        }
         <Coverflow {...styles}>
           {imgList.map((data, index) => (
             <div
