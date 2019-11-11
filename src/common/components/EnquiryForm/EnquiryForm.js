@@ -7,11 +7,9 @@ import './EnquiryForm.scss';
 
 class EnquiryForm extends Component {
     state = {
-        firstName: '',
-        lastName: '',
+        fullName: '',
         email: '',
         contactNumber: '',
-        numberOfTravellers: '',
         message: '',
         isError: false,
         isButtonDisabled: true
@@ -32,19 +30,16 @@ class EnquiryForm extends Component {
 
     isValueValid = (name, value) => {
         switch(name) {
-            case 'firstName':
-            case 'lastName':
+            case 'fullName':
                 return Validate.Text(value);
             case 'contactNumber':
-            case 'numberOfTravellers':
-                return Validate.Number(value);
             default:
                 return true;
         }
     }
 
     enableDisableSubmitButton = () => {
-        const isButtonDisabled = (this.state.firstName && this.state.lastName && this.state.email && this.state.contactNumber && this.state.numberOfTravellers) ? false : true;
+        const isButtonDisabled = (this.state.fullName && this.state.email && this.state.contactNumber ) ? false : true;
         this.setState({
             isButtonDisabled
         });
@@ -69,32 +64,17 @@ class EnquiryForm extends Component {
                     <Row>
                         <Col sm="12">
                             <TextField
-                                label="First Name"
+                                label="Full Name"
                                 type="text"
                                 fullWidth
-                                name="firstName"
+                                name="fullName"
                                 className="contact-us-text"
                                 required
                                 autoComplete="off"
                                 margin="normal"
                                 onChange={this.onChangeHandler}
                                 inputProps={{ maxLength: 50 }}
-                                value={this.state.firstName}
-                            />
-                        </Col>
-                        <Col sm="12">
-                            <TextField
-                                label="Last Name"
-                                type="text"
-                                fullWidth
-                                name="lastName"
-                                className="contact-us-text"
-                                required
-                                autoComplete="off"
-                                margin="normal"
-                                onChange={this.onChangeHandler}
-                                inputProps={{ maxLength: 50 }}
-                                value={this.state.lastName}
+                                value={this.state.fullName}
                             />
                         </Col>
                         <Col sm="12">
@@ -131,22 +111,6 @@ class EnquiryForm extends Component {
                                 onChange={this.onChangeHandler}
                                 inputProps={{ maxLength: 10 }}
                                 value={this.state.contactNumber}
-                            />
-                        </Col>
-                        <Col sm="12">
-                        <TextField
-                                required
-                                id="standard-number-input"
-                                label="Number of Travellers"
-                                type="text"
-                                name="numberOfTravellers"
-                                fullWidth
-                                className="contact-us-text"
-                                autoComplete="off"
-                                margin="normal"
-                                onChange={this.onChangeHandler}
-                                inputProps={{ maxLength: 3 }}
-                                value={this.state.numberOfTravellers}
                             />
                         </Col>
                         <Col sm="12">

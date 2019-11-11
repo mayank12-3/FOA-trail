@@ -108,6 +108,9 @@ class Kenya extends Component {
             //active new tab
             this._activeDeactiveTab(newIndex, true);
         }
+        else {
+            this.onFinish();
+        }
     }
 
     onPreviousTab = () => {
@@ -235,7 +238,6 @@ class Kenya extends Component {
                         />
                     </div>
                 </div>
-                <WhyThePackage />
                 {
                     this.state.itinerary.length > 0 ?
                     <div className='itinerary-container'>
@@ -245,6 +247,7 @@ class Kenya extends Component {
                     </div>
                     : ''
                 }
+                <WhyThePackage />
                 <HelpMe onHelpMeClickHandler={this.toggleModal} />
                 <WhyUs />
             </div>
