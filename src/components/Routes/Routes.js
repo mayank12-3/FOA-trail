@@ -55,7 +55,7 @@ const Routes = () => {
                     component={PageNotFound}
                 />
                 <Route
-                    path="/thankyou"
+                    path="/thank-you"
                     exact
                     component={ThankYouComponent}
                 />

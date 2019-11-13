@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9860d3a15fe8ac7e79362cd6b98fb073",
+    "revision": "3cbbcdd671a78c5a91f4fb53722055b2",
     "url": "/index.html"
   },
   {
-    "revision": "978d707aea01ba768f7e",
+    "revision": "4786b26a5256dbef230d",
     "url": "/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "5bffd1df4cce4bf224b4",
-    "url": "/static/css/main.b4da24a2.chunk.css"
+    "revision": "9a2ac2236054810f68c3",
+    "url": "/static/css/main.a59f50db.chunk.css"
   },
   {
-    "revision": "978d707aea01ba768f7e",
-    "url": "/static/js/2.a6fc3efa.chunk.js"
+    "revision": "4786b26a5256dbef230d",
+    "url": "/static/js/2.a66f3df3.chunk.js"
   },
   {
-    "revision": "5bffd1df4cce4bf224b4",
-    "url": "/static/js/main.ea32ac00.chunk.js"
+    "revision": "9a2ac2236054810f68c3",
+    "url": "/static/js/main.e2d55f96.chunk.js"
   },
   {
     "revision": "6314e6c8e3b87673fd24",
@@ -118,6 +118,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03192a44c032cd407ee2ca0f6f8d1098",
     "url": "/static/media/kenya-cover.03192a44.jpg"
+  },
+  {
+    "revision": "fa977e741a586aa1fc4ed89bb13161b1",
+    "url": "/static/media/kenya_p1.fa977e74.jpg"
+  },
+  {
+    "revision": "44f4d2011e01905cc1a8e7d2ddea5c27",
+    "url": "/static/media/kenya_p2.44f4d201.jpg"
+  },
+  {
+    "revision": "a05a0a3729cbd9f311d107d27a5596fa",
+    "url": "/static/media/kenya_p3.a05a0a37.jpg"
   },
   {
     "revision": "dfafe12497f9c9118bfcba1f53368f4b",
@@ -246,6 +258,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b90ad6f1f6e250628d614120c01c58b",
     "url": "/static/media/uganda_cover.1b90ad6f.jpg"
+  },
+  {
+    "revision": "5e8f907862a77f27b88b1e7c8b1487ed",
+    "url": "/static/media/uganda_p1.5e8f9078.jpg"
+  },
+  {
+    "revision": "7f906be6fd69aa5387c33cee1c2dd36b",
+    "url": "/static/media/uganda_p2.7f906be6.jpg"
+  },
+  {
+    "revision": "d9a835382144f18d6549ffdc9312a72d",
+    "url": "/static/media/uganda_p3.d9a83538.jpg"
   },
   {
     "revision": "f35571660e1c22709de0c1c695685d8b",

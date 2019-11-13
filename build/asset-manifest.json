@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4da24a2.chunk.css",
-    "main.js": "/static/js/main.ea32ac00.chunk.js",
-    "main.js.map": "/static/js/main.ea32ac00.chunk.js.map",
+    "main.css": "/static/css/main.a59f50db.chunk.css",
+    "main.js": "/static/js/main.e2d55f96.chunk.js",
+    "main.js.map": "/static/js/main.e2d55f96.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa59b28e.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa59b28e.js.map",
     "static/css/2.0624914a.chunk.css": "/static/css/2.0624914a.chunk.css",
-    "static/js/2.a6fc3efa.chunk.js": "/static/js/2.a6fc3efa.chunk.js",
-    "static/js/2.a6fc3efa.chunk.js.map": "/static/js/2.a6fc3efa.chunk.js.map",
+    "static/js/2.a66f3df3.chunk.js": "/static/js/2.a66f3df3.chunk.js",
+    "static/js/2.a66f3df3.chunk.js.map": "/static/js/2.a66f3df3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.467f352bec1d2193a9cb7700c61cf7a9.js": "/precache-manifest.467f352bec1d2193a9cb7700c61cf7a9.js",
+    "precache-manifest.cbd927c92c8d4521dde34096fbc7630f.js": "/precache-manifest.cbd927c92c8d4521dde34096fbc7630f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.b4da24a2.chunk.css.map": "/static/css/main.b4da24a2.chunk.css.map",
+    "static/css/main.a59f50db.chunk.css.map": "/static/css/main.a59f50db.chunk.css.map",
     "static/media/10-days.jpg": "/static/media/10-days.95531485.jpg",
     "static/media/3-5-days.jpg": "/static/media/3-5-days.f188b7ce.jpg",
     "static/media/6-9-days.jpg": "/static/media/6-9-days.33883a98.jpg",
@@ -35,7 +35,10 @@
     "static/media/cs_tanzania.jpg": "/static/media/cs_tanzania.4493e45b.jpg",
     "static/media/cs_uganda.png": "/static/media/cs_uganda.64acb18f.png",
     "static/media/july-oct.jpg": "/static/media/july-oct.8a2befbf.jpg",
-    "static/media/Kenya.scss": "/static/media/kenya-cover.03192a44.jpg",
+    "static/media/ThankYou.scss": "/static/media/kenya-cover.03192a44.jpg",
+    "static/media/kenya_p1.jpg": "/static/media/kenya_p1.fa977e74.jpg",
+    "static/media/kenya_p2.jpg": "/static/media/kenya_p2.44f4d201.jpg",
+    "static/media/kenya_p3.jpg": "/static/media/kenya_p3.a05a0a37.jpg",
     "static/media/lake-nakaru-np.jpg": "/static/media/lake-nakaru-np.f8abd136.jpg",
     "static/media/logo.png": "/static/media/logo.f963f77c.png",
     "static/media/luxury.jpg": "/static/media/luxury.143cfe0e.jpg",
@@ -67,13 +70,16 @@
     "static/media/Terms.scss": "/static/media/terms_and_conditions.ac7c06b2.jpg",
     "static/media/tsavo-np.jpg": "/static/media/tsavo-np.5eb359e8.jpg",
     "static/media/Uganda.scss": "/static/media/uganda_cover.1b90ad6f.jpg",
+    "static/media/uganda_p1.jpg": "/static/media/uganda_p1.5e8f9078.jpg",
+    "static/media/uganda_p2.jpg": "/static/media/uganda_p2.7f906be6.jpg",
+    "static/media/uganda_p3.jpg": "/static/media/uganda_p3.d9a83538.jpg",
     "static/media/yet_to_decide.png": "/static/media/yet_to_decide.f3557166.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aa59b28e.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.a6fc3efa.chunk.js",
-    "static/css/main.b4da24a2.chunk.css",
-    "static/js/main.ea32ac00.chunk.js"
+    "static/js/2.a66f3df3.chunk.js",
+    "static/css/main.a59f50db.chunk.css",
+    "static/js/main.e2d55f96.chunk.js"
   ]
 }

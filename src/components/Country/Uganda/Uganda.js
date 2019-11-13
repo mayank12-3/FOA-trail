@@ -230,9 +230,13 @@ class Uganda extends Component {
                     </div>
                 </div>
                 {
-                    this.state.itinerary.length ?
-                    <Itinerary itinerary={this.state.itinerary}
-                      getQuoteHandler={(pckgDetails) => this.toggleModal(pckgDetails)} /> : ''
+                    this.state.itinerary.length > 0 ?
+                    <div className='itinerary-container'>
+                      <h2>Our Featured Tours</h2>
+                        <Itinerary itinerary={this.state.itinerary}
+                          getQuoteHandler={(pckgDetails) => this.toggleModal(pckgDetails)} />
+                    </div>
+                    : ''
                 }
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <WhyUs />

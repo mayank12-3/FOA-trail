@@ -25,6 +25,14 @@
             @include font('Roboto', 50px, 600, $white);
         } 
     }
+
+    .itinerary-container {
+        h2 {
+            padding-top: 30px;
+            text-align: center;
+            @include font('Roboto', 35px, 600);
+        }
+      }
 }
 
 .tabs {

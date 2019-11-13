@@ -32,13 +32,13 @@ const Itinerary = (props) => {
                           )}
                         </div>
                         <div>
-                          <ul className='iternary-instructions'>
+                          {/* <ul className='iternary-instructions'>
                             {data.instructions.map((istr, index) => (
                               <li key={index}>
                                 -> {istr}
                               </li>
                             ))}
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                       <Divider variant="middle" />

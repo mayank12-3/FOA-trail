@@ -27,16 +27,6 @@
             min-height: 200px;
         }
     }
-
-    .planned_itinerary {
-        h2 {
-            padding: 10px 0 00px;
-            text-align: center;
-            @include font('Roboto', 35px, 600);
-        }
-    }
-
-
 }
 
 .tabs {

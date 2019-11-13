@@ -230,8 +230,12 @@ class Tanzania extends Component {
                 </div>
                 {
                     this.state.itinerary.length > 0 ?
-                    <Itinerary itinerary={this.state.itinerary}
-                      getQuoteHandler={(pckgDetails) => this.toggleModal(pckgDetails)} /> : ''
+                    <div className='itinerary-container'>
+                      <h2>Our Featured Tours</h2>
+                        <Itinerary itinerary={this.state.itinerary}
+                          getQuoteHandler={(pckgDetails) => this.toggleModal(pckgDetails)} />
+                    </div>
+                    : ''
                 }
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 {/* <WhyThePackage /> */}
