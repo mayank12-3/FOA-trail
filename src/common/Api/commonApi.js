@@ -1,14 +1,14 @@
-// import { axiosInstanse } from '../../utils/api';
-import axios from 'axios';
+import { axiosInstance } from '../../utils/api';
+// import axios from 'axios';
 
 export const contactUs = (payload = {}) => {
-    return axios.post("https://hooks.slack.com/services/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", payload, {
+    return axiosInstance.post('/submitResponse', payload, {
         headers : {
             'Content-Type': 'application/x-www-form-urlencoded'
-        } 
+        }
     })
-        .then(response => response)
-        .catch(error => {
-            throw error;
-        });
+    .then(response => response)
+    .catch(error => {
+        throw error;
+    });
 }

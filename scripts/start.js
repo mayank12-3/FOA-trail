@@ -1,5 +1,5 @@
 'use strict';
-
+const indexGenerator = require('../public/index_generator')
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = 'development';
 process.env.NODE_ENV = 'development';
@@ -38,6 +38,22 @@ const isInteractive = process.stdout.isTTY;
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
   process.exit(1);
+}
+
+// generate index html
+const path = './public/index.html'
+try {
+  // logger.success(chalk.bold((appName).toUpperCase()) + '\'s INDEX config chosen')
+  if (fs.existsSync(path)) {
+    console.log('successfully creating html file')
+    fs.writeFileSync(path, indexGenerator())
+  } else {
+    throw new Error('file not found')
+  }
+} catch (e) {
+  console.log('error: ', e)
+  // logger.error(chalk.red('index.html CREATION FAILED!'))
+  throw new Error(e)
 }
 
 // Tools like Cloud9 rely on this.
