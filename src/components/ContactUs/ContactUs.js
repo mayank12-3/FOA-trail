@@ -16,7 +16,7 @@ class ContactUs extends Component {
         message: '',
         isError: false,
         isButtonDisabled: true,
-        showThankyouPopup: true
+        // showThankyouPopup: true
     };
 
     componentDidMount() {
