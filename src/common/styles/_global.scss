@@ -30,3 +30,8 @@ h2 {
     font-size: 50px;
     font-family: 'Roboto';
 }
+
+.modal.fade .modal-dialog {
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import { Banner, Button } from '../../common/components/';
+import { Banner, Button, ThankYouPopUp } from '../../common/components/';
 import { Row, Col } from 'reactstrap';
 // import HowDoesItWork from '../Home/Sections/HowDoesItWork';
 import { TextField } from '@material-ui/core';
@@ -15,7 +15,8 @@ class ContactUs extends Component {
         contactNumber: '',
         message: '',
         isError: false,
-        isButtonDisabled: true
+        isButtonDisabled: true,
+        showThankyouPopup: true
     };
 
     componentDidMount() {
@@ -90,9 +91,14 @@ class ContactUs extends Component {
                     },
                 ]
             }
-            
+
             contactUs(payload)
-                .then(resp => console.log(resp))
+                .then(resp => {
+                  console.log(resp)
+                  this.setState({
+                    showThankyouPopup: true
+                  })
+                })
                 .catch(error => console.log(error));
             //Submit the form
             this.setState({
@@ -104,9 +110,16 @@ class ContactUs extends Component {
             });
         }
     }
+
+
     render() {
         return (
             <div className="contact-us-container">
+                {this.state.showThankyouPopup && <ThankYouPopUp isOpen={true}
+                  toggle={() => {
+                    this.setState({ showThankyouPopup: !this.state.showThankyouPopup })
+                  }} />
+                }
                 <div className="banner_section">
                     <Banner
                         className="contact-banner"

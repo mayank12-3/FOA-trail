@@ -9,6 +9,7 @@ import Itinerary_ from './Itinerary/Itinerary'
 import SliderBanner_ from './SliderBanner/SliderBanner';
 import CoverSlider_ from './coverSlider/coverSlider';
 import EnquiryForm_ from './EnquiryForm/EnquiryForm';
+import ThankYouPopUp_ from './ThankYouPopUp/index'
 
 export const Header = Header_;
 export const Footer = Footer_;
@@ -21,3 +22,4 @@ export const Itinerary = Itinerary_;
 export const SliderBanner = SliderBanner_;
 export const CoverSlider = CoverSlider_;
 export const EnquiryForm = EnquiryForm_;
+export const ThankYouPopUp = ThankYouPopUp_;

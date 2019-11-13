@@ -4,5 +4,6 @@
 .banner-text {
   h2 {
     @include font('Roboto-LightItalic', 45px, 300, $white);
+    font-style: italic;
   }
 }
