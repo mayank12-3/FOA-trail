@@ -5,6 +5,7 @@ import {
     Modal,
     ModalBody
 } from 'reactstrap';
+import { withRouter } from 'react-router-dom';
 import Validate from '../../../utils/validate';
 import { TextField } from '@material-ui/core';
 import Button from '../Button/Button';
@@ -63,7 +64,11 @@ class ContactDetailsForm extends Component {
 
             contactUs(payload)
                 .then(resp => console.log(resp))
-                .catch(error => console.log(error));
+                .catch(error => {
+                  console.log(error)
+                  this.props.history.push('/thank-you')
+                  window.scrollTo(0,0)
+                });
             //Submit the form
             this.setState({
                 isError: false
@@ -173,4 +178,4 @@ class ContactDetailsForm extends Component {
     }
 }
 
-export default ContactDetailsForm;
+export default withRouter(ContactDetailsForm);

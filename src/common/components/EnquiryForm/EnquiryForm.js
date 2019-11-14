@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { TextField } from '@material-ui/core';
 import { Row, Col } from 'reactstrap';
 import Button from '../Button/Button';
+import { ThankYouPopUp } from '../';
 import Validate from '../../../utils/validate';
+import { contactUs } from '../../Api/commonApi';
+import { withRouter } from 'react-router-dom';
 import './EnquiryForm.scss';
 
 class EnquiryForm extends Component {
@@ -12,7 +15,8 @@ class EnquiryForm extends Component {
         contactNumber: '',
         message: '',
         isError: false,
-        isButtonDisabled: true
+        isButtonDisabled: true,
+        showThankyouPopup: false
     };
     onChangeHandler = (e) => {
         let { name, value } = e.target;
@@ -47,10 +51,29 @@ class EnquiryForm extends Component {
     onSubmit = () => {
         console.log('props', this.props)
         if(Validate.Email(this.state.email) && this.state.contactNumber.length === 10) {
-            //Submit the form
+          const payload = {
+            "name": this.state.fullName,
+            "email": this.state.email,
+            "contactNumber": this.state.contactNumber,
+            "message": this.state.message
+          }
+          contactUs(payload)
+          .then(resp => {
+            console.log(resp)
             this.setState({
-                isError: false
-            });
+              showThankyouPopup: true
+            })
+          })
+          .catch(error => {
+            console.log(error)
+            this.setState({
+              showThankyouPopup: true
+            })
+          });
+          //Submit the form
+          this.setState({
+              isError: false
+          });
         } else {
             this.setState({
                 isError: true
@@ -60,6 +83,13 @@ class EnquiryForm extends Component {
     render() {
         return (
             <div className="enquiry-form_container">
+                {this.state.showThankyouPopup && <ThankYouPopUp isOpen={true}
+                  toggle={() => {
+                    this.setState({ showThankyouPopup: !this.state.showThankyouPopup }, () => {
+                      this.props.history.push('/')
+                    })
+                  }} />
+                }
                 <form  noValidate autoComplete="off">
                     <Row>
                         <Col sm="12">
@@ -144,4 +174,4 @@ class EnquiryForm extends Component {
     }
 }
 
-export default EnquiryForm;
+export default withRouter(EnquiryForm);
