@@ -185,7 +185,7 @@ class Kenya extends Component {
         }, () => {
             // const isButtonDisabled = _.chain(selectedOptionType).filter(option => option.isSelected).isEmpty().value();
             this.setTabs(false);
-            this.enabledDisabledNextButton(name !== 'season' && ifAnySelected);
+            this.enabledDisabledNextButton(ifAnySelected);
             // this.onNextTab()
         });
     }
