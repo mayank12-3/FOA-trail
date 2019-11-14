@@ -6,7 +6,7 @@
         "gtmId": "GTM-WHF86V9"
     },
     "production": {
-        "baseUrl": "http://172.59.7.219:9000",
+        "baseUrl": "http://139.59.7.219:9000",
         "restApiRoot": "/api",
         "gtmRequired": true,
         "gtmId": "GTM-WHF86V9"

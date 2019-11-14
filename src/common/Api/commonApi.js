@@ -2,6 +2,7 @@ import { axiosInstance } from '../../utils/api';
 // import axios from 'axios';
 
 export const contactUs = (payload = {}) => {
+    console.log('payload-->', payload)
     return axiosInstance.post('/submitResponse', payload, {
         headers : {
             'Content-Type': 'application/x-www-form-urlencoded'

@@ -78,7 +78,7 @@ class Home extends Component {
                 </div>
                 <WhoAreWe />
                 <Packages />
-                <CoverSlider coverHeading='Our Featured Tours' />
+                <CoverSlider coverHeading='Our Featured Destinations' />
                 <HelpMe onHelpMeClickHandler={this.toggleModal}/>
                 <Testimonial />
             </div>
