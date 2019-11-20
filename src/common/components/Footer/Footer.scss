@@ -2,102 +2,102 @@
 @import '../../styles/variables';
 
 footer {
-    background: $lightSoilColor;
-    p {
-        padding: 20px;
-        text-align: right;
-        border-top: 1px solid $divider;
-        @include font('Roboto', 14px, 400, $white);
+  background-color: $lightSoilColor;
+
+  .copyright-info {
+    padding: 20px;
+    border-top: 1px solid $divider;
+    @include font('Roboto', 14px, 400, $white);
+  }
+
+  .footer-links {
+    padding: 40px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .website-logo {
+      img {
+        width: 300px;
+      }
     }
 
-    .footer-links {
-        padding: 40px 0 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+    // .social-media {
+    //   padding: 30px 0;
+    //   text-align: center;
 
-        .website-logo {
-            img {
-                width: 300px;
+    //   h3 {
+    //     padding-bottom: 20px;
+    //     text-transform: capitalize;
+    //     @include font('Roboto',18px, 600, $white);
+    //   }
+
+    //   svg {
+    //     margin-right: 15px;
+    //     display: inline-block;
+    //     cursor: pointer;
+
+    //     @include font('Roboto',28px, 600, $white);
+
+    //     &:hover {
+    //       color: $description;
+    //     }
+    //   }
+    // }
+
+    .country-list {
+      ul {
+        li {
+          h3 {
+          @include font('Roboto',18px, 800, $soilColor);
+          }
+
+          a {
+            text-decoration: none;
+            padding: 20px 0 0;
+            display: inline-block;
+            cursor: pointer;
+            @include font('Roboto', 16px, 400, $soilColor);
+
+            &:hover {
+              color: $description;
+              @include font('Roboto', 16px, 400, $soilColor);
             }
+          }
         }
-
-        .social-media {
-            padding: 30px 0;
-            text-align: center;
-
-            h3 {
-                padding-bottom: 20px;
-                text-transform: capitalize;
-                @include font('Roboto',18px, 600, $white);
-            }
-
-            svg {
-                margin-right: 15px;
-                display: inline-block;
-                cursor: pointer;
-
-                @include font('Roboto',28px, 600, $white);
-
-                &:hover {
-                    color: $description;
-                }
-            }
-        }
-
-        .country-list {
-            ul {
-                li {
-                    h3 {
-                        @include font('Roboto',18px, 800, $soilColor);
-                    }
-
-                    a {
-                        text-decoration: none;
-                        padding: 20px 0 0;
-                        display: inline-block;
-                        cursor: pointer;
-                        @include font('Roboto', 16px, 400, $soilColor);
-
-                        &:hover {
-                            color: $description;
-                             @include font('Roboto', 16px, 400, $soilColor);
-                        }
-                    }
-                }
-            }
-        }
-
-        .footer-menu {
-            @extend .country-list;
-        }
+      }
     }
+
+    .footer-menu {
+      @extend .country-list;
+    }
+  }
 }
 
 @media (max-width: 700px) {
-    .footer-div {
-        width: 100%;
-        margin: 30px 0;
-        background: $lightSoilColor;
-        text-align: center;
+  .footer-div {
+    width: 100%;
+    margin: 30px 0;
+    background: $lightSoilColor;
+    text-align: center;
+  }
+  .footer-links {
+    flex-wrap: wrap;
+
+    .website-logo {
+      @extend .footer-div;
     }
-    .footer-links {
-        flex-wrap: wrap;
 
-        .website-logo {
-            @extend .footer-div;
-        }
-
-        .country-list {
-            @extend .footer-div;
-        }
-
-        .footer-menu {
-            @extend .footer-div;
-        }
-
-        .social-media {
-            @extend .footer-div;
-        }
+    .country-list {
+      @extend .footer-div;
     }
+
+    .footer-menu {
+      @extend .footer-div;
+    }
+
+    .social-media {
+      @extend .footer-div;
+    }
+  }
 }

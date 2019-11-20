@@ -2,53 +2,52 @@
 @import '../../styles/variables';
 
 .contact-us-modal {
-    max-width: 800px !important;
-    top: 50%;
-    transform: translateY(-50%) !important;
-    .modal-body {
-        padding: 0;
-        overflow: hidden;
+  max-width: 800px !important;
+  top: 50%;
+  transform: translateY(-50%) !important;
+
+  .modal-body {
+    padding: 0;
+    overflow: hidden;
+  }
+  .contact-modal-body {
+    position: relative;
+
+    .modal-image {
+      height: 550px;
+      background: url("../../../assets//images/others/maasai-man.jpg") center center/cover no-repeat $lightBlue;
     }
-    .contact-modal-body {
-        background: $lightBlue;
-        position: relative;
-        .modal-image {
-            height: 550px;
-            background: url("../../../assets//images/others/modal_image.jpg") no-repeat;
-            background-size: cover;
-        }
-        .footer-button {
-            position: absolute;
-            bottom: 30px;
-            right: 30px;
-            // margin-top: 30px;
-            text-align: right;
-            button {
-                margin-left: 15px;
-            }
-        }
+    .footer-button {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
 
-        .contact-us-form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding-right: 25px;
-            .form-title {
-                width: 100%;
-                position: absolute;
-                top: 50px;
-                text-align: center;
-                @include font('Roboto', 40px, 600, $soilColor);
-            }
-
-            form {
-                width: 100%;
-            }
-        }
-
-        .MuiFormControl-root {
-            width: 100%;
-        }
+      button {
+        margin-left: 15px;
+      }
     }
+
+    .contact-us-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-right: 25px;
+
+      .form-title {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        @include font('Roboto', 40px, 600, $soilColor);
+      }
+
+      form {
+        width: 100%;
+      }
+    }
+
+    .MuiFormControl-root {
+      width: 100%;
+    }
+  }
 }

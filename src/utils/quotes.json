@@ -1,356 +1,356 @@
 {
-    "Kenya": {
-        "parks": [
-            {
-                "id": 1,
-                "image": "yet_to_decide.png",
-                "title": "Yet to Decide",
-                "description": "Speak to the destination expert and understand your options"
-            },
-            {
-                "id": 2,
-                "image": "masai-mara-np.jpg",
-                "title": "MASAI MARA NP",
-                "description": "The Most renowned park of Kenya with high predator density"
-            },
-            {
-                "id": 3,
-                "image": "lake-nakaru-np.jpg",
-                "title": "LAKE NAKURU NP",
-                "description": "The Tale of Rhinos and Flamingos is best told here"
-            },
-            {
-                "id": 4,
-                "image": "amboseli-np.jpg",
-                "title": "AMBOSELI NP",
-                "description": "Witness the Majestic Mt. Kilimanjaro and its mighty Elephants"
-            }
-        ],
-        "partyOptions": [
-            {
-                "id": 1,
-                "image": "solo.jpg",
-                "title": "SOLO",
-                "description": "For backpackers and Independent photographers"
-            },
-            {
-                "id": 2,
-                "image": "couple.jpg",
-                "title": "COUPLE",
-                "description": "For adventure filled and newly wed love birds"
-            },
-            {
-                "id": 3,
-                "title": "SMALL GROUP (3 - 6)",
-                "image": "small-group.jpg",
-                "description": "For typical Indian families"
-            },
-            {
-                "id": 4,
-                "title": "BIG GROUP  (7+)",
-                "image": "big-group.jpg",
-                "description": "For family and friends seeking reunions"
-            }
-        ],
-        "accommodation": [
-            {
-                "id": 1,
-                "image": "budget.jpg",
-                "title": "BUDGET",
-                "description": "Budget Tour Package will cost around 100 - 150 USD PP"
-            },
-            {
-                "id": 2,
-                "image": "mid-range.jpg",
-                "title": "MID-RANGE",
-                "description": "Mid-range Tour Package will cost around 180 - 250 USD PP"
-            },
-            {
-                "id": 3,
-                "title": "LUXURY",
-                "image": "luxury.jpg",
-                "description": "Luxury Tour Package will cost around 300 - 350 USD PP"
-            }
-        ],
-        "days": [
-            {
-                "id": 1,
-                "image": "3-5-days.jpg",
-                "title": "3 - 5 Days",
-                "description": "Typically covers 2 parks"
-            },
-            {
-                "id": 2,
-                "image": "6-9-days.jpg",
-                "title": "6 - 9 Days",
-                "description": "Typically covers 4 parks"
-            },
-            {
-                "id": 3,
-                "image": "10-days.jpg",
-                "title": "10+ Days",
-                "description": "Typically covers 6 parks"
-            }
-        ],
-        "season": [
-            {
-                "id": 1,
-                "image": "july-oct.jpg",
-                "title": "JUL to OCT",
-                "description": "Peak Season, Herds of Wildebeest March into Masai Mara"
-            },
-            {
-                "id": 2,
-                "image": "nov-mar.jpg",
-                "title": "NOV to MAR",
-                "description": "High Season, the Best time for a Big 5 Safari"
-            },
-            {
-                "id": 3,
-                "image": "apr-jun.jpg",
-                "title": "APR to JUN",
-                "description": "Low Season, Value for Money deals for luxury packages"
-            }
-        ]
-    },
-    "Tanzania": {
-        "parks": [
-            {
-                "id": 1,
-                "image": "yet_to_decide.png",
-                "title": "Yet to Decide",
-                "description": "Speak to the destination expert and understand the options"
-            },
-            {
-                "id": 2,
-                "image": "serengeti-np.jpg", 
-                "title": "SERENGETI NP",
-                "description": "World's most renowned park known for wildebeest migration"
-            },
-            {
-                "id": 3,
-                "image": "lake-manyara-np.jpg",
-                "title": "LAKE MANYARA NP",
-                "description": "See the tree climbing lions and millions of flamingos"
-            },
-            {
-                "id": 4,
-                "image": "ngorongoro-crater.jpg",
-                "title": "NGORONGORO CRATER",
-                "description": "Witness the magic of Tanzania in the world's largest intact caldera"
-            },
-            {
-                "id": 5,
-                "image": "tarandgire-national-park.jpg",
-                "title": "TARANGIRE NATIONAL PARK",
-                "description": "Best kept secret of Tanzania known for the elephant migration and the baobab trees"
-            }
-        ],
-        "partyOptions": [
-            {
-                "id": 1,
-                "image": "solo.jpg",
-                "title": "SOLO",
-                "description": "For backpackers and Independent photographers"
-            },
-            {
-                "id": 2,
-                "title": "COUPLE",
-                "image": "couple.jpg",
-                "description": "For adventure filled and newly wed love birds"
-            },
-            {
-                "id": 3,
-                "image": "small-group.jpg",
-                "title": "SMALL GROUP",
-                "description": "For typical Indian families"
-            },
-            {
-                "id": 4,
-                "image": "bigall-group.jpg",
-                "title": "BIG GROUP",
-                "description": "For family and friends seeking reunions"
-            }
-        ],
-        "accommodation": [
-            {
-                "id": 1,
-                "title": "BUDGET",
-                "image": "budget.jpg",
-                "description": "Budget Tour Package will cost around 200 - 250 USD PP"
-            },
-            {
-                "id": 2,
-                "title": "MID-RANGE",
-                "image": "mid-range.jpg",
-                "description": "Mid-range Tour Package will cost around  300 - 350 USD PP"
-            },
-            {
-                "id": 3,
-                "title": "LUXURY",
-                "image": "luxury.jpg",
-                "description": "Luxury Tour Package will cost around 450 - 500 USD PP"
-            }
-        ],
-        "days": [
-            {
-                "id": 1,
-                "image": "3-5-days.jpg",
-                "title": "3 - 5 Days",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "image": "6-9-days.jpg",
-                "title": "6 - 9 Days",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "image": "10-days.jpg",
-                "title": "10+ Days",
-                "description": ""
-            }
-        ],
-        "season": [
-            {
-                "id": 1,
-                "image": "jun-oct.jpg",
-                "title": "JUN to OCT",
-                "description": "Peak Season, Herds of Wildebeest trek from Western Serengeti to north Serengeti"
-            },
-            {
-                "id": 2,
-                "image": "nov-feb.jpg",
-                "title": "NOV to FEB",
-                "description": "Calving Season, half a Million wildebeest are born on the plains of Ndutu"
-            },
-            {
-                "id": 3,
-                "image": "mar-may.jpg",
-                "title": "MAR to May",
-                "description": "Low Season, Value for Money deals for luxury packages"
-            }
-        ]
-    },
-    "Uganda": {
-        "parks": [
-            {
-                "id": 1,
-                "image": "yet_to_decide.png",
-                "title": "Yet to Decide",
-                "description": "Speak to the destination expert and understand your options."
-            },
-            {
-                "id": 2,
-                "image": "bwindi-impenetrabele-forest.jpg",
-                "title": "Bwindi Impenetrabele Forest",
-                "description": "Uganda's Most priced possession, known for Gorilla Tracking activity."
-            },
-            {
-                "id": 3,
-                "image": "kibale-national-park.jpg",
-                "title": "Kibale National park",
-                "description": "Best known for its Chimpanzee population and Chimp Tracking activity."
-            },
-            {
-                "id": 4,
-                "image": "queen-elizabeth-national-park.jpg",
-                "title": "Queen Elizabeth National Park",
-                "description": "Home to Kazinga Channel which has the highest density of hippo population in Africa."
-            },
-            {
-                "id": 5,
-                "image": "murchison-falls-national-park",
-                "title": "Murchison Falls national Park",
-                "description": "One of the most scenic parks in Uganda with diverse birdlife."
-            }
-        ],
-        "days": [
-            {
-                "id": 1,
-                "image": "3-5-days.jpg",
-                "title": "3 - 5 Days",
-                "description": "Typically covers 2 destinations"
-            },
-            {
-                "id": 2,
-                "image": "6-9-days.jpg",
-                "title": "6 - 9 Days",
-                "description": "Typically covers 4 destinations"
-            },
-            {
-                "id": 3,
-                "image": "10-days.jpg",
-                "title": "10+ Days",
-                "description": "Covers all of Uganda"
-            }
-        ],
-        "partyOptions": [
-            {
-                "id": 1,
-                "image": "solo.jpg",
-                "title": "SOLO",
-                "description": "single"
-            },
-            {
-                "id": 2,
-                "image": "couple.jpg",
-                "title": "COUPLE",
-                "description": "Only two people"
-            },
-            {
-                "id": 3,
-                "image": "small-group.jpg",
-                "title": "SMALL GROUP",
-                "description": "3 to 6 people"
-            },
-            {
-                "id": 4,
-                "image":"big-group.jpg",
-                "title": "BIG GROUP",
-                "description": "7 or more"
-            }
-        ],
-        "accommodation": [
-            {
-                "id": 1,
-                "image": "budget.jpg",
-                "title": "BUDGET",
-                "description": "Budget Tour Package will cost around 100 - 150 USD PP"
-            },
-            {
-                "id": 2,
-                "image": "mid-range.jpg",
-                "title": "MID-RANGE",
-                "description": "Mid-range Tour Package will cost around 180 - 250 USD PP"
-            },
-            {
-                "id": 3,
-                "image": "luxury.jpg",
-                "title": "LUXURY",
-                "description": "Luxury Tour Package will cost around 300 - 350 USD PP"
-            }
-        ],
-        "season": [
-            {
-                "id": 1,
-                "image": "july-oct.jpg",
-                "title": "JUL to OCT",
-                "description": "Peak Season"
-            },
-            {
-                "id": 2,
-                "image": "nov-mar.jpg",
-                "title": "NOV to MAR",
-                "description": "High Season"
-            },
-            {
-                "id": 3,
-                "image": "apr-jun.jpg",
-                "title": "APR to JUN",
-                "description": "Low Season"
-            }
-        ]
-    }
+  "Kenya": {
+    "parks": [
+      {
+        "id": 1,
+        "image": "yet-to-decide.jpg",
+        "title": "Yet to Decide",
+        "description": "Speak to the destination expert and understand your options"
+      },
+      {
+        "id": 2,
+        "image": "masai-mara-np.jpg",
+        "title": "MASAI MARA NP",
+        "description": "The Most renowned park of Kenya with high predator density"
+      },
+      {
+        "id": 3,
+        "image": "lake-nakaru-np.jpg",
+        "title": "LAKE NAKURU NP",
+        "description": "The Tale of Rhinos and Flamingos is best told here"
+      },
+      {
+        "id": 4,
+        "image": "amboseli-np.jpg",
+        "title": "AMBOSELI NP",
+        "description": "Witness the Majestic Mt. Kilimanjaro and its mighty Elephants"
+      }
+    ],
+    "partyOptions": [
+      {
+        "id": 1,
+        "image": "solo.jpg",
+        "title": "SOLO",
+        "description": "For backpackers and Independent photographers"
+      },
+      {
+        "id": 2,
+        "image": "couple.jpg",
+        "title": "COUPLE",
+        "description": "For adventure filled and newly wed love birds"
+      },
+      {
+        "id": 3,
+        "title": "SMALL GROUP (3 - 6)",
+        "image": "small-group.jpg",
+        "description": "For typical Indian families"
+      },
+      {
+        "id": 4,
+        "title": "BIG GROUP  (7+)",
+        "image": "big-group.jpg",
+        "description": "For family and friends seeking reunions"
+      }
+    ],
+    "accommodation": [
+      {
+        "id": 1,
+        "image": "budget.jpg",
+        "title": "BUDGET",
+        "description": "Budget Tour Package will cost around 100 - 150 USD PP"
+      },
+      {
+        "id": 2,
+        "image": "mid-range.jpg",
+        "title": "MID-RANGE",
+        "description": "Mid-range Tour Package will cost around 180 - 250 USD PP"
+      },
+      {
+        "id": 3,
+        "title": "LUXURY",
+        "image": "luxury.jpg",
+        "description": "Luxury Tour Package will cost around 300 - 350 USD PP"
+      }
+    ],
+    "days": [
+      {
+        "id": 1,
+        "image": "3-5-days.jpg",
+        "title": "3 - 5 Days",
+        "description": "Typically covers 2 parks"
+      },
+      {
+        "id": 2,
+        "image": "6-9-days.jpg",
+        "title": "6 - 9 Days",
+        "description": "Typically covers 4 parks"
+      },
+      {
+        "id": 3,
+        "image": "10-days.jpg",
+        "title": "10+ Days",
+        "description": "Typically covers 6 parks"
+      }
+    ],
+    "season": [
+      {
+        "id": 1,
+        "image": "nov-mar.jpg",
+        "title": "NOV to MAR",
+        "description": "High Season, the Best time for a Big 5 Safari"
+      },
+      {
+        "id": 2,
+        "image": "apr-jun.jpg",
+        "title": "APR to JUN",
+        "description": "Low Season, Value for Money deals for luxury packages"
+      },
+      {
+        "id": 3,
+        "image": "july-oct.jpg",
+        "title": "JUL to OCT",
+        "description": "Peak Season, Herds of Wildebeest March into Masai Mara"
+      }
+    ]
+  },
+  "Tanzania": {
+    "parks": [
+      {
+        "id": 1,
+        "image": "yet-to-decide.jpg",
+        "title": "Yet to Decide",
+        "description": "Speak to the destination expert and understand the options"
+      },
+      {
+        "id": 2,
+        "image": "serengeti-np.jpg", 
+        "title": "SERENGETI NP",
+        "description": "World's most renowned park known for wildebeest migration"
+      },
+      {
+        "id": 3,
+        "image": "lake-manyara-np.jpg",
+        "title": "LAKE MANYARA NP",
+        "description": "See the tree climbing lions and millions of flamingos"
+      },
+      {
+        "id": 4,
+        "image": "ngorongoro-crater.jpg",
+        "title": "NGORONGORO CRATER",
+        "description": "Witness the magic of Tanzania in the world's largest intact caldera"
+      },
+      {
+        "id": 5,
+        "image": "tarandgire-national-park.jpg",
+        "title": "TARANGIRE NATIONAL PARK",
+        "description": "Best kept secret of Tanzania known for the elephant migration and the baobab trees"
+      }
+    ],
+    "partyOptions": [
+      {
+        "id": 1,
+        "image": "solo.jpg",
+        "title": "SOLO",
+        "description": "For backpackers and Independent photographers"
+      },
+      {
+        "id": 2,
+        "title": "COUPLE",
+        "image": "couple.jpg",
+        "description": "For adventure filled and newly wed love birds"
+      },
+      {
+        "id": 3,
+        "image": "small-group.jpg",
+        "title": "SMALL GROUP",
+        "description": "For typical Indian families"
+      },
+      {
+        "id": 4,
+        "image": "bigall-group.jpg",
+        "title": "BIG GROUP",
+        "description": "For family and friends seeking reunions"
+      }
+    ],
+    "accommodation": [
+      {
+        "id": 1,
+        "title": "BUDGET",
+        "image": "budget.jpg",
+        "description": "Budget Tour Package will cost around 200 - 250 USD PP"
+      },
+      {
+        "id": 2,
+        "title": "MID-RANGE",
+        "image": "mid-range.jpg",
+        "description": "Mid-range Tour Package will cost around  300 - 350 USD PP"
+      },
+      {
+        "id": 3,
+        "title": "LUXURY",
+        "image": "luxury.jpg",
+        "description": "Luxury Tour Package will cost around 450 - 500 USD PP"
+      }
+    ],
+    "days": [
+      {
+        "id": 1,
+        "image": "3-5-days.jpg",
+        "title": "3 - 5 Days",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "image": "6-9-days.jpg",
+        "title": "6 - 9 Days",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "image": "10-days.jpg",
+        "title": "10+ Days",
+        "description": ""
+      }
+    ],
+    "season": [
+      {
+        "id": 1,
+        "image": "jun-oct.jpg",
+        "title": "JUN to OCT",
+        "description": "Peak Season, Herds of Wildebeest trek from Western Serengeti to north Serengeti"
+      },
+      {
+        "id": 2,
+        "image": "nov-feb.jpg",
+        "title": "NOV to FEB",
+        "description": "Calving Season, half a Million wildebeest are born on the plains of Ndutu"
+      },
+      {
+        "id": 3,
+        "image": "mar-may.jpg",
+        "title": "MAR to May",
+        "description": "Low Season, Value for Money deals for luxury packages"
+      }
+    ]
+  },
+  "Uganda": {
+    "parks": [
+      {
+        "id": 1,
+        "image": "yet-to-decide.jpg",
+        "title": "Yet to Decide",
+        "description": "Speak to the destination expert and understand your options."
+      },
+      {
+        "id": 2,
+        "image": "bwindi-impenetrabele-forest.jpg",
+        "title": "Bwindi Impenetrabele Forest",
+        "description": "Uganda's Most priced possession, known for Gorilla Tracking activity."
+      },
+      {
+        "id": 3,
+        "image": "kibale-national-park.jpg",
+        "title": "Kibale National park",
+        "description": "Best known for its Chimpanzee population and Chimp Tracking activity."
+      },
+      {
+        "id": 4,
+        "image": "queen-elizabeth-national-park.jpg",
+        "title": "Queen Elizabeth National Park",
+        "description": "Home to Kazinga Channel which has the highest density of hippo population in Africa."
+      },
+      {
+        "id": 5,
+        "image": "murchison-falls-national-park",
+        "title": "Murchison Falls national Park",
+        "description": "One of the most scenic parks in Uganda with diverse birdlife."
+      }
+    ],
+    "days": [
+      {
+        "id": 1,
+        "image": "3-5-days.jpg",
+        "title": "3 - 5 Days",
+        "description": "Typically covers 2 destinations"
+      },
+      {
+        "id": 2,
+        "image": "6-9-days.jpg",
+        "title": "6 - 9 Days",
+        "description": "Typically covers 4 destinations"
+      },
+      {
+        "id": 3,
+        "image": "10-days.jpg",
+        "title": "10+ Days",
+        "description": "Covers all of Uganda"
+      }
+    ],
+    "partyOptions": [
+      {
+        "id": 1,
+        "image": "solo.jpg",
+        "title": "SOLO",
+        "description": "single"
+      },
+      {
+        "id": 2,
+        "image": "couple.jpg",
+        "title": "COUPLE",
+        "description": "Only two people"
+      },
+      {
+        "id": 3,
+        "image": "small-group.jpg",
+        "title": "SMALL GROUP",
+        "description": "3 to 6 people"
+      },
+      {
+        "id": 4,
+        "image":"big-group.jpg",
+        "title": "BIG GROUP",
+        "description": "7 or more"
+      }
+    ],
+    "accommodation": [
+      {
+        "id": 1,
+        "image": "budget.jpg",
+        "title": "BUDGET",
+        "description": "Budget Tour Package will cost around 100 - 150 USD PP"
+      },
+      {
+        "id": 2,
+        "image": "mid-range.jpg",
+        "title": "MID-RANGE",
+        "description": "Mid-range Tour Package will cost around 180 - 250 USD PP"
+      },
+      {
+        "id": 3,
+        "image": "luxury.jpg",
+        "title": "LUXURY",
+        "description": "Luxury Tour Package will cost around 300 - 350 USD PP"
+      }
+    ],
+    "season": [
+      {
+        "id": 1,
+        "image": "july-oct.jpg",
+        "title": "JUL to OCT",
+        "description": "Peak Season"
+      },
+      {
+        "id": 2,
+        "image": "nov-mar.jpg",
+        "title": "NOV to MAR",
+        "description": "High Season"
+      },
+      {
+        "id": 3,
+        "image": "apr-jun.jpg",
+        "title": "APR to JUN",
+        "description": "Low Season"
+      }
+    ]
+  }
 }

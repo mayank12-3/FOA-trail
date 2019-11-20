@@ -2,96 +2,88 @@
 @import '../../common//styles/variables';
 
 .contact-us-container {
-    .MuiPaper-root {
-        max-height: 200px;
+  .MuiPaper-root {
+    max-height: 200px;
+  }
+
+  .banner_section {
+    .contact-banner {
+      width: 100%;
+      height: 100vh;
+      background: url('../../assets/images/others/hero-elephant.jpg') center center/cover no-repeat fixed rgba(66,66,41,0.6);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      button {
+        width: 300px;
+        height: 50px;
+      }
+
+      @include font('Roboto', 50px, 600, $white);
     }
+  }
 
-    .banner_section {
-        .contact-banner {
-            width: 100%;
-            height: 100vh;
-            background: url('../../assets/images/others/contact_us.jpg') no-repeat;
-            background-color: rgba(66,66,41,0.6);
-            background-size: cover;
-            background-position: center center;
-            background-attachment: fixed;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+  .contact-us-body {
+    padding: 40px 0;
+    .contact-us-image {
+      h2 {
+        padding-bottom: 20px;
+      }
+      p {
+        padding: 10px 0;
+        line-height: 25px;
+        @include font('Roboto', 18px, 400, $description);
+      }
 
-            button {
-                width: 300px;
-                height: 50px;
-            }
-
-            @include font('Roboto', 50px, 600, $white);
+      .contact-details {
+        p {
+          @include font('Roboto', 18px, 400, $soilColor);
         }
+      }
     }
+    .conatct-us-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
-    .contact-us-body{
-        padding: 40px 0;
-        .contact-us-image {
-            // height: 600px;
-            // background: url("../../assets//images/modal_image.jpg") no-repeat;
-            // background-size: cover;
-            h2 {
-                padding-bottom: 20px;
-            }
-            p {
-                padding: 10px 0;
-                line-height: 25px;
-                @include font('Roboto', 18px, 400, $description);
-            }
-
-            .contact-details {
-                p{
-                    @include font('Roboto', 18px, 400, $soilColor);
-                }
-            }
-        }
-        .conatct-us-form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            .form-title {
-                width: 100%;
-                position: relative;
-
-                span {
-                    // color: $soilColor !important;
-                    background: $white;
-                    position: absolute;
-                    top: 8px;
-                    left: 40%;
-                    @include font('Roboto', 25px, 600, $soilColor);
-                }
-            }
-
-            form {
-                width: 100%;
-
-                .contact-us-text {
-                    margin: 20px 20px;
-                }
-            }
-
-            .footer-button {
-                margin-top: 30px;
-                text-align: right;
-
-                button {
-                    margin-left: 15px;
-                }
-            }
-        }
-
-    }
-
-    .MuiTextField-root {
+      .form-title {
         width: 100%;
+        position: relative;
+
+        span {
+          // color: $soilColor !important;
+          background: $white;
+          position: absolute;
+          top: 8px;
+          left: 40%;
+          @include font('Roboto', 25px, 600, $soilColor);
+        }
+      }
+
+      form {
+        width: 100%;
+
+        .contact-us-text {
+          margin: 20px 20px;
+        }
+      }
+
+      .footer-button {
+        margin-top: 30px;
+        text-align: right;
+
+        button {
+          margin-left: 15px;
+        }
+      }
     }
 
+  }
+
+  .MuiTextField-root {
+    width: 100%;
+  }
 }

@@ -3,6 +3,9 @@
 
 .cover-slider_container {
   position: relative;
+  background: url("../../../assets/images/home/nat-geo.jpg") no-repeat;
+  background-size: cover;
+
   h2 {
     @include font('Roboto', 40px, 500, $white);
     position: absolute;
@@ -10,23 +13,23 @@
     left: 50%;
     transform: translateX(-50%);
   }
-  background: url("../../../assets/images/home/nat_geo.jpg") no-repeat;
-  background-size: cover;
+
   > div {
     background-image: linear-gradient(-180deg, transparent 0%, $lightSoilColor 90%);
   }
+
   h3 {
     position: absolute;
     top: 0;
     width: 100%;
-    text-transform: capitalize;
     padding: 15px 0;
-    text-align: center;
     background: $lightSoilColor;
     @include font('Roboto', 20px, 400, $white);
   }
+
   div[role="menuitem"] {
     position: relative;
+
     button {
       width: 86%;
       margin: 0 20px;

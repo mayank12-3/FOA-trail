@@ -5,7 +5,7 @@ export const contactUs = (payload = {}) => {
     console.log('payload-->', payload)
     return axiosInstance.post('/submitResponse', payload, {
         headers : {
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/json',
         }
     })
     .then(response => response)

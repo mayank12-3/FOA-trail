@@ -7,7 +7,7 @@ import Tabs_ from './Tabs/Tabs';
 import ContactDetailsForm_ from './ContactDetailsForm/ContactDetailsForm';
 import Itinerary_ from './Itinerary/Itinerary'
 import SliderBanner_ from './SliderBanner/SliderBanner';
-import CoverSlider_ from './coverSlider/coverSlider';
+import CoverSlider_ from './CoverSlider/CoverSlider';
 import EnquiryForm_ from './EnquiryForm/EnquiryForm';
 import ThankYouPopUp_ from './ThankYouPopUp/index'
 

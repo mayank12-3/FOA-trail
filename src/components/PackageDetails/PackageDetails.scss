@@ -2,196 +2,195 @@
 @import '../../common//styles/variables';
 
 .package-details_container {
-    .banner_section {
-        .quotes-banner {
-            width: 100%;
-            height: calc(100vh - 100px);
-            // background: url('../../assets/images/packages/package_details.jpg') no-repeat;
-            background-color: rgba(66,66,41,0.6) !important;
-            background-size: cover !important;
-            background-position: center center !important;
-            background-attachment: fixed !important;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+  .banner_section {
+    .quotes-banner {
+      width: 100%;
+      height: calc(100vh - 100px);
+      background-color: rgba(66,66,41,0.6) !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-attachment: fixed !important;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
 
-            @include font('Roboto', 50px, 600, $white);
-        } 
+      @include font('Roboto', 50px, 600, $white);
+    } 
+  }
+
+  .details {
+    padding: 40px 0;
+    p {
+      line-height: 28px;
+      @include font('Roboto', 16px, 300, $description);
+
+      &.MuiFormHelperText-root.Mui-error {
+        @include font('Roboto', 12px, 300, $error);
+      }
     }
 
-    .details {
-        padding: 40px 0;
-        p {
-            line-height: 28px;
-            @include font('Roboto', 16px, 300, $description);
+    .details_title {
+      padding-bottom: 20px;
+    }
 
-            &.MuiFormHelperText-root.Mui-error {
-                @include font('Roboto', 12px, 300, $error);
+    .details_description {
+      padding-bottom: 20px;
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .details_steps {
+      .step {
+        border-top: 1px solid $divider;
+        
+        h3 {
+          padding: 30px 0 10px;
+          @include font('Roboto', 20px, 600);
+        }
+
+        .other-details_step {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 0;
+
+          svg {
+            margin-left: 10px;
+            @include font('Roboto', 14px, 600, $soilColor);
+          }
+
+          span {
+            margin-left: 5px;
+            @include font('Roboto', 14px, 600, $description);
+          }
+
+          .meals {
+            ul {
+              display: flex;
+              justify-content: space-between;
+              align-items: center; 
             }
-        }
+          }
 
-        .details_title {
-            padding-bottom: 20px;
-        }
-
-        .details_description {
-            padding-bottom: 20px;
+          .accommodation {
             p {
-                font-size: 20px;
+              @include font('Roboto', 14px, 400);
+              strong {
+                @include font('Roboto', 14px, 600);
+              }
             }
-        }
+          }
 
-        .details_steps {
-            .step {
-                border-top: 1px solid $divider;
-                
-                h3 {
-                    padding: 30px 0 10px;
-                    @include font('Roboto', 20px, 600);
-                }
-
-                .other-details_step {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    padding: 20px 0;
-
-                    svg {
-                        margin-left: 10px;
-                        @include font('Roboto', 14px, 600, $soilColor);
-                    }
-
-                    span {
-                        margin-left: 5px;
-                        @include font('Roboto', 14px, 600, $description);
-                    }
-
-                    .meals {
-                        ul {
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center; 
-                        }
-                    }
-
-                    .accommodation {
-                        p {
-                            @include font('Roboto', 14px, 400);
-                            strong {
-                                @include font('Roboto', 14px, 600);
-                            }
-                        }
-                    }
-
-                    @media(max-width: 700px) {
-                        display: block;
-                        div {
-                            padding: 8px 0;
-
-                            p {
-                                line-height: 16px;
-                            }
-
-                            svg {
-                                margin-left: 0px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .details_extras {
-            padding: 20px 0;
-            margin: 20px 0;
-            border-top: 1px solid $divider;
-            border-bottom: 1px solid $divider;
-            justify-content: space-evenly;
-            align-items: center;
-            display: flex;
-
+          @media(max-width: 700px) {
+            display: block;
             div {
-                margin-right: 30px;
-                display: flex;
-                align-items: center;
-                flex-direction: column;
+              padding: 8px 0;
+
+              p {
+                line-height: 16px;
+              }
+
+              svg {
+                margin-left: 0px;
+              }
             }
+          }
+        }
+      }
+    }
+
+    .details_extras {
+      padding: 20px 0;
+      margin: 20px 0;
+      border-top: 1px solid $divider;
+      border-bottom: 1px solid $divider;
+      justify-content: space-evenly;
+      align-items: center;
+      display: flex;
+
+      div {
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      @include font('Roboto', 20px, 10, $lightSoilColor);
+
+      span {
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+    }
+
+    .other-details {
+      padding: 20px 0;
+      margin: 40px 0;
+      border-top: 1px solid $lightSoilColor;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .title {
+        width: 20%;
+        @include font('Roboto', 16px, 600);
+      }
+
+      .description {
+        width: 80%;
+        ul {
+          
+          // display: flex;
+          // justify-content: space-between;
+          // align-items: center;
+          // flex-wrap: wrap;
+        }
+        .add-ons {
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          svg {
+            margin: 0 10px 10px;
+            color: $lightSoilColor;
 
             @include font('Roboto', 20px, 10, $lightSoilColor);
+          }
 
-            span {
-                padding-top: 10px;
-                padding-left: 10px;
-            }
+          p {
+            line-height: 20px;
+          }
         }
-
-        .other-details {
-            padding: 20px 0;
-            margin: 40px 0;
-            border-top: 1px solid $lightSoilColor;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-
-            .title {
-                width: 20%;
-                @include font('Roboto', 16px, 600);
-            }
-
-            .description {
-                width: 80%;
-                ul {
-                    
-                    // display: flex;
-                    // justify-content: space-between;
-                    // align-items: center;
-                    // flex-wrap: wrap;
-                }
-                .add-ons {
-                    margin-bottom: 10px;
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: flex-start;
-
-                    svg {
-                        margin: 0 10px 10px;
-                        color: $lightSoilColor;
-
-                        @include font('Roboto', 20px, 10, $lightSoilColor);
-                    }
-
-                    p {
-                        line-height: 20px;
-                    }
-                }
-            }
-        }
+      }
     }
+  }
 
-    .featured-tours {
-        margin: 20px 0;
-        p {
-            border-bottom: 1px solid $lightSoilColor;
-            @include font('Roboto', 16px, 600);
-        }
-        .card {
-            margin: 20px 0;
-            cursor: pointer;
-            position: relative;
-            img {
-                height: 250px;
-            }
-
-            p {
-                width: 100%;
-                padding: 10px 20px;
-                background: rgba(0,0,0,0.7);
-                @include font('Roboto', 16px, 600, $white);
-                position: absolute;
-                bottom: 0;
-                left: 0;
-            }
-        }
+  .featured-tours {
+    margin: 20px 0;
+    p {
+      border-bottom: 1px solid $lightSoilColor;
+      @include font('Roboto', 16px, 600);
     }
+    .card {
+      margin: 20px 0;
+      cursor: pointer;
+      position: relative;
+      img {
+        height: 250px;
+      }
+
+      p {
+        width: 100%;
+        padding: 10px 20px;
+        background: rgba(0,0,0,0.7);
+        @include font('Roboto', 16px, 600, $white);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
 }

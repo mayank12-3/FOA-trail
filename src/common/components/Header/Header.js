@@ -5,20 +5,20 @@ import logo from '../../../assets/images/logo.png';
 import './Header.scss';
 
 const Header = () => {
-    return (
-        <header>
-            <div className="wrapper">
-                <div className="website_logo">
-                    <Link to="/">
-                        <img src={logo} alt="Full of africa" />
-                    </Link>
-                </div>
-                <div className="navigation">
-                    <Navbar />
-                </div>
-            </div>
-        </header>
-    );
+  return (
+    <header>
+      <div className="wrapper">
+        <div className="site-brand">
+          {/* <Link to="/"> */}
+            <img src={logo} alt="Full Of Africa" />
+          {/* </Link> */}
+        </div>
+        <div className="navigation">
+          <Navbar />
+        </div>
+      </div>
+    </header>
+  );
 }
 
 export default Header;

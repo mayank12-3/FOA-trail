@@ -5,85 +5,86 @@ import HelpMe from './Sections/HelpMe';
 import Testimonial from './Sections/Testimonial';
 import WhoAreWe from './Sections/WhoAreWe';
 import Packages from './Sections/Packages';
-import Home_1 from '../../assets/images/home/Home_1.jpg';
-import Home_2 from '../../assets/images/home/Home_2.jpg';
-import Home_3 from '../../assets/images/home/Home_3.jpg';
-import Home_4 from '../../assets/images/home/Home_4.jpg';
-import Home_5 from '../../assets/images/home/Home_5.jpg';
+import Slide_1 from '../../assets/images/home/kenya-wildebeest-migration-safari.jpg';
+import Slide_2 from '../../assets/images/home/masai-mara-migration-safari.jpg';
+import Slide_3 from '../../assets/images/home/kenya-safari.jpg';
+import Slide_4 from '../../assets/images/home/kenya-luxury-tour.jpg';
+import Slide_5 from '../../assets/images/home/kenya-classic-tour.jpg';
 import './Home.scss';
 
 class Home extends Component {
-    state = {
-        isContactUsModalOpen: false
-    };
+  state = {
+    isContactUsModalOpen: false
+  };
 
-    sliders = [{
-        src: Home_1,
-        altText: "Home_1",
-        caption: "Enchanting Wilderness",
-        // path: "Kenya"
-    },{
-        src: Home_2,
-        altText: "Home_2",
-        caption: "Exciting Safaris",
-        // path: "Uganda"
-    },{
-        src: Home_3,
-        altText: "Home_3",
-        caption: "Enthralling Landscapes ",
-        // path: "Tanzania"
-    },{
-        src: Home_4,
-        altText: "Home_4",
-        caption: "Ecstatic vibes",
-        // path: "Tanzania"
-    },{
-        src: Home_5,
-        altText: "Home_5",
-        caption: "Enticing Destinations",
-        // path: "Tanzania"
-    }];
+  sliders = [{
+    src: Slide_1,
+    altText: 'Kenya Wildebeest Migration Safari',
+    caption: 'Enchanting Wilderness',
+    // path: 'Kenya'
+  },{
+    src: Slide_2,
+    altText: 'Masai Mara Migration Safari',
+    caption: 'Exciting Safaris',
+    // path: 'Uganda'
+  },{
+    src: Slide_3,
+    altText: 'Kenya Migration Safari',
+    caption: 'Enthralling Landscapes ',
+    // path: 'Tanzania'
+  },{
+    src: Slide_4,
+    altText: 'Kenya Luxury Tour',
+    caption: 'Ecstatic vibes',
+    // path: 'Tanzania'
+  },{
+    src: Slide_5,
+    altText: 'Kenya Classic Tour',
+    caption: 'Enticing Destinations',
+    // path: 'Tanzania'
+  }];
 
-    toggleModal = () => {
-        this.setState({
-            isContactUsModalOpen: !this.state.isContactUsModalOpen
-        });
-    }
-    onGetStarted = () => {
-        // redirect to quotes page
-        this.props.history.push('/get-quotes');
-    }
+  toggleModal = () => {
+    this.setState({
+      isContactUsModalOpen: !this.state.isContactUsModalOpen
+    });
+  }
+  onGetStarted = () => {
+    // redirect to quotes page
+    this.props.history.push('/get-quotes');
+  }
 
-    componentDidMount() {
-        this.scrollToTop();
-    }
+  componentDidMount() {
+    this.scrollToTop();
+  }
 
-    scrollToTop = () => {
-        window.scrollTo(0,0);
-    }
+  scrollToTop = () => {
+    window.scrollTo(0,0);
+  }
 
-    render() {
-        return(
-            <div className="home-container">
-                {
-                    this.state.isContactUsModalOpen ?
-                    <ContactDetailsForm
-                        className="contact-us-modal"
-                        isOpen={this.state.isContactUsModalOpen}
-                        toggle={this.toggleModal}
-                        title="Contact Us"/> : ''
-                }
-                <div className="banner_section">
-                    <SliderBanner items={this.sliders}/>
-                </div>
-                <WhoAreWe />
-                <Packages />
-                <CoverSlider coverHeading='Our Featured Destinations' />
-                <HelpMe onHelpMeClickHandler={this.toggleModal}/>
-                <Testimonial />
-            </div>
-        );
-    }
+  render() {
+    return(
+      <div className="home-container">
+        {
+          this.state.isContactUsModalOpen ?
+          <ContactDetailsForm
+            className="contact-us-modal"
+            isOpen={this.state.isContactUsModalOpen}
+            toggle={this.toggleModal}
+            title="Contact Us"
+          /> : ''
+        }
+        <div className="banner_section">
+          <SliderBanner items={this.sliders}/>
+        </div>
+        <WhoAreWe />
+        <Packages />
+        <CoverSlider coverHeading='Our Featured Destinations' />
+        <HelpMe onHelpMeClickHandler={this.toggleModal}/>
+        <Testimonial />
+      </div>
+    );
+  }
 }
 
 export default withRouter(Home);

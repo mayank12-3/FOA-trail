@@ -2,52 +2,52 @@
 @import '../../styles/variables';
 
 .tabs_container {
-    .tabs-block {
-        position: relative;
-        .active-block {
-            padding: 20px 0 !important;
-            position: absolute;
-            top: -4px;
-            border-radius: 4px;
-            box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4);
-            background-color: $soilColor;
-            -webkit-transition: all .5s;
-            transition: all .5s;
-        }
-        ul {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: $lightBlue;
-
-            li {
-                padding: 10px 0;
-                text-align: center;
-                text-transform: uppercase;
-                cursor: pointer;
-                @include font('Roboto', 13px, 300);
-
-                &.active {
-                    @include font('Roboto', 13px, 600, $white);
-                }
-
-                span {
-                    position: relative;
-                    z-index: 1;
-                }
-            }
-        }
+  .tabs-block {
+    position: relative;
+    .active-block {
+      padding: 20px 0 !important;
+      position: absolute;
+      top: -4px;
+      border-radius: 4px;
+      box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4);
+      background-color: $soilColor;
+      -webkit-transition: all .5s;
+      transition: all .5s;
     }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: $lightBlue;
 
-    .tab-body {
-        padding: 20px 0;
-    }
+      li {
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        @include font('Roboto', 13px, 300);
 
-    .tab-footer {
-        text-align: right;
-        
-        button {
-            margin-right: 15px;
+        &.active {
+          @include font('Roboto', 13px, 600, $white);
         }
+
+        span {
+          position: relative;
+          z-index: 1;
+        }
+      }
     }
+  }
+
+  .tab-body {
+    padding: 20px 0;
+  }
+
+  .tab-footer {
+    text-align: right;
+    
+    button {
+      margin-right: 15px;
+    }
+  }
 }
